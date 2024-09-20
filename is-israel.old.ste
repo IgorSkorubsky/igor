@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<site>
+<localinfo sitename="is-israel" ftporrdsserver="FALSE" localroot="D:%5CMy%20Documents%5Ctiulim%5C" assetfolder="D:%5CMy%20Documents%5Ctiulim%5CSpryAssets%5C" imagefolder="" spacerfilepath="" refreshlocal="TRUE" autouploadfiles="FALSE" maintainsyncinfo="TRUE" rewritedocrellinks="FALSE" cache="TRUE" httpaddress="http://is-israel.com/" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="webserver"/>
+<remoteinfo accesstype="ftp" host="is-israel.com" remoteroot="/is-israel.com/" user="isisrael" pw="457356713C26452A" checkoutname="" emailaddress="" enablecheckin="FALSE" checkoutwhenopen="TRUE" usefirewall="FALSE" usepasv="TRUE" useSFTP="FALSE" useIpv6="FALSE" useftpoptimization="TRUE" usealternaterename="FALSE" pathNameCharacterSet="windows-1251"/>
+<designnotes usedesignnotes="TRUE" sharedesignnotes="TRUE"/>
+<sitemap homepage="E:%5CMy%20Documents%5Ctiulim%5Cindex.htm" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
+<fileviewcolumns sharecolumns="FALSE">
+    <column name="Local%20Files" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="108" remotewidth="180" />
+    <column name="Notes" align="center" show="FALSE" share="FALSE" builtin="TRUE" localwidth="36" remotewidth="36" />
+    <column name="Size" align="right" show="TRUE" share="FALSE" builtin="TRUE" localwidth="40" remotewidth="89" />
+    <column name="Type" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="60" remotewidth="60" />
+    <column name="Modified" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="102" remotewidth="102" />
+    <column name="Checked%20Out%20By" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-1" remotewidth="-1" />
+</fileviewcolumns>
+<appserverinfo servermodel="PHP MySQL" urlprefix="http://localhost/" connectionsmigrated="TRUE" serverobjectsversion="1" defaultdoctype="HTML" accesstype="none" testsvrbinaccesstype="none"/>
+<cloaking enabled="TRUE" patterns="FALSE">
+    <cloakedpattern pattern=".png"/>
+    <cloakedpattern pattern=".fla"/>
+</cloaking>
+<contributorintegration enabled="FALSE"/>
+</site>

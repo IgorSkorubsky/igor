@@ -1,0 +1,38 @@
+a:link {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+a:visited {
+	color: #FFCC33;
+	text-decoration: underline;
+}
+a:active {
+	color: #00FF33;
+	text-decoration: underline;
+}
+
+body {
+	background-color: #000;
+	color: #D2B0B1;
+}
+.style8 {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+
+.style12 {
+	font-size: small;
+	font-style: italic;
+}
+
+.Title {
+	font-size: x-large;
+	font-style: normal;
+	font-weight: bold;
+}
+.Red {color: #F00;
+}

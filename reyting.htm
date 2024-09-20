@@ -1,0 +1,698 @@
+<html><head>
+<title>Velik.org: Шкала градации физической трудности и технической сложности.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="Author" content="Renat Kadeev (RestiveX)">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38952984-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body bgcolor=#d0d0d0>
+<br/>
+
+
+<!-- Cut here start ------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+<style>td {text-align: left;} </style>
+<script type="text/javascript">
+function mcalc(el) { var total=0; x=document.getElementById(el+"tb1").getElementsByTagName("select");
+ var clr=new Array("Turquoise","Lime","LawnGreen","GreenYellow","Yellow","Gold","Orange","Coral","Tomato","Red");
+ if(((el=="fv")||(el=="tn"))&&(x[0].value<1)){ alert("Тест для вас закончен. Обращайтесь к велоколлегам, покажут, помогут, обучат."); }
+ for (i=0;i<x.length;i++)  { total=total+parseFloat(x[i].value); }
+ x=document.getElementById(el+"tb3").getElementsByTagName("input");
+
+ if ((el=="ft")||(el=="ts")) { total=Math.ceil(total); } else { total=Math.floor(total); }
+ if ((el=="ft")&&(total>8)&&(document.ftts.fttemp.value<1)) {total=8;}
+ if ((el=="ft")&&(total>10)&&(document.ftts.fttemp.value<3)) {total=10;}
+// if ((el=="ts")&&(total>8)&&(document.ftts.tstemp.value<1)) {total=8;}
+// if ((el=="ts")&&(total>10)&&(document.ftts.tstemp.value<3)) {total=10;}
+
+ x[0].value=total; 
+ if(total>10) {x[0].value="10+"; total=10; for(i=0;i<10;i++){clr[i]="Red";}} if(total<1) {x[0].value="0"; total=0;}
+ x=document.getElementById(el+"tb2").getElementsByTagName("td");
+ for (i=0;i<total;i++)  { x[i].style.backgroundColor=clr[i]; } for (i=i;i<x.length;i++)  { x[i].style.backgroundColor="DarkGray"; }
+}
+function mprint(el1,el2) { var win=window.open('','','fullscreen=yes,scrollbars=yes'); win.document.open("text/html","replace");
+ var t1=document.getElementById(el1+"nm1").innerHTML;  t2=document.getElementById(el2+"nm1").innerHTML;
+ t1="<center><table border=0><tr><td><font size=4 face=verdana>"+t1+"</font></td></tr></table><table border=1 cellspacing=0 cellpadding=5>";
+ trs=document.getElementById(el1+"tb1").getElementsByTagName("tr");
+ for (i=0;i<trs.length;i++)  {    tds=trs[i].getElementsByTagName("td");   t1=t1+"<tr><td>"+tds[0].innerHTML+"</td><td>";
+      x=trs[i].getElementsByTagName("select");  t1=t1+x[0].options[x[0].selectedIndex].text+"</td></tr>"; }
+ x=document.getElementById(el1+"tb3").getElementsByTagName("input");
+ t1=t1+"<tr><td><b>Общая оценка:</b></td><td><b>"+x[0].value+"/10</b></td></tr></table><br/>"; 
+ t2="<center><table border=0><tr><td><font size=4 face=verdana>"+t2+"</font></td></tr></table><table border=1 cellspacing=0 cellpadding=5>"; 
+ trs=document.getElementById(el2+"tb1").getElementsByTagName("tr");
+ for (i=0;i<trs.length;i++)  {    tds=trs[i].getElementsByTagName("td");   t2=t2+"<tr><td>"+tds[0].innerHTML+"</td><td>";
+      x=trs[i].getElementsByTagName("select");  t2=t2+x[0].options[x[0].selectedIndex].text+"</td></tr>"; }
+ x=document.getElementById(el2+"tb3").getElementsByTagName("input");
+ t2=t2+"<tr><td><b>Общая оценка:</b></td><td><b>"+x[0].value+"/10</b></td></tr></table><br/><br/>"; 
+ win.document.writeln(t1,t2,"<input type=button value=\"Закрыть окно\" onClick=\"javascript:window.close();\"></center>"); 
+ win.document.close();
+}
+function mforum(el1,el2) { var win=window.open('','','width=800,height=320'); win.document.open("text/html","replace");
+ var txt=document.getElementById(el1+"nm2").innerHTML; clr="SteelBlue";
+ var x=document.getElementById(el1+"tb3").getElementsByTagName("input"); x2=x[0].value; if(x2=="10+") {x2=10; clr="Red";}
+ c1="[table]\r\n[tr][td]&#8226; [b]"+txt+":[/b] [/td][td][color="+clr+"]"; 
+ t1="<table border=1 cellspacing=0 cellpadding=0 bgcolor=#ECEDF3><tr><td><table border=0><tr><td>&#8226; <b>"+txt+":</b> </td><td><table><tr>";
+ for (i=0;i<x2;i++)  { c1=c1+"&#9612;"; t1=t1+"<td bgcolor="+clr+"> </td>";} c1=c1+"[/color][color=DarkGray]";
+ for (i=i;i<10;i++)  { c1=c1+"&#9612;"; t1=t1+"<td bgcolor=DarkGray> </td>";}
+ var txt=document.getElementById(el2+"nm2").innerHTML; clr="SteelBlue";
+ c1=c1+"[/color][/td][td] ("+x[0].value+"/10)[/td][/tr]\r\n[tr][td]&#8226; [b]"+txt+":[/b] [/td][td]"; 
+ t1=t1+"</tr></table></td><td> ("+x[0].value+"/10)</td></tr><tr><td>&#8226; <b>"+txt+":</b> </td><td><table><tr>";
+ var x=document.getElementById(el2+"tb3").getElementsByTagName("input"); x2=x[0].value; if(x2=="10+") {x2=10; clr="Red";}
+ c1=c1+"[color="+clr+"]";
+ for (i=0;i<x2;i++)  { c1=c1+"&#9612;"; t1=t1+"<td bgcolor="+clr+"> </td>";} c1=c1+"[/color][color=DarkGray]";
+ for (i=i;i<10;i++)  { c1=c1+"&#9612;"; t1=t1+"<td bgcolor=DarkGray> </td>";}
+ c1=c1+"[/color][/td][td] ("+x[0].value+"/10)[/td][/tr]\r\n[/table]\r\n([url=http://www.velik.org/index.php?option=com_content&task=view&id=196][color=blue][u][b]определить свой рейтинг[/b][/u][/color][/url]).";
+ t1=t1+"</tr></table></td><td> ("+x[0].value+"/10)</td></tr></table>(<a href=\"http://www.velik.org/index.php?option=com_content&task=view&id=196\"><font color=blue><u><b>определить свой рейтинг</b></u></font></a>).</td></tr></table>";
+ win.document.writeln("<body bgcolor=ffffe0>");
+ win.document.writeln("<font face=verdana size=2>Код для вставки в форум:</font><br/>");
+ win.document.writeln("<form name=f1><textarea name=t1 rows=10 cols=95 readonly>"+c1+"</textarea></form>");
+ win.document.writeln("<table border=0 width=100%><tr><td width=50%>"+t1+"</td>");
+ win.document.writeln("<td align=left width=15%><br/><input type=button value=\"Выделить\" onClick=\"javascript:document.f1.t1.focus();document.f1.t1.select();\"></td>");
+ win.document.writeln("<td align=left width=35%><br/><input type=button value=\"Закрыть окно\" onClick=\"javascript:window.close();\">");
+ win.document.writeln("</td></tr></table>");
+ win.document.writeln("<"+"script"+">"+"document.f1.t1.focus();document.f1.t1.select();"+"<"+"/"+"script"+">");
+ win.document.writeln("</body>"); 
+ win.document.close();
+}
+function msign(el1,el2) { var win=window.open('','','width=800,height=220'); win.document.open("text/html","replace");
+ var txt=document.getElementById(el1+"nm2").innerHTML; clr="SteelBlue";
+ var clra=new Array("Turquoise","Lime","LawnGreen","GreenYellow","Yellow","Gold","Orange","Coral","Tomato","Red");
+ var x=document.getElementById(el1+"tb3").getElementsByTagName("input"); x2=x[0].value; if(x2=="10+") {x2=10; clra[9]="Magenta";} clr=clra[x2-1]; 
+ c1="[size=8pt]  &#8226; [b]"+txt+": [/b][color="+clr+"]"; 
+ t1="<table border=1 cellspacing=0 cellpadding=3 bgcolor=#ECEDF3><tr><td nowrap><font size=2 face=arial>&#8226; <b>"+txt+":</b> <font color="+clr+">";
+ for (i=0;i<x2;i++)  { c1=c1+"&#9612;"; t1=t1+"&#9612;";} c1=c1+"[/color][color=DarkGray]";t1=t1+"</font><font color=DarkGray>";
+ for (i=i;i<10;i++)  { c1=c1+"&#9612;"; t1=t1+"&#9612;";}
+ var txt=document.getElementById(el2+"nm2").innerHTML; clr="SteelBlue";
+ c1=c1+"[/color] ("+x[0].value+"/10)      &#8226; [b]"+txt+": [/b]";  t1=t1+"</font> ("+x[0].value+"/10) &nbsp;&nbsp;&nbsp;&#8226; <b>"+txt+": </b>";
+ var clra=new Array("Turquoise","Lime","LawnGreen","GreenYellow","Yellow","Gold","Orange","Coral","Tomato","Red");
+ var x=document.getElementById(el2+"tb3").getElementsByTagName("input"); x2=x[0].value; if(x2=="10+") {x2=10; clra[9]="Magenta";}
+ clr=clra[x2-1]; c1=c1+"[color="+clr+"]"; t1=t1+"<font color="+clr+">";
+ for (i=0;i<x2;i++)  { c1=c1+"&#9612;"; t1=t1+"&#9612;";} c1=c1+"[/color][color=DarkGray]"; t1=t1+"</font><font color=DarkGray>";
+ for (i=i;i<10;i++)  { c1=c1+"&#9612;"; t1=t1+"&#9612;";}
+ c1=c1+"[/color] ("+x[0].value+"/10)    ([url=http://www.velik.org/index.php?option=com_content&task=view&id=196][color=blue][u][b]расчет[/b][/u][/color][/url]).[/size]"; 
+ t1=t1+"</font> ("+x[0].value+"/10) &nbsp;&nbsp;&nbsp;(<a href=\"http://www.velik.org/index.php?option=com_content&task=view&id=196\"><u><b>расчет</b></u></a>).</font></td></tr></table>";
+ win.document.writeln("<body bgcolor=ffffe0>");
+ win.document.writeln("<font face=verdana size=2>Код для вставки в подпись форума:</font><br/>");
+ win.document.writeln("<form name=f1><textarea name=t1 rows=5 cols=95 readonly>"+c1+"</textarea></form>");
+ win.document.writeln("<table border=0 width=100% cellpadding=5><tr><td align=center>"+t1+"</td></tr>");
+ win.document.writeln("<tr><td align=center><input type=button value=\"Выделить\" onClick=\"javascript:document.f1.t1.focus();document.f1.t1.select();\">&nbsp;&nbsp;&nbsp;&nbsp;");
+ win.document.writeln("<input type=button value=\"Закрыть окно\" onClick=\"javascript:window.close();\">");
+ win.document.writeln("</td></tr></table>");
+ win.document.writeln("<"+"script"+">"+"document.f1.t1.focus();document.f1.t1.select();"+"<"+"/"+"script"+">");
+ win.document.writeln("</body>"); 
+ win.document.close();
+}
+function mo() { var cs=document.getElementById("cmt");  cs.style.visibility="hidden"; cs.innerHTML = ""; }
+function txt(text,event) { 
+  curx=event.clientX; cury=event.clientY;
+  var posy=(document.all)?document.documentElement.scrollTop:window.pageYOffset; ypos=parseInt(posy)+cury+10; 
+  var posx=(document.all)?document.documentElement.scrollLeft:window.pageXOffset; xpos=parseInt(posx)+curx+10;
+  var cs=document.getElementById("cmt");  cs.style.visibility="visible"; cs.innerHTML = text;  t=cs.innerHTML.length;
+  var ww=(document.all)?document.documentElement.clientWidth:window.innerWidth;
+  var wh=(document.all)?document.documentElement.clientHeight:window.innerHeight;
+  if(xpos+220>ww+posx) {xpos=(xpos-220); cs.style.width='220px';} if(ypos+(t/3)>wh+posy) {ypos=(wh+posy-(t/3));} 
+  cs.style.top=ypos+'px';  cs.style.left=xpos+'px';  
+}
+var cclr='#FFFFFF';
+function rr(row) { var cs= null;  cs=row.getElementsByTagName('td');
+  for (c=1; c<4; c++) { cs[c].style.backgroundColor='#E0E9E9'; cs[c].style.borderBottomStyle='solid';}
+}
+
+
+</script>
+
+
+
+<table border=1 cellspacing=0 cellpadding=2 style="border-color: transparent; border-collapse:separate;" width=100%><tr>
+<td style="border-style: none none solid none; border-color:black;" width=1%>&nbsp;&nbsp;&nbsp;</td>
+<td nowrap bgcolor="#FFFFFF" style="cursor:pointer; border-color:black; border-style: solid none none solid;" onMouseOver="cclr=this.style.backgroundColor; this.style.backgroundColor='#C7E1FF';" onMouseOut="this.style.backgroundColor=cclr;" OnClick="fvtn.style.display='inline'; ftts.style.display='none'; opis.style.display='none'; rr(this.parentNode); cclr='#FFFFFF'; this.style.backgroundColor=cclr; this.style.borderBottomStyle='none';">
+    <font size=3>&nbsp; 1. Таблицы для определения личного рейтинга участника &nbsp;</font></td>
+<td nowrap bgcolor="#E0E9E9" style="cursor:pointer; border-color:black; border-style: solid none solid solid;" onMouseOver="cclr=this.style.backgroundColor; this.style.backgroundColor='#C7E1FF';" onMouseOut="this.style.backgroundColor=cclr;" OnClick="fvtn.style.display='none'; ftts.style.display='inline'; opis.style.display='none'; rr(this.parentNode); cclr='#FFFFFF'; this.style.backgroundColor=cclr; this.style.borderBottomStyle='none';">
+    <font size=3>&nbsp; 2. Таблицы для определения рейтинга маршрута &nbsp;</font></td>
+<td nowrap bgcolor="#E0E9E9" style="cursor:pointer; border-color:black;"border-right-style: none; onMouseOver="cclr=this.style.backgroundColor; this.style.backgroundColor='#C7E1FF'; onMouseOut="this.style.backgroundColor=cclr;"  OnClick="fvtn.style.display='none'; ftts.style.display='none'; opis.style.display='inline'; rr(this.parentNode); cclr='#FFFFFF'; this.style.backgroundColor=cclr; this.style.borderBottomStyle='none';">
+    <font size=3>&nbsp; Введение &nbsp;</font></td>
+<td style="border-style: none none solid none; border-color:black;" width=100%>&nbsp;</td></tr>
+<tr><td bgcolor="#FFFFFF" colspan=5 style="border-style: none solid solid solid; border-color:black;"><br/>
+
+
+
+<form name="fvtn" style="display:inline;">
+<center><table border=1 cellspacing=1 cellpadding=8 bgcolor=#F0FFF0><tr><td>
+<center><font size=3 color=#0000FF><b id=fvnm1>1.1. Определение физической возможности участника.</b><br/>
+(для определения личного рейтинга и соответствия его тому или иному заявленному маршруту)<br/></font></center><br/>
+<table border=0 id=fvtb1>
+
+<tr><td><b>1. Обладаете ли вы необходимыми навыками для того, чтобы: &nbsp;&nbsp;&nbsp;</b><br/>
+1.1. держать равновесие и проехать по ровному асфальту и\или джиповкам (грунтовым дорогам) с мелкими камушками:</td>
+<td><font color=Blue style="cursor:help;" onMouseOver="txt('Рейтинг физической возможности участника считается по совокупности возможностей, а не по каждой в отдельности. Например, вы знаете, что сможете проехать 60 км. набрав при этом суммарную высоту 800 м. и преодолев при этом затяжной подъем в 3 км.',event);" onMouseOut="mo();"><b>?</b></font><br/><select onChange="mcalc('fv');">
+<option value="1" selected>Да</option>
+<option value="0">Нет</option>
+<option value="0">Не знаю</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Базовые навыки, без владения которыми ваше дальнейшее тестирование бессмысленно. Обратитесь за помощью на форум &quot;велика&quot;, подскажут, помогут, научат...',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+
+<tr><td>1.2. и при этом проехать расстояние:</td>
+<td><select onChange="mcalc('fv');">
+<option value="0" selected>Менее 20 км.</option>
+<option value="0.5">20 км.</option>
+<option value="1.5">40 км.</option>
+<option value="3">60 км. и более</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('&quot;Утомляемость&quot; участника находится в нелинейной, нарастающей зависимости от расстояния.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.3. в т.ч. по крупным камням, песку, сыпучему грунту общей протяженностью:</td>
+<td><select onChange="mcalc('fv');">
+<option value="0" selected>Менее 5 км.</option>
+<option value="0.5">5 км.</option>
+<option value="1">8 км.</option>
+<option value="2.5">15 км. и более</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Наряду с навыками требуются значительные физические усилия в несколько раз превышающие усилия при езде по ровному и твердому грунту.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.4. в т.ч. набрать суммарную высоту:</td>
+<td><select onChange="mcalc('fv');">
+<option value="0" selected>Менее 500 м.</option>
+<option value="0.5">500 м.</option>
+<option value="1">800 м.</option>
+<option value="2">1200 м. и более</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('&quot;Утомляемость&quot; участника находится в нелинейной, нарастающей зависимости от суммарного набора высоты.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.5. в т.ч. преодолеть без остановок хотя бы один крутой затяжной подъем, протяженностью:</td>
+<td><select onChange="mcalc('fv');">
+<option value="0" selected>Менее 1 км.</option>
+<option value="0.5">1 км.</option>
+<option value="1">3 км.</option>
+<option value="2">7 км. и более</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Требуется &quot;выносливость&quot;, поскольку затяжные подъемы сильно &quot;выматывают&quot;, не давая возможности для отдыха мышц и дыхания.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.6. и все это в темпе:</td>
+<td><select onChange="mcalc('fv');">
+<option value="0" selected>Малом</option>
+<option value="1.5">Среднем</option>
+<option value="3.5">Высоком</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Подразумевается средняя скорость движения на маршруте т.е. не учитывая остановки и перерывы:<br/> Малый темп - 5-9 км/час.<br/> Средний темп - 9-14 км/час.<br/> Высокий темп - более 14 км/час.<br/>Трудность маршрута находится в нелинейной, нарастающей зависимости от темпа его прохождения.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td><b>2. Стоимость Вашего велосипеда составляет:</b></td>
+<td><select onChange="mcalc('fv');">
+<option value="-1">0-1500 шек.</option>
+<option value="0" selected>1500 - 3000 шек</option>
+<option value="1">3000 шек. и выше</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('&nbsp;&nbsp;&nbsp;Дешевые велосипеды собственно, велосипедами как таковыми не являются. Требуют значительных усилий для передвижения, плохо управляемы, не выдерживают значительных ударных нагрузок. <br/>&nbsp;&nbsp;&nbsp;Велосипеды средней ценовой категории (как правило, хардтейлы - только с передним амортизатором) это достаточно легкие и надежные аппараты, подходящие под практически все маршруты. <br/>&nbsp;&nbsp;&nbsp;Дорогие велосипеды отличаются, повышенной безопасностью, надежностью, легкостью и комфортностью езды, а также прощают наезднику многие его ошибки. ',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td><b>3. Вы переносите жару</b> (учитывать только при жаркой погоде):</td>
+<td><select onChange="mcalc('fv');">
+<option value="0" selected></option>
+<option value="-1">Не переношу</option>
+<option value="0">С трудом</option>
+<option value="1">Нормально</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Индивидуально. Мы считаем комфортной для езды температуру +8°С - +23°С',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td><b>4. Вы переносите холод</b> (учитывать только при холодной погоде):</td>
+<td><select onChange="mcalc('fv');">
+<option value="0" selected></option>
+<option value="-1">Не переношу</option>
+<option value="0">С трудом</option>
+<option value="1">Нормально</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Индивидуально, мы считаем холодной температуру менее +8°С',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td><b>5. Боязнь высоты, акрофобия</b> (учитывать только на соответствующих маршрутах):</td>
+<td><select onChange="mcalc('fv');">
+<option value="0" selected></option>
+<option value="0">Нет</option>
+<option value="-2">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('При прохождении &quot;высотных&quot; маршрутов, в значительной степени увеличивается &quot;выматываемость&quot; участника.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+</table>
+<hr/>
+
+<center><table border=0 width=100%>
+<tr><td><font color=#006CD1 size=3><b><i id=fvnm2>Физические возможности</i>. Общая оценка:</b></font></td>
+<td><table id=fvtb2 border=0 cellspacing=1 cellpadding=0 bgcolor=#303030 style="border-collapse:separate;"><tr><td bgcolor=Turquoise>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td></tr></table></td>
+<td id=fvtb3><input type="text" value="1" size=10 readonly></td></tr></table></center>
+</td></tr></table></center>
+
+
+
+<br/>
+
+
+
+<center><table border=1 cellspacing=1 cellpadding=8 bgcolor=#FFF0F0><tr><td>
+<center><font size=3 color=#0000FF><b id=tnnm1>1.2. Определение технических навыков владения велосипедом.</b><br/>
+(для определения личного рейтинга и соответствия его тому или иному заявленному маршруту)<br/></font></center><br/>
+<table border=0 id=tntb1>
+             
+<tr><td><b>1. Обладаете ли вы необходимыми навыками для того, чтобы:</b><br/>
+1.1. держать равновесие и проехать по ровному асфальту и\или джиповкам (грунтовые дороги) с мелкими камушками:</td>
+<td><br/><select onChange="mcalc('tn');">
+<option value="1" selected>Да</option>
+<option value="0">Нет</option>
+<option value="0">Не знаю</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Базовые навыки, без владения которыми ваше дальнейшее тестирование бессмысленно. Обратитесь за помощью на форум &quot;велика&quot;, подскажут, помогут, научат... ',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.2. преодолеть крупные препятствия, "ступеньки" на подъемах:</td>
+<td><select onChange="mcalc('tn');">
+<option value="0" selected>Нет</option>
+<option value="0">Не знаю</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Имеется в виду ступеньки свыше 10 см. Требует повышенного усилия и специальных навыков.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.3. преодолеть крупные препятствия, "ступеньки", ямы на спусках (дропы):</td>
+<td><select onChange="mcalc('tn');">
+<option value="0" selected>Нет</option>
+<option value="0">Не знаю</option>
+<option value="0.5">До 15 см. включительно</option>
+<option value="1.5">До 25 см. включительно</option>
+<option value="4">До 40 см. включительно</option>
+<option value="6">Свыше 40 см.</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Требует специальной техники и навыков. Если без таких навыков ступеньки высотой в 15 см. преодолеваются без специальной подготовки, то в 25 см. уже со значительным напряжением и риском, а в 40 см. и выше опасны для здоровья и жизни.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.4. выходить из заносов при преодолении сыпучего грунта на спусках и\или скользкой из-за влаги и дождей почвы:</td>
+<td><select onChange="mcalc('tn');">
+<option value="0" selected>Нет</option>
+<option value="0">Не знаю</option>
+<option value="1.5">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Без специальных навыков и опыта (&quot;на подсознании&quot;) очень опасно.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.5. ехать по узким синглам (тропинкам) над обрывами и\или огибать препятствия (деревья, камни и пр.):</td>
+<td><select onChange="mcalc('tn');">
+<option value="0" selected>Нет</option>
+<option value="0">Не знаю</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Требует повышенного чувства равновесия и владения велосипедом.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>1.6. проехать данный маршрут в темпе:</td>
+<td><select onChange="mcalc('tn');">
+<option value="0" selected>Малом</option>
+<option value="1.5">Среднем</option>
+<option value="3.5">Высоком</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Подразумевается средняя скорость движения на маршруте т.е. не учитывая остановки и перерывы:<br/> Малый темп - 5-9 км/час.<br/>Средний темп - 9-14 км/час.<br/>Высокий темп - более 14 км/час.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td><b>2. Стоимость Вашего велосипеда:</b></td>
+<td><select onChange="mcalc('tn');">
+<option value="-1">0-1500 шек.</option>
+<option value="0" selected>1500 - 3000 шек</option>
+<option value="1">3000 шек. и выше</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('&nbsp;&nbsp;&nbsp;Дешевые велосипеды собственно, велосипедами как таковыми не являются. Требуют значительных усилий для передвижения, плохо управляемы, не выдерживают значительных ударных нагрузок. <br/>&nbsp;&nbsp;&nbsp;Велосипеды средней ценовой категории (как правило, хардтейлы - только с передним амортизатором) это достаточно легкие и надежные аппараты, подходящие под практически все маршруты. <br/>&nbsp;&nbsp;&nbsp;Дорогие велосипеды отличаются, повышенной безопасностью, надежностью, легкостью и комфортностью езды, а также прощают наезднику многие его ошибки. ',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+</table>
+<hr/>
+
+<center><table border=0 width=100%>
+<tr><td><font color=#006CD1 size=3><b><i id=tnnm2>Технические навыки</i>. Общая оценка:</b></font></td>
+<td><table id=tntb2 border=0 cellspacing=1 cellpadding=0 bgcolor=#303030 style="border-collapse:separate;"><tr><td bgcolor=Turquoise>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td></tr></table></td>
+<td id=tntb3><input type="text" value="1" size=10 readonly></td></tr></table></center>
+</td></tr></table><br/><input type=button value="Сбросить" onClick="document.fvtn.reset();mcalc('fv');mcalc('tn');">&nbsp;&nbsp;&nbsp;<input type=button value="К печати" onClick="mprint('fv','tn');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=button value="Код для подписи" onClick="msign('fv','tn');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=button value="Код для форума" onClick="mforum('fv','tn');"></center></form>
+
+
+
+
+
+
+
+
+
+
+<form name="ftts" style="display:none;">
+<center><table border=1 cellspacing=1 cellpadding=8 bgcolor=#FFFFF0><tr><td>
+<center><font size=3 color=#0000FF><b id=ftnm1>2.1. Определение рейтинга физической трудности маршрута.</b></font></center>
+<table border=0 id=fttb1>
+
+<tr><td>1. Простой маршрут по ровному асфальту и\или джиповкам (грунтовым дорогам) с мелкими камушками:</td>
+<td><select onChange="mcalc('ft');">
+<option value="1" selected>Базовый</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Самый простой вид маршрута. Если вы не в состоянии его преодолеть, то дальнейшее тестирование бессмысленно. Обратитесь за помощью на форум &quot;велика&quot;, подскажут, помогут, научат...',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>2. Расстояние:</td>
+<td><select onChange="mcalc('ft');">
+<option value="0" selected>Менее 20 км.</option>
+<option value="0.5">20 км.</option>
+<option value="1">30 км.</option>
+<option value="1.5">40 км.</option>
+<option value="2.5">50 км.</option>
+<option value="3">60 км. и более</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Мы полагаем, что &quot;разумными&quot; являются маршруты с однодневным &quot;пробегом&quot; не более 30-40 км.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>3. Крупные камни, песок, сыпучий грунт:</td>
+<td><select onChange="mcalc('ft');">
+<option value="0" selected>Нет</option>
+<option value="1">Да, менее 30% длины маршрута</option>
+<option value="2.5">Да, более 30% длины маршрута</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('&quot;Крупными&quot; считаются камни и ступеньки высотой 15 см. и выше. Если суммарная протяженность таких участков составляет не более 1% от общей протяженности маршрута, то в рейтинге можно не учитывать.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>4. Крутые, труднопроезжаемые подъемы:</td>
+<td><select onChange="mcalc('ft');">
+<option value="0" selected>Нет</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Если суммарная протяженность таких участков составляет не более 1% от общей протяженности маршрута, то в рейтинге можно не учитывать.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>5. Затяжные (более 3-х километров) подъемы, составляющие в сумме более половины маршрута:</td>
+<td><select onChange="mcalc('ft');">
+<option value="0" selected>Нет</option>
+<option value="2">Да</option>
+</select>
+</td></tr>
+
+<tr><td>6. Крутые, труднопроезжаемые спуски:</td>
+<td><select onChange="mcalc('ft');">
+<option value="0" selected>Нет</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Если суммарная протяженность таких участков составляет не более 1% от общей протяженности маршрута, то в рейтинге можно не учитывать.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>7. Суммарный набор высоты:</td>
+<td><select onChange="mcalc('ft');">
+<option value="0" selected>Менее 500 м.</option>
+<option value="0.5">500 м.</option>
+<option value="1">800 м.</option>
+<option value="2">1200 м. и более</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Определяется специальными программами по записанному ранее либо проложенному &quot;вручную&quot; треку, либо &quot;ручным&quot; подсчетом по графику профиля высот.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>8. Планируемый темп прохождения маршрута:</td>
+<td><select onChange="mcalc('ft');" name="fttemp">
+<option value="0" selected>Малый</option>
+<option value="1.5">Средний</option>
+<option value="3.5">Высокий</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Подразумевается средняя скорость движения на маршруте т.е. не учитывая остановки и перерывы:<br/> Малый темп - 5-9 км/час.<br/> Средний темп - 9-14 км/час.<br/> Высокий темп - более 14 км/час.<br/>Трудность маршрута находится в нелинейной, нарастающей зависимости от темпа его прохождения.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>9. Температура воздуха:</td>
+<td><select onChange="mcalc('ft');">
+<option value="2">Ниже +3°С</option>
+<option value="1">+8°С .. +3°С</option>
+<option value="0" selected>Комфортная</option>
+<option value="1">+23°С .. +32°С</option>
+<option value="2">+32°С .. +36°С</option>
+<option value="3">Выше +36°С</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Мы считаем комфортной для езды температуру +8°С - +23°С. Но этот показатель может колебаться в зависимости от тенистости маршрута, влажности, планируемого темпа движения.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>10. Дожди:</td>
+<td><select onChange="mcalc('ft');">
+<option value="0" selected>Нет</option>
+<option value="1.5">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('В некоторых случаях, езда, непосредственно после или во время дождя не представляется возможной из-за налипающей на колеса грязи и непроходимых, размытых участков. На маршрутах в пустыне необходимо <b>предварительно</b> убедиться (по прогнозам) в отсутствии наводнений (шитфонот) в районе путешествия.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td><i>Допускается прибавление или убавление одного балла на усмотрение организатора.</i></td>
+<td><select onChange="mcalc('ft');">
+<option value="-1">-1</option>
+<option value="0" selected>0</option>
+<option value="1">+1</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Решение принимается как на основе субъективных, так и объективных факторов. Например, если на маршруте все же попадаются различного рода &quot;трудности&quot; каждая из которых незначительна, но в сумме они <b>затрудняют</b> маршрут, следует прибавить 1 балл., если таких &quot;трудностей&quot; не встречается вовсе, то убавить 1 балл, если организатор считает общий подсчитанный бал завышенным.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+</table>
+<hr/>
+
+<center><table border=0 width=100%>
+<tr><td><font color=#006CD1 size=3><b><i id=ftnm2>Физическая трудность</i>. Общая оценка:</b></font></td>
+<td><table id=fttb2 border=0 cellspacing=1 cellpadding=0 bgcolor=#303030 style="border-collapse:separate;"><tr><td bgcolor=Turquoise>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td></tr></table></td>
+<td id=fttb3><input type="text" value="1" size=10 readonly></td></tr></table>
+</td></tr></table></center>
+
+
+
+<br/>
+
+
+
+<center><table border=1 cellspacing=1 cellpadding=8 bgcolor=#F0F0FF><tr><td>
+<center><font size=3 color=#0000FF><b id=tsnm1>2.2. Определение рейтинга технической сложности маршрута.</b></font></center>
+<table border=0 id=tstb1>
+             
+<tr><td>1. Простой маршрут по ровному асфальту и\или джиповкам (грунтовым дорогам) с мелкими камушками:</td>
+<td><select onChange="mcalc('ts');">
+<option value="1" selected>Базовый</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Самый простой вид маршрута. Если вы не в состоянии его преодолеть, то дальнейшее тестирование бессмысленно. Обратитесь за помощью на форум &quot;велика&quot;, подскажут, помогут, научат...',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>2. Крупные препятствия, "ступеньки" на подъемах:</td>
+<td><select onChange="mcalc('ts');">
+<option value="0" selected>Нет</option>
+<option value="1">Не знаю</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Если суммарная протяженность таких участков составляет не более 1% от общей протяженности маршрута, то в рейтинге  можно не учитывать.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>3. Крупные препятствия, "ступеньки", на спусках (дропы):</td>
+<td><select onChange="mcalc('ts');">
+<option value="0" selected>Нет</option>
+<option value="0.5">До 15 см. включительно</option>
+<option value="1.5">До 25 см. включительно</option>
+<option value="4">До 40 см. включительно</option>
+<option value="6">Свыше 40 см.</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Определяется по самым &quot;крупным&quot;, а значит самым опасным ступенькам, дропам. Если суммарная протяженность таких участков составляет не более 1% от общей протяженности маршрута, то проверяется суммарная протяженность с камнями меньшей крупности и т.д.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>4. Сыпучий грунт на спусках:</td>
+<td><select onChange="mcalc('ts');">
+<option value="0" selected>Нет</option>
+<option value="1">Не знаю</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Если суммарная протяженность таких участков составляет не более 1% от общей протяженности маршрута, то в рейтинге  можно не учитывать.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>5. Узкие извилистые синглы (тропинки):</td>
+<td><select onChange="mcalc('ts');">
+<option value="0" selected>Нет</option>
+<option value="1">Не знаю</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Если суммарная протяженность таких участков составляет не более 1% от общей протяженности маршрута, то в рейтинге  можно не учитывать.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>6. Езда по синглам (тропинкам) над обрывами:</td>
+<td><select onChange="mcalc('ts');">
+<option value="0" selected>Нет</option>
+<option value="1">Не знаю</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Если суммарная протяженность таких участков составляет не более 1% от общей протяженности маршрута, то в рейтинге  можно не учитывать. Предупредить, что маршрут в этом случае неприемлем для людей, страдающих боязнью высоты (акрофобией); а также тем участникам, которые еще не уверенно держут равновесие на велосипеде.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>7. Планируемый темп прохождения маршрута:</td>
+<td><select onChange="mcalc('ts');" name="tstemp">
+<option value="0" selected>Малый</option>
+<option value="1.5">Средний</option>
+<option value="3.5">Высокий</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Подразумевается средняя скорость движения на маршруте т.е. не учитывая остановки и перерывы:<br/> Малый темп - 5-9 км/час.<br/> Средний темп - 9-14 км/час.<br/> Высокий темп - более 14 км/час.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>8. Скользкая из-за влаги и дождей почва:</td>
+<td><select onChange="mcalc('ts');">
+<option value="0" selected>Нет</option>
+<option value="1.5">Не знаю</option>
+<option value="1.5">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Требует от участника специальных навыков и повышенного чувства равновесия. В некоторых случаях, езда, непосредственно после, или во время дождя не представляется возможной из-за налипающей на колеса грязи и непроходимых, размытых участков.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td>9. Отсутствие мобильной связи и\или невозможность прибегнуть к посторонней помощи:</td>
+<td><select onChange="mcalc('ts');">
+<option value="0" selected>Нет</option>
+<option value="1">Не знаю</option>
+<option value="1">Да</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Учитывать в случае наличия на маршруте даже одного такого участка, радиусом в 1 км. и более.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+<tr><td><i>Допускается прибавление или убавление одного балла на усмотрение организатора.</i></td>
+<td><select onChange="mcalc('ts');">
+<option value="-1">-1</option>
+<option value="0" selected>0</option>
+<option value="1">+1</option>
+</select>
+<font color=Blue style="cursor:help;" onMouseOver="txt('Решение принимается как на основе субъективных, так и объективных факторов. Например, если на маршруте все же попадаются различного рода &quot;трудности&quot; каждая из которых незначительна, но в сумме они <b>затрудняют</b> маршрут, следует прибавить 1 балл., если таких &quot;трудностей&quot; не встречается вовсе, то убавить 1 балл.',event);" onMouseOut="mo();"><b>?</b></font>
+</td></tr>
+
+</table>
+<hr/>
+
+<center><table border=0 width=100%>
+<tr><td><font color=#006CD1 size=3><b><i id=tsnm2>Техническая сложность</i>. Общая оценка:</b></font></td>
+<td><table id=tstb2 border=0 cellspacing=1 cellpadding=0 bgcolor=#303030 style="border-collapse:separate;"><tr><td bgcolor=Turquoise>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td><td bgcolor=DarkGray>&nbsp;&nbsp;&nbsp;</td></tr></table></td>
+<td id=tstb3><input type="text" value="1" size=10 readonly></td></tr></table></center>
+</td></tr></table>
+<br/><input type=button value="Сбросить" onClick="document.ftts.reset();mcalc('ft');mcalc('ts');">&nbsp;&nbsp;&nbsp;<input type=button value="К печати" onClick="mprint('ft','ts');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=button value="Код для форума" onClick="mforum('ft','ts');"></center></form>
+
+
+
+
+
+<form name="opis" style="display:none;"> <center><table border=0 cellpadding=10><tr><td>
+<center><font size=4 color=#0000FF><b>Зачем нужны эти тесты:</b></font></center>
+
+<p align=justify>Это попытка помочь новым участникам понять на каком именно уровне находится их физический уровень 
+и техническая подготовка при участии в <i>Походах Выходного Дня</i> совместно с веллоколлегами с 
+<a href="http://www.velik.org/">velik.org</a>, а организаторам этих маршрутов, в свою очередь, 
+послужит обоснованием для оценки маршрута и объяснения причин отказа тому или иному 
+участнику в случае объективных факторов.</p>
+
+<p align=justify>Практика показывает, что в слишком "разношерстной" группе с разной квалификацией и физическими 
+возможностями ее участников страдают все - и более подготовленные люди, которые вынуждены большую часть времени 
+ждать остальных, скучая, замерзая или перегреваясь на солнце, и менее подготовленные участники, местами рискующие 
+жизнью и здоровьем, не говоря уже о полной  усталости, иногда даже не позволяющей им завершить маршрут.</p>
+
+<p align=justify>Это первая попытка (так сказать, версия <b>Бета</b>) для тестирования, критики, обсуждений и предложений. 
+
+<p align=justify>Ваши предложения, замечания, критику высказывайте на 
+<a href="http://www.velik.org/index.php?option=com_jfusion&Itemid=210&jfile=index.php&topic=3772.0">форуме</a>. 
+Только, пожалуйста, конструктивные - замечания типа "это плохо" или "это хорошо" без "потому что", 
+рассматриваться не будут, а флейм будет удаляться.</p>
+</td></tr></table></form>
+
+
+<br/></td></tr></table>
+
+
+
+
+
+<p align=right>
+<font size="1" color="#909090" face="verdana">
+Code &copy;2009 by Renat Kadeev (RestiveX) for Velik.org  &nbsp;|&nbsp;&nbsp;Calculations &copy;2008-2009 by IgorSK.  &nbsp;|&nbsp;&nbsp;<a href="http://www.velik.org/index.php?option=com_jfusion&Itemid=210&jfile=index.php&topic=3772.0">Discuss on Forum.</a> | 
+</font></p>
+</div>
+<div id="cmt" style="position:absolute; visibility:hidden; z-index:15; background: #FFFF90; padding: 0px 5px; font: 11px verdana, sans-serif; color: #000000; text-align: justify; border: 1px ridge black;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Cut here end --------------------------------------------------------------------------------------------- -->
+
+
+
+</body>
+</html>
+<!-- Velikorg Ver 0.8.a.28. -->
