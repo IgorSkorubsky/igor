@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Интерактивная карта велопоходов по Израилю</title>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA9xm-dTNhX4HpKCqYKAhsdhSCIfjwyEMBTz8sJ_ZOKpKvv9j36RTMgv-8mAdJhE0TmxB-9PTCJb_bsg" 
+      type="text/javascript"></script>
+<script type="text/javascript"> 
+    //<![CDATA[
+	 
+    function load() { 
+      if (GBrowserIsCompatible()) { 
+        var map = new GMap2(document.getElementById("map")); 
+        map.addControl(new GLargeMapControl()); 
+        map.addControl(new GMapTypeControl());        
+        map.setCenter(new GLatLng(31.482617, 34.894032), 8, G_HYBRID_MAP);
+		
+		function createMarker(point, number) {
+var marker = new GMarker(point);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml(number);
+});
+return marker;
+}
+var bounds = map.getBounds();
+var southWest = bounds.getSouthWest();
+var northEast = bounds.getNorthEast();
+var lngSpan = northEast.lng() - southWest.lng();
+var latSpan = northEast.lat() - southWest.lat();
+var point = new GLatLng(33.011400, 35.629320);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/golanzap/index.htm" target="_blank">Вдоль западной границы Голанских высот. Ручьи, водопады</a></div>'));
+var point = new GLatLng(32.987890, 35.703340);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/katsrin/index.htm" target="_blank">Кацрин (Голанские высоты). Водопады</a></div>'));
+var point = new GLatLng(32.779850, 35.703150);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/afik/index.htm" target="_blank">Афик - Хамат Гадер (южные Голаны)</a></div>'));
+var point = new GLatLng(33.178950, 35.773700);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/elrom/index.htm" target="_blank">Эль Ром - Хоршат Таль (северные Голаны)</a></div>'));
+var point = new GLatLng(33.192820, 35.566860);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/hula/index.htm" target="_blank">Вдоль реки Ярден и каналов долины Хула (Верхняя Галилея)</a></div>'));
+var point = new GLatLng(33.195480, 35.547410);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/manara/index.htm" target="_blank">Спуск со скалы Манара (Верхняя Галилея)</a></div>'));
+var point = new GLatLng(33.048190, 35.221340);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/kziv/index.htm" target="_blank">Вдоль ручья Кзив (западная Галилея)</a></div>'));
+var point = new GLatLng(32.732817, 35.014350);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/shwaits/index.htm" target="_blank">Маленькая Швейцария (верхняя Кармель)</a></div>'));
+var point = new GLatLng(32.739790, 35.017730);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/shwaitssin/index.htm" target="_blank">Маленькая Швейцария, синглы</a></div>'));
+var point = new GLatLng(32.675323, 35.086447);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/muhraka/index.htm" target="_blank">Мухрака (гора Кармель)</a></div>'));
+var point = new GLatLng(32.655970, 35.095800);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/yokneam/index.htm" target="_blank">заповедник Керен Кармель (район Йокнеам-Илит - Мухрака)</a></div>'));
+var point = new GLatLng(32.751950, 35.047270);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/carmel/index.htm" target="_blank">заповедники Гора Кармель и Маленькая Швейцария (район Нешер – Бейт Орен)</a></div>'));
+var point = new GLatLng(32.554920, 35.006740);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/alona/index.htm" target="_blank">По заповедникам Алона и Хар Хоршан (район Зихрон Якова)</a></div>'));
+var point = new GLatLng(32.367630, 34.908480);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/alexandr/index.htm" target="_blank">Вдоль нахаль Александр</a></div>'));
+var point = new GLatLng(32.106500, 34.825083);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/yarkon/index.htm" target="_blank">Парк Яркон - Яффо (Тель-Авив)</a></div>'));
+var point = new GLatLng(32.043567, 34.802417);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/ayalon/index.htm" target="_blank">Вдоль нахаль Аялон</a></div>'));
+var point = new GLatLng(31.950167, 34.955517);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/benshem2s/index.htm" target="_blank">Лес Бен Шемен по периметру</a></div>'));
+var point = new GLatLng(31.948623, 34.957745);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/benshembig/index.htm" target="_blank">Лес Бен Шемен - Модин - лес Бен Шемен</a></div>'));
+var point = new GLatLng(31.951230, 34.954060);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/benshemnih/index.htm" target="_blank">Лес Бен Шемен - Бейт Нихемья - лес Бен Шемен</a></div>'));
+var point = new GLatLng(31.939050, 34.935750);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/benshemkof/index.htm" target="_blank">Лес Бен Шемен (парк Ха-Кофим) - Модиин - лес Бен Шемен</a></div>'));
+var point = new GLatLng(31.948933, 34.956933);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/benshemsin/index.htm" target="_blank">Лес Бен Шемен, синглы</a></div>'));
+var point = new GLatLng(31.839648, 34.914435);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/meginim/index.htm" target="_blank">Карме Йосеф - лес Ха-Мегиним</a></div>'));
+var point = new GLatLng(31.779680, 35.014213);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/kisalon/index.htm" target="_blank">Нахаль Кисалон</a></div>'));
+var point = new GLatLng(31.803680, 34.960587);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/psolim/index.htm" target="_blank">Дерех ха-Псалим</a></div>'));
+var point = new GLatLng(31.781533, 35.001450);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/taoz/index.htm" target="_blank">Лес ха-Наси - лес Эштаоль - мошав Таоз - лес Цеира</a></div>'));
+var point = new GLatLng(31.799050, 35.013650);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/beitmeir/index.htm" target="_blank">Месилат Цион - Бейт Меир (парк Рабина, район Латруна)</a></div>'));
+var point = new GLatLng(31.780550, 35.019840);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/beitshemesh/index.htm" target="_blank">Вдоль нахаль Сорек (район Бейт Шемеш)</a></div>'));
+var point = new GLatLng(31.747810, 35.004420);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/usa/index.htm" target="_blank">по парку Арцот ха-Брит (США) и заповеднику Долев (район Бейт Шемеш)</a></div>'));
+var point = new GLatLng(31.607683, 34.892217);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/guvrin/index.htm" target="_blank">Бейт Гуврин - парк Британия - пещеры Лузит</a></div>'));
+var point = new GLatLng(31.739850, 34.852360);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/haruvit/index.htm" target="_blank">Cинглы леса Харувит (район Кирият Малахи)</a></div>'));
+var point = new GLatLng(31.594212, 34.609643);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/gvaram/index.htm" target="_blank">Гварам - Ор Ха-Нер (северный Негев)</a></div>'));
+var point = new GLatLng(31.594600, 34.607490);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/gvaram1/index.htm" target="_blank">Синглы вокруг кибуца Гварам (северный Негев)</a></div>'));
+var point = new GLatLng(31.571390, 34.758230);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/shikma/index.htm" target="_blank">Нахаль (ручей) Шикма и Сид (северный Негев)</a></div>'));
+var point = new GLatLng(31.429307, 34.496185);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/beri1/index.htm" target="_parent">Кибуц Беери (северный Негев)</a></div>'));
+var point = new GLatLng(31.356310, 35.068170);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/yatir/index.htm" target="_blank">Лес Ятир (Хевронское Нагорье)</a></div>'));
+var point = new GLatLng(31.147717, 35.369483);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/kemah/index.htm" target="_blank">Меарат Ха-Кемах (Иудейская пустыня)</a></div>'));
+var point = new GLatLng(30.941970, 35.368210);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/eintamar/index.htm" target="_blank">Эйн Тамар (пустыня Арава)</a></div>'));
+var point = new GLatLng(30.792050, 34.769183);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/avdat/index.htm" target="_blank">Авдат - мидрешет Бен Гурион (пустыня Центральный Негев)</a></div>'));
+var point = new GLatLng(30.496633, 34.561783);
+map.addOverlay(createMarker(point,'<div style="color:#005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/harramon/index.htm" target="_blank">Борот Лоц - гора Рамон - нахаль Лоц (пустыня Центральный Негев)</a></div>'));
+var point = new GLatLng(29.619333, 34.933417);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/shoret/index.htm" target="_blank">Каньон Шхорет (горы Эйлата)</a></div>'));
+var point = new GLatLng(31.837050, 34.977090);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/latrun/index.htm" target="_blank">Латрун - лес Эштаоль - дерех Псолим - лес Цараа - дерех Бурма - Латрун</a></div>'));
+var point = new GLatLng(33.307940, 35.772290);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/hermon/index.htm" target="_blank">Гора Хермон - Хоршат Таль (Голанские Высоты)</a></div>'));
+var point = new GLatLng(32.317850, 34.934750);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/hefer/index.htm" target="_blank">По долине Хефер (между Нетанией и Хедерой)</a></div>'));
+var point = new GLatLng(30.988460, 34.914400);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/yeruham/index.htm" target="_blank">Хельмонийот в районе Иерухама (пустыня Центральный Негев)</a></div>'));
+var point = new GLatLng(30.884270, 35.142750);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/zin/index.htm" target="_blank">Вдоль нахаль (ручья) Цин - мошав Эйн Тамар (пустыни Восточный Негев, Арава)</a></div>'));
+var point = new GLatLng(32.867354, 35.529420);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/hukok/index.htm" target="_blank">Озеро Кинерет - Цфат - озеро Кинерет (Верхняя Галилея)</a></div>'));
+var point = new GLatLng(32.817420, 35.694970);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/susita/index.htm" target="_blank">Заповедник Сусита (Южные Голаны)</a></div>'));
+var point = new GLatLng(31.757150, 34.988190);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/bar-giora/index.htm" target="_blank">Бейт Шемеш - Бейт Джамаль - Бар Гиора - гора Алия - мошав Махсия - Бейт Шемеш</a></div>'));
+var point = new GLatLng(32.555470, 35.330070);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/gilboa/index.htm" target="_blank">Гора Гильбоа, 30 км.</a></div>'));
+var point = new GLatLng(30.874620, 34.787000);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/shivta/index.htm" target="_blank">Сде Бокер - Шивта - Сде Бокер (пустыня Центральный Негев)</a></div>'));
+var point = new GLatLng(32.828860, 35.510650);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/arbel/index.htm" target="_blank">Гора Арбель, нахаль Арбель (озеро Кинерет)</a></div>'));
+var point = new GLatLng(31.816210, 35.023510);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/kfira/index.htm" target="_blank">"Эрец Кфира" (район парка Канада)</a></div>'));
+var point = new GLatLng(31.590670, 35.393590);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/dragot/index.htm" target="_blank">Мецукей Драгот - кибуц Альмог (район Мертвого моря)</a></div>'));
+var point = new GLatLng(31.054830, 35.194760);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/peres/index.htm" target="_blank">Нахаль Перес - хар Цваим - гевей Перес (пустыня Арава)</a></div>'));
+var point = new GLatLng(31.808350, 35.018090);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/masrek/index.htm" target="_blank">Заповедник Масрек – леса Кдушим и Эштаоль – парк Рабин</a></div>'));
+var point = new GLatLng(30.914420, 35.017970);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/zarhan/index.htm" target="_blank">На гев Зархан через хар ха-Халак (пустыня Центральный Негев)</a></div>'));
+var point = new GLatLng(32.639270, 34.959900);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/ofer/index.htm" target="_blank">Лес Офер и окрестности (Кармель)</a></div>'));
+var point = new GLatLng(30.620690, 35.194720);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/tsvira/index.htm" target="_blank">Рамат (плато) Цвира (пустыня Восточный Негев)</a></div>'));
+var point = new GLatLng(31.148300, 35.370060);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/prasim/index.htm" target="_blank">Нахаль Працим - Меарат ха-Кемах - нахаль Сдом (Иудейская пустыня)</a></div>'));
+var point = new GLatLng(32.593570, 35.182240);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/megido/index.htm" target="_blank">Лес Мегидо (Кармель)</a></div>'));
+var point = new GLatLng(31.950470, 34.955480);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/benshkdum/index.htm" target="_blank">Лес Бен Шемен - парк Наот Кдумим - лес Бен Шемен</a></div>'));
+var point = new GLatLng(30.305600, 34.639660);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/karkom/index.htm" target="_blank">Гора Карком и Белый Каньон (пустыня Юго-Западный Негев)</a></div>'));
+var point = new GLatLng(32.852990, 35.670400);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/semah/index.htm" target="_blank">Вдоль нахаль Семах (Юго-Западные Голаны)</a></div>'));
+var point = new GLatLng(30.612110, 34.805120);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/ramon/index.htm" target="_blank">Митспе Рамон - кратер Рамон - стоянка Беерот (Центральный Негев)</a></div>'));
+var point = new GLatLng(33.018090, 35.143660);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/gaaton/index.htm" target="_blank">Вдоль ручьев Гаатон и Кзив (Западная Галилея)</a></div>'));
+var point = new GLatLng(32.596860, 35.006070);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/horshan/index.htm" target="_blank">По заповедникам Хар Хоршан и Алона (район Зихрон Якова)</a></div>'));
+var point = new GLatLng(31.769080, 35.130990);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/sataf/index.htm" target="_blank">Заповедник Сатаф - заповедник нахаль Халилим (Иудейские горы)</a></div>'));
+var point = new GLatLng(31.758250, 35.089510);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/refaim/index.htm" target="_blank">По хар Рэфаим (Иудейские горы)</a></div>'));
+var point = new GLatLng(32.842380, 35.423950);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/tsalmon/index.htm" target="_blank">Нахаль Цальмон и гора Нетофа (Верхняя Галилея)</a></div>'));
+var point = new GLatLng(32.902060, 35.615330);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/meshushim/index.htm" target="_blank">Горный Ярден и нахаль (ручей) ха-Мешушим (Голанские Высоты)</a></div>'));
+var point = new GLatLng(33.175888, 35.613922);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/pilgey/index.htm" target="_blank">Водный мир Верхней Галилеи (ручьи Ярден, Хермон, Дан, Снир)</a></div>'));
+var point = new GLatLng(31.248230, 35.198220);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/arad-mm/index.htm" target="_blank">Арад - Мертвое море (вдоль нахаль Хэмар и маале Зэйрон)</a></div>'));
+var point = new GLatLng(31.248070, 35.198200);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/arad-mm1/index.htm" target="_blank">Арад - Мертвое море (вдоль нахаль Мораг)</a></div>'));
+var point = new GLatLng(31.247910, 35.198150);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/arad-mm2/index.htm" target="_blank">Арад - Мертвое море (вдоль нахаль Азгад и Сдом)</a></div>'));
+var point = new GLatLng(31.260530, 35.230480);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/arad-mm3/index.htm" target="_blank">Арад - Мертвое море (вдоль нахаль Бокек)</a></div>'));
+var point = new GLatLng(31.590190, 35.392180);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/halhul/index.htm" target="_blank">Хальхуль Эль-Кабир - нахаль Дарга (Иудейская пустыня), 24 км.</a></div>'));
+var point = new GLatLng(30.989207, 34.914018);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/mahtgadol/index.htm" target="_blank">Ха-Махтеш ха-Гадоль (Большой Кратер) в Центральном Негеве, 43 км.</a></div>'));
+var point = new GLatLng(30.985830, 34.766140);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/tlalim/index.htm" target="_blank">Хребет Халуким и хребет Бокер (Центральный Негев), 33 км.</a></div>'));
+var point = new GLatLng(31.260470, 35.233530);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/arad-metzada/index.htm" target="_blank">Арад - Мецада (Массада) через горы Иэлим и Йонатан (Иудейская пустыня), 30.5 км.</a></div>'));
+var point = new GLatLng(31.533940, 34.911310);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/amazia/index.htm" target="_blank">Амация - пещеры и древние города (Шефелят хар Хеврон), 30.5 км.</a></div>'));
+var point = new GLatLng(30.963140, 34.701070);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/boker/index.htm" target="_blank">Нахаль Бсор и рехес Бокер (Центральный Негев), 40 км.</a></div>'));
+var point = new GLatLng(30.621030, 34.919870);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/ramon-meishar/index.htm" target="_blank">Махтеш Рамон - нахаль Мейсар (Центральный Негев), 45.5 км.</a></div>'));
+var point = new GLatLng(30.884520, 34.418760);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/nizana/index.htm" target="_blank">Ницана - Рамат Рут (Центральный Негев), 58 км.</a></div>'));
+var point = new GLatLng(31.261670, 35.239220);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/gamal/index.htm" target="_blank">Арад - Мецада (Массада) по "Гамаль ха-Адом", 24 км.</a></div>'));
+var point = new GLatLng(31.055100, 35.194610);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/gmalim/index.htm" target="_blank">Нахаль Гмалим (Иудейская пустыня), 35 км.</a></div>'));
+var point = new GLatLng(32.586150, 35.436530);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/tavor/index.htm" target="_blank">Заповедник Нахаль Тавор, Рамот Исасхар, парк Кохав ха-Ярден, 35 км.</a></div>'));
+var point = new GLatLng(31.069110, 35.032120);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/ashalon/index.htm" target="_blank">Горы Димоны и нахаль (ручей) Ашалон, 35 км.</a></div>'));
+var point = new GLatLng(33.014160, 35.617290);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/gadot/index.htm" target="_blank">Кибуц Гадот - нахаль Ярден - водопады Джелабун и Двора (Голанские Высоты), 41 км.</a></div>'));
+var point = new GLatLng(32.721650, 35.567290);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/kineret/index.htm" target="_blank">Мошава Кинерет – н.парк Бейт Яреах - заповедники нахаль Явнель и хар Явнель - Маале Эйлот - лес Менихемья - заповедник Ярден, 32 км.</a></div>'));
+var point = new GLatLng(32.776530, 35.408270);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/kineret/index.htm" target="_blank">Перекресток Голани - заповедник Бейт Кешет - гора Двора, 36 км.</a></div>'));
+var point = new GLatLng(31.607650, 34.892150);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/guvrin1/index.htm" target="_blank">Бейт Гуврин - парк Британия - заповедник Адулем, 35 км.</a></div>'));
+var point = new GLatLng(31.775430, 35.126880);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/sataf1/index.htm" target="_blank">Заповедник Сатаф - источник Эйн Цуба - заповедник Нахаль Халилим - источник Эйн Хиндак - монастырь Йоханана-крестителя - деревня Сатаф (Иудейские горы), 30 км.</a></div>'));
+var point = new GLatLng(31.561560, 34.843190);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/lakhish/index.htm" target="_blank">Мошав Лахиш - пещеры Хазан, 32 км.</a></div>'));
+var point = new GLatLng(32.593780, 35.181790);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/mishmar/index.htm" target="_blank"> Леса Мегидо и Мишмар ха-Эмек (Кармель), 31.5 км.</a></div>'));
+var point = new GLatLng(32.675330, 35.221530);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/migdalemek/index.htm" target="_blank">Мигдаль ха-Эмек – лес Кфар ха-Хореш – Нацрат – лес Бальфур – эмек Изреэль, 33 км.</a></div>'));
+var point = new GLatLng(32.730236, 35.171127);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/aloney_aba/index.htm" target="_blank">Заповедники Алоней Аба, Гуш Алоним, Ципори, Яаар ха-Сулелим, 40 км.</a></div>'));
+var point = new GLatLng(32.707990, 34.970370);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/carmel_zap/index.htm" target="_blank">Западный Кармель (лес Нир Эцион, Национальный парк Гора Шокеф, заповедник Нахаль Меарот), 29 км.</a></div>'));
+var point = new GLatLng(32.990470, 35.563010);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/biriya/index.htm" target="_blank">Лес Бирия (Верхняя Галилея), 28 км.</a></div>'));
+var point = new GLatLng(31.768180, 34.997880);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/beitshemesh2/index.htm" target="_blank">Бейт Шемеш - заповедник Нахаль Долев, 33 км.</a></div>'));
+var point = new GLatLng(31.747260, 35.300920);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/marsaba/index.htm" target="_blank">Кейдар - монастырь Мар Саба - Альмог (Иудейская пустыня), 34.5 км.</a></div>'));
+var point = new GLatLng(31.260480, 35.233350);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/seelim/index.htm" target="_blank">Арад - Эйн Геди вдоль нахаль Цеелим (Иудейская пустыня), 50 км.</a></div>'));
+var point = new GLatLng(31.758120, 35.089420);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/refaim-zoo/index.htm" target="_blank">Нахаль Рэфаим - Иерусалимский зоопарк и обратно (Иудейские горы), 30 км.</a></div>'));
+var point = new GLatLng(31.834500, 35.351130);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/vadi_kelt/index.htm" target="_blank">Поселение Алон - Вади Кельт - монастырь Святого Георгия - Альмог (Иудейская пустыня), 24 км.</a></div>'));
+var point = new GLatLng(31.590170, 35.392320);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/n_darga/index.htm" target="_blank">Мецукей Драгот - нахаль Кедрон - нахаль Дарга (Иудейскиая пустыня), 42.5 км.</a></div>'));
+var point = new GLatLng(31.260630, 35.233350);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://www.is-israel.com/tracks/seelim1/index.htm" target="_blank">Арад - Мецада через ручьи (нахаль) Цлалит, Цеелим, Цфира и спуск Маале Анива (Иудейская пустыня), 31.5 км.</a></div>'));
+var point = new GLatLng(30.849930, 34.779300);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/sde_boker_sn/index.htm" target="_blank">Мидрешет Бен Гурион - горы (хар) Халуким и Царур (Центральный Негев), 38.5 км.</a></div>'));
+var point = new GLatLng(30.986150, 34.766150);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/tlalim1/index.htm" target="_blank">Нахаль Хейман и нахаль Рвивим (Центральный Негев), 34.5 км.</a></div>'));
+var point = new GLatLng(30.611810, 34.804700);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/hava/index.htm" target="_blank">Мицпе Рамон - нахаль Хава (Центральный Негев), 46 км.</a></div>'));
+var point = new GLatLng(31.260600, 35.233510);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/menahem/index.htm" target="_blank">Арад - Мертвое море через нахаль Менахем и Маале Яир (Иудейская пустыня), 26 км.</a></div>'));
+var point = new GLatLng(30.620840, 34.920000);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/ein_um_tsalah/index.htm" target="_blank">Махтеш Рамон - Эйн Ум Цалах (Центральный Негев), 44 км.</a></div>'));
+var point = new GLatLng(32.527110, 35.331830);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/gilboa1/index.htm" target="_blank">Поселок Ган Нэр - Гора Гильбоа, 30.5 км.</a></div>'));
+var point = new GLatLng(29.788210, 34.989850);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/timna/index.htm" target="_blank">Парк Тимна, 31 км.</a></div>'));
+var point = new GLatLng(32.990290, 35.562930);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/dishon/index.htm" target="_blank">Лес Бирия и заповедник Нахаль Дишон, 43,5 км.</a></div>'));
+var point = new GLatLng(32.670470, 34.964960);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/mearot/index.htm" target="_blank">Заповедники Нахаль Меарот и Нахаль Харувим (Западный Кармель), 33 км.</a></div>'));
+var point = new GLatLng(32.732910, 35.014320);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/carmel1/index.htm" target="_blank">Заповедники Гора Кармель и Маленькая Швейцария (район Бейт Орен), 28 км.</a></div>'));
+var point = new GLatLng(31.948710, 34.957440);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/BenShemenIdeal/index.htm" target="_blank">"Идеальный" маршрут по синглам леса Бен Шемен, 20.5 км.</a></div>'));
+var point = new GLatLng(31.744660, 35.176040);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/rehes_lavan/index.htm" target="_blank">Иерусалимский зоопарк - мемориал Кеннеди - источники Эйн Эль Балад и Эйн Лаван (Иудейские горы), 26 км.</a></div>'));
+var point = new GLatLng(31.732030, 35.004580);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/dolev/index.htm" target="_blank">Мошав Занух - заповедник Нахаль Долев (Иудейские горы), 28 км.</a></div>'));
+var point = new GLatLng(32.556480, 34.954830);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/horshan1/index.htm" target="_blank">Рамат ха-Надив - заповедники Алона и хар Хоршан (Кармель), 29 км.</a></div>'));
+var point = new GLatLng(32.675569, 35.086630);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/muhraka1/index.htm" target="_blank">Мухрака - Дальят Эль Кармель (гора Кармель), 31.5 км.</a></div>'));
+var point = new GLatLng(31.841780, 34.993600);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/canada1/index.htm" target="_blank">Парк Канада - Абу Гош (Иудейские горы), 32 км.</a></div>'));
+var point = new GLatLng(31.739440, 34.972360);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/luzit/index.htm" target="_blank">Эйнот Дкалим - лес Харель - пещеры Лузит - парк Британия, 35 км.</a></div>'));
+var point = new GLatLng(31.739068, 34.972334);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/jamal/index.htm" target="_blank">Бейт Шемеш - монастырь Бейт Джамаль - заповедник Долев, источники (Иудейские горы), 28 км.</a></div>'));
+var point = new GLatLng(30.962510, 34.701010);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/shivta1/index.htm" target="_blank">Мошав Ашалим - Шивта (Центральный Негев), 33.5 км.</a></div>'));
+var point = new GLatLng(30.988960, 34.914530);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/yeruham_sin/index.htm" target="_blank">Сингл "Иерухам" (Центральный Негев), 28 км.</a></div>'));
+var point = new GLatLng(31.305400, 35.268610);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/nokdim/index.htm" target="_blank">Кфар ха-Нокдим - брехат Цфира - нахаль Цеелим (Иудейская пустыня), 30.5км.</a></div>'));
+var point = new GLatLng(31.739480,  34.852330);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/haruvit1/index.htm" target="_blank">Лес Харувит - пещеры Лузит - парк Британия, 30.5км.</a></div>'));
+var point = new GLatLng(30.612170,  34.804780);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/ramon1/index.htm" target="_blank">Мицпе Рамон - махтеш (кратер) Рамон, 40.5км.</a></div>'));
+var point = new GLatLng(31.739430,  34.972420);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/luzit1/index.htm" target="_blank">Эйнот Дкалим - лес Харель - парк Британия - пещеры Лузит - мошав Гиват Йешиягу, 35.5км.</a></div>'));
+var point = new GLatLng(31.781360,  35.001820);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/eshtaol/index.htm" target="_blank">Лес ха-Наси - Дерех ха-Псалим - лес Эштаоль - нахаль Кисалон - лес ха-Кдушим, 35км.</a></div>'));
+var point = new GLatLng(31.777800,  35.015790);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/sorek/index.htm" target="_blank">Лес Эштаоль - Цуба - нахаль Сорек, 34км.</a></div>'));
+var point = new GLatLng(31.809710,  35.020490);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/mishlatim/index.htm" target="_blank">Дерех Мишлатим, 26км.</a></div>'));
+var point = new GLatLng(31.816270,  35.023590);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/kfira1/index.htm" target="_blank">Заповедник Нахаль Кфира, 29.5км.</a></div>'));
+var point = new GLatLng(31.801700, 35.121430);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/abu-gosh/index.htm" target="_blank">Иудейские горы из Абу Гош, 32км.</a></div>'));
+var point = new GLatLng(30.842610,  34.778810);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/zin-zarhan/index.htm" target="_blank">Нахаль Цин - Гев Зархан, 51км.</a></div>'));
+var point = new GLatLng(31.670300,  34.951040);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/britaniya-adulem/index.htm" target="_blank">Парк Британия - заповедник Адулем (Иудейские горы), 36км.</a></div>'));
+var point = new GLatLng(32.483770,  35.478670);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/gilboa2/index.htm" target="_blank">Велопоход: Кибуц Решафим - гора Гильбоа, 37км.</a></div>'));
+var point = new GLatLng(30.798640, 35.243800);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/hatseva-zin/index.htm" target="_blank">Велопоход: Эйн Хацева - нахаль Цин, 58.5км.</a></div>'));
+var point = new GLatLng(31.745590, 35.177350);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/Jerusalem-TA/index.htm" target="_blank">«Веломарафон» Иерусалим - Тель-Авив, 120 км.</a></div>'));
+var point = new GLatLng(31.755530, 35.111630);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/aminadav/index.htm" target="_blank">Синглы хребтов Аминадав и Сорек, 27 км.</a></div>'));
+var point = new GLatLng(31.745370,  35.176960);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/jerusalem-ashdod/index.htm" target="_blank">«Веломарафон» Иерусалим - Ашдод, 78 км.</a></div>'));
+var point = new GLatLng(32.982800, 35.539480);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/biriya_sin/index.htm" target="_blank">Синглы ККЛ леса Бирия, 24 км.</a></div>'));
+var point = new GLatLng(30.612198,  34.804462);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/ramon2/index.htm" target="_blank">Кратер (Махтеш) Рамон через Маале Нуах и Беерот, 49 км.</a></div>'));
+var point = new GLatLng(30.798584, 35.243762);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/hatseva-maayanot/index.htm" target="_blank">Хацева - Дерех Султана - Цир Мааянот, 73 км.</a></div>'));
+var point = new GLatLng(31.781535, 35.001751);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/eshtaol1/index.htm" target="_blank">Тенистые джиповки леса Эштаоль, 31.5 км.</a></div>'));
+var point = new GLatLng(33.23766, 35.57662);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/eshtaol1/index.htm" target="_blank">Дерех Ноф (видовая дорога) Манара, 28 км.</a></div>'));
+var point = new GLatLng(29.569712, 34.937336);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/amram/index.htm" target="_blank">Неот Митбар - Амудей Амрам, 31 км.</a></div>'));
+var point = new GLatLng(31.428445,  34.494095);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/beeri-zeelim_100km/index.htm" target="_blank">Веломарафон: Беери - Цеелим через парк Эшколь и обратно, 100км.</a></div>'));
+var point = new GLatLng(32.694586,  35.430527);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/har_tavor/index.htm" target="_blank">Гора Тавор (Фавор), 26 км.</a></div>'));
+var point = new GLatLng(30.620618,  34.920221);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/gvanim/index.htm" target="_blank">Беерот - нахаль Гваним (кратер Рамон), 21 км.</a></div>'));
+var point = new GLatLng(30.620683, 34.920340);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/prizmot/index.htm" target="_blank">Беерот - каньон Призмот (Призм) и обратно (кратер Рамон), 65.5 км.</a></div>'));
+var point = new GLatLng(31.775589,  35.126538);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/sataf-eitan/index.htm" target="_blank">Сатаф - Цуба - гора Эйтан, 23 км.</a></div>'));
+var point = new GLatLng(31.787225, 34.991328);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/psolim_n/index.htm" target="_blank">Дерех ха-Псалим по-новому, 22 км.</a></div>'));
+var point = new GLatLng(31.590166,  35.392508);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/dragot-hazezon/index.htm" target="_blank">Мецукей Драгот - нахаль Хацецон, 46 км.</a></div>'));
+var point = new GLatLng(30.611857,  34.804637);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/ramon-nuah/index.htm" target="_blank">Махтеш (кратер) Рамон через маале Нуах и хар Гваним, 59 км.</a></div>'));
+var point = new GLatLng(32.647741, 35.119288);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/haZorea/index.htm" target="_blank">Джиповки и синглы леса ха-Зореа (гора Кармель), 35 км.</a></div>'));
+var point = new GLatLng(31.777727,  35.016439);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/kisalon-raziel/index.htm" target="_blank">Кисалон - Рамат Разиель - яар ха-Таясим - Цуба - Кисалон, 31 км.</a></div>'));
+var point = new GLatLng(31.677413, 34.929917);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/britaniya_sin/index.htm" target="_blank">Синглы парка Британия и окрестностей (Машуа и Эйнав), 26 км.</a></div>'));
+var point = new GLatLng(31.795451, 34.973837);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/tzora_udl/index.htm" target="_blank">Тенистые джиповки леса Цора (Иудейские горы), 31 км.</a></div>'));
+var point = new GLatLng(32.641735, 35.059335);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/elyakim/index.htm" target="_blank">Эльяким - лес Керен Кармель и окрестности, 33 км.</a></div>'));
+var point = new GLatLng(31.498746, 34.699627);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/ruhama/index.htm" target="_blank">Синглы в районе Рухама - Дорот - Нир Моше, 45,5 км.</a></div>'));
+var point = new GLatLng(31.734440, 35.071770);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/barGiora-yadKennedy/index.htm" target="_blank"> Бар Гиора - Яд Кеннеди, 36,5 км.</a></div>'));
+var point = new GLatLng(30.363067, 35.153242);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/sovevArava/index.htm" target="_blank">"Совев Арава" (вокруг пустыни Арава), 61,5 км.</a></div>'));
+var point = new GLatLng(32.601554, 35.393804);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/GivatHaMore/index.htm" target="_blank">Простые синглы Геват ха-Морэ, 30 км.</a></div>'));
+;
+var point = new GLatLng(31.780466, 35.018962);
+map.addOverlay(createMarker(point,'<div style="color:##005;border:1px solid #ddd;width:200px;"><a href="http://is-israel.com/tracks/kisalon-sataf/index.htm" target="_blank">Кисалон - Цуба - дерех ха-Таясим - Сатаф, 47 км.</a></div>'));
+      }
+    } 
+      
+	  //]]> 
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #000000;
+}
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38952984-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body onload="load()" onunload="GUnload()">
+<div id="map" style="width: 500px; height: 800px"></div>
+</body>
+</html>
