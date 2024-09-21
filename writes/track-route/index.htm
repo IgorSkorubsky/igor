@@ -1,0 +1,477 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Как преобразовать Трек (Track) в Роут (Route)</title>
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Рекомендации как быстро и просто преобразовать любой записанный GPS-ом Трек (Track) в Роут (Route) при помощи программы OziExplorer.">
+<meta name="author" content="Игорь Скорубский">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="../../style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38952984-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body bgcolor="#FFFFFF">
+      <blockquote>
+</p>
+<table width="100%"  border="0">
+        <tr>
+          <td bordercolor="#FF0000"><div align="left">
+              <blockquote>
+                <p><span class="style1"><a href="../../tracks/int_map.htm" target="mainFrame"><img src="../../tracks/int_mapi.gif" alt="Интерактивная карта велопоходов по Израилю" width="42" height="44" hspace="4" border="0" align="absmiddle"></a><a href="../../index.htm" target="_parent"><img src="../../b40.gif" alt="Перейти на главную страницу" width="42" height="43" hspace="4" border="0" align="absmiddle"></a><a href="mailto:igorsko@gmail.com"><img src="../../tracks/email.gif" alt="Отправить письмо автору" width="42" height="43" hspace="4" border="0" align="absmiddle"></a></span><a href="http://www.facebook.com/share.php?u=http://www.is-israel.com/writes/track-route/index.htm" target="_blank" title="Добавить ссылку на эту страницу в свой Facebook"><img src="../../Facebook_icon.png" alt="Добавить ссылку на эту страницу в свой Facebook" width="43" height="43" hspace="1" border="0" align="absmiddle"></a></p>
+                <p><span class="style1"><strong>Автор:</strong> Игорь Скорубский.</span></p>
+              </blockquote>
+            </div></td>
+          <td width="45%"><form method="get" action="http://www.google.com/custom" target="google_window">
+              <table border="0" align="right" bgcolor="#000000">
+                <tr>
+                  <td height="32" colspan="2" nowrap="nowrap"><input type="hidden" name="domains" value="www.is-israel.com">
+                    </input>
+                    <input type="text" name="q" size="31" maxlength="255" value="">
+                    </input>
+                    <input type="submit" name="sa" value="Поиск">
+                    </input></td>
+                <tr>
+                  <td nowrap="nowrap"><table>
+                      <tr>
+                        <td><input type="radio" name="sitesearch" value="">
+                          </input>
+                          <font size="-1" color="#33CCFF">Web</font></td>
+                        <td><input name="sitesearch" type="radio" value="www.is-israel.com" checked>
+                          </input>
+                          <font size="-1" color="#33CCFF">www.is-israel.com</font></td>
+                      </tr>
+                    </table>
+                    <input type="hidden" name="client" value="pub-6120602710754331">
+                    </input>
+                    <input type="hidden" name="forid" value="1">
+                    </input>
+                    <input type="hidden" name="ie" value="windows-1251">
+                    </input>
+                    <input type="hidden" name="oe" value="windows-1251">
+                    </input>
+                    <input type="hidden" name="cof" value="GALT:#CCCCCC;GL:1;DIV:#990000;VLC:FFCC66;AH:center;BGC:000000;LBGC:000000;ALC:FFFF66;LC:FFFF66;T:99C9FF;GFNT:CCCC99;GIMP:CCCC99;FORID:1">
+                    </input>
+                    <input type="hidden" name="hl" value="ru">
+                    </input></td>
+                  <td nowrap="nowrap"><div align="center"><a href="http://www.google.com/"><img src="http://www.google.com/logos/Logo_25blk.gif" border="0" alt="Google" align="middle"></a></div></td>
+                </tr>
+              </table>
+        </form>        </tr>
+      </table>
+      <blockquote>
+        <hr width="100%" class="style27">
+        <p align="center" class="Title"><strong>Как преобразовать  Трек (Track) в Роут (Route) при  помощи программы <a href="http://www.oziexplorer.com" target="_blank">OziExplorer</a>.</strong></p>
+        <blockquote></blockquote>
+        <p>&nbsp;</p>
+        <p><strong>25 октября 2007 г.</strong></p>
+        <p>&nbsp;</p>
+        <p>Для тех, кто  хочет познакомиться подробнее с программой <strong><a href="http://www.oziexplorer.com">OziExplorer</a></strong> -  замечательное on-line <strong>Руководство</strong> находится <a href="http://www.realbiker.ru/OziExplorer/Contents.shtml" target="_self"><strong>здесь</strong></a>, а его  <strong>PDF</strong>-файл - <a href="OziExplorer.pdf"><strong>здесь</strong></a>.</p>
+        <p>Но, к сожалению,  б<strong>о</strong>льшую часть того, что описано в этой статье, ни это <strong>Руководство</strong>, ни любое другое известное мне  не содержит, и  освоено мною методом &quot;проб и ошибок&quot; в результате длительного пользования программой. В тех же случаях,  когда руководство сможет помочь вам пониманию статьи, я буду ссылаться на   соответствующие  его пункты. </p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p><strong>Понятия: </strong></p>
+        <ul>
+          <li><strong><a href="http://www.realbiker.ru/OziExplorer/tracks.shtml" target="_blank">Track</a></strong> – траектория (<strong>Трек</strong>), которая записывается автоматически при вашем  движении, если GPS-приемник  включен. В ней сохраняется информация о координатах, высотах, скоростях  движения, времени и пр. Путь может содержать сотни и тысячи точек, но они все  безымянные.</li>
+          <li><strong><a href="http://www.realbiker.ru/OziExplorer/routes.shtml" target="_blank">Route</a></strong> – маршрут  (<strong>Роут</strong>), состоящий из набора точек – <strong><a href="http://www.realbiker.ru/OziExplorer/waypoints.shtml" target="_blank">Waypoints</a></strong> (<strong>Вейпоинт-ов</strong>), расположенных вдоль вашего  планируемого пути. Когда включена навигация по роуту вдоль маршрута, GPS-приемник будет показывать направление и  дистанцию до следующей точки. Каждая точка, обычно, имеет свое название, которое можно изменять.<br>
+            Фактически, <strong>Route</strong> - это просто последовательный набор точек, соединенных линией. Маршрут  может состоять из нескольких десятков точек (в современных моделях GPS – до <strong>250</strong>), а маршрутов может быть несколько (в современных моделях GPS – до <strong>50</strong>).</li>
+        </ul>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <ul>
+          <li><strong>Что мы имеем:</strong></li>
+        </ul>
+        <blockquote>
+          <p>Записанный  самостоятельно при помощи GPS, либо скачанный с Интернета, либо созданный вручную <strong>Трек</strong>.</p>
+        </blockquote>
+        <ul>
+          <li><strong>Задача:</strong></li>
+        </ul>
+        <blockquote>
+          <p>-Получить <strong>Роут</strong>  маршрута и сделать его максимально информативным. <br>
+            -Загрузить  полученный <strong>Роут</strong> в GPS и  ориентироваться по нему в путешествиях.</p>
+        </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p>«А зачем это мне надо»  - спросите вы? «Я для навигации прекрасно обхожусь и треком, а точнее его  функцией <strong>TracBack</strong> (возврата  по пройденному пути) или просто придерживаюсь лини трека!»<br>
+          Можно, конечно «обходиться»  и «придерживаться». Но, по моему мнению, <strong>Роут</strong> гораздо информативнее. </p>
+        <p><strong>И вот почему:</strong></p>
+        <blockquote>
+          <p><span dir="LTR">a) В <strong>Вейпоинтах</strong> (<strong>Waypoints</strong></span>) роута всегда можно дать смысловые названия точкам, к  примеру: &quot;вид&quot;, &quot;источник&quot;,  &quot;привал&quot; и пояснения к ним, которые будут отображены в дальнейшем на экране  GPS,</p>
+          <p><span dir="LTR">b) вейпоинтам <strong>роута</strong> можно присвоить разный&nbsp;</span> цвет, обычно соответствующий цвету тропинки  (швиля),</p>
+          <p><span dir="LTR">c) вейпоинты <strong>роута</strong> можно обозначить разными смысловыми значками - деревьев,  видовых площадок, источников воды, зон отдыха, заправок, стоянок и т.д..</span></p>
+          <p><span dir="LTR">d) вейпоинты <strong>роута</strong>, загруженные одновременно в несколько GPS</span>, помогают их владельцем координировать  свои действия. Типа - &quot;я нахожусь в такой-то точке&quot;, &quot;встретимся  в такой-то точке&quot; и т.д.<br>
+            <br>
+            Указанное в п. <strong>a-d</strong> невозможно сделать с <strong>Трек</strong>-ом.<BR>
+            Все перечисленне существенно помогает   ориентироваться. </p>
+              </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p>Изложенное ниже  может показаться  слишком запутанным и сложным. На самом деле, действий не  так уж много, они простые и с ними сможет справиться любой желающий. <strong>Непосредственное</strong> преобразование трека в путевые точки занимает не более<strong> 2-х</strong> минут. В принципе,  на этом можно было бы и остановиться, но если вы захотите довести ваш <strong>Роут</strong> до  совершенства - удалить все лишнее, подписать точки, присвоить им разные цвета, символы и пр., то понадобится  некоторое дополнительное время. Но  не все так страшно.</p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p><strong>Итак, кто  солидарен со мной - приступим:</strong></p>
+        <p><span dir="LTR"><strong><a name="p1"></a>1. Открываем <a href="http://www.oziexplorer.com" target="_blank">OziExplorer</a></strong></span><strong> и загружаем в него файл трека с харддиска  компьютера:</strong></p>
+        <p>1-1 + 1-2 </p>
+        <p><a href="1-1.jpg" target="_blank"><img src="1-1.jpg" width="748" height="702" border="0"></a></p>
+        <p><br>
+          <a href="1-2.jpg" target="_blank"><img src="1-2.jpg" width="742" height="704" border="0"></a></p>
+        <p><em>Можно  загрузить <strong>Трек</strong> в  <strong>OziExplorer</strong> непосредственно из GPS, но как это сделать, описывать здесь не буду - это тема отдельной статьи.</em><br>
+            </p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p><strong><a name="p2"></a>2. «Очищаем»  Трек, удалив из него все «лишние» точки:</strong></p>
+        <blockquote>
+          <p><strong>2.1.</strong> Откуда появляются «лишние» точки?</p>
+          <p>«Лишние» точки трека, это те точки, которые не связаны непосредственно с  маршрутом. Например, хозяин трека отошел от маршрута в сторонку, чтобы  ...ну, скажем, срочно надо было ему по делу.  <img src="../../smile.gif" width="15" height="15"> Или при записи трека ошиблись дорогой и сделали лишний, ненужный крюк.  Или (в некоторых моделях GPS) при включении прибор «автоматом» добавил точку  предыдущей позиции, не относящейся к треку, которая была записана ранее даже за сотни  километров от него. Или запись трека была прервана ненадолго (например - потерялись  спутники, менялись батарейки). Или был устроен привал, а GPS тем временем продолжал наставлять  ненужные точки вокруг места привала (обычно, в радиусе <strong>20-30 м</strong>.) и т.д.</p>
+          <p>Вот пример  последнего утверждения:</p>
+              </blockquote>
+        <p>1-3 </p>
+        <p><a href="1-3.jpg" target="_blank"><img src="1-3.jpg" width="766" height="700" border="0"></a></p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <blockquote>
+          <p>А что будет, если  «лишние» точки трека не удалять? Можно конечно и не удалять, но тогда при последующем  преобразовании трека появятся бесполезные точки (<strong>Waypoints</strong>), которые будут вас только сбивать с толку. И с  пути тоже. </p>
+          <p>Согласны, что вас  не устроит такой результат: </p>
+              </blockquote>
+        <p>1-4 </p>
+        <p><a href="1-4.jpg" target="_blank"><img src="1-4.jpg" width="754" height="694" border="0"></a> </p>
+        <blockquote>
+          <p>Кроме того,  количество <strong>Вейпоинтов</strong>, которые можно загрузить в один <strong>Роут</strong> GPS-а, ограничено конкретной его моделью,  поэтому «лишние» путевые точки без толку займут драгоценную память прибора.          </p>
+              </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        
+        <blockquote>
+          <p><strong>2.2.</strong> Как удалить «лишние» точки трека:</p>
+          <blockquote>
+            <p><span dir="LTR"><strong>2.2.1.</strong> Увеличиваете карту на экране  компьютера до максимально возможного размера:</span></p>
+              </blockquote>
+              </blockquote>
+        <p>1-5 </p>
+        <p><a href="1-5.jpg" target="_blank"><img src="1-5.jpg" width="738" height="710" border="0"></a> </p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+      </blockquote>
+      <ul>
+        <blockquote>
+          <blockquote>
+            <p><span dir="LTR"><strong>2.2.2.</strong> Открываете <strong>Track Control</strong> (<strong>1</strong>), </span>а затем <strong>Track  List</strong>  (<strong>2</strong>)</p>
+            <p><span dir="LTR"><strong>2.2.3.</strong> В <strong>Track</strong></span><strong> Control</strong> (<strong>1</strong>) ставите курсор мышки на название трека (<strong>3</strong>). При этом точки трека  станут видимыми.</p>
+            <p><span dir="LTR"><strong>2.2.4.</strong> Начинаете мышкой последовательно  «перетаскивать» карту по линии трека в поиске «лишних» точек.</span></p>
+            <p><span dir="LTR"><strong>2.2.5.</strong> Найдя «проблемный» участок,  переходите в <strong>Track</strong></span><strong> List</strong> (<strong>4</strong>)</p>
+            <p><span dir="LTR"><strong>2.2.6.</strong> В нем, с помощью вертикальных  стрелок клавиатуры последовательно проходитесь по точкам, пока на карте в  проблемном районе не покажется  «мишень»  (<strong>5</strong>). Устанавливаете ее на конкретную «лишнюю» точку.</span></p>
+            <p><span dir="LTR"><strong>2.2.7.</strong> Удаляете «лишние» точки в  окне <strong>Track</strong></span><strong> List</strong> по одной с помощью кнопки <strong>Delete</strong> (<strong>6</strong>) </p>
+          </blockquote>
+        </blockquote>
+</ul>
+      <blockquote>
+        <p>1-6 </p>
+        <p><a href="1-6.jpg" target="_blank"><img src="1-6.jpg" width="766" height="700" border="0"></a></p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+      </blockquote>
+      <ul>
+        <blockquote>
+          <blockquote>
+            <p><span dir="LTR"><strong>2.2.8.</strong> Можно удалять несколько  точек (<strong>1</strong>) одновременно кнопкой <strong>Delete</strong></span> (<strong>2</strong>), предварительно выделив в <strong>Track List</strong> ряд последовательных строчек (с помощью левой кнопки мышки при  удерживаемой клавише <strong>Shift</strong>).</p>
+            <p><span dir="LTR"><strong>2.2.9.</strong> В этом случае, программа  попросит (<strong>3</strong>) подтвердить удаление, что вы и сделаете:</span></p>
+          </blockquote>
+        </blockquote>
+</ul>
+      <blockquote>
+        <p>1-7 </p>
+        <p><a href="1-7.jpg" target="_blank"><img src="1-7.jpg" width="744" height="712" border="0"></a></p>
+        <blockquote>
+          <blockquote>
+            <p><strong>2.2.10.</strong> Таким «макаром» удаляете все  «лишние» точки пока не удовлетворитесь результатом.</p>
+          </blockquote>
+        </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        
+        <blockquote>
+          <blockquote>
+            <p><strong>2.2.11.</strong> Вот результат для  вышеприведенного «корявого» участка после удаления «лишних» точек:</p>
+          </blockquote>
+        </blockquote>
+        <p>1-8 +1-3 </p>
+        <p><a href="1-8.jpg"><img src="1-8.jpg" width="720" height="714" border="0"></a> </p>
+        <blockquote>
+          <blockquote>
+            <p>А это (для  сравнения) то, что было «до»:</p>
+          </blockquote>
+        </blockquote>
+        <p><a href="1-3.jpg" target="_blank"><img src="1-3.jpg" width="766" height="700" border="0"></a></p>
+        <blockquote>
+          <blockquote>
+            <p>Правда, потрудились на славу? <img src="../../smile.gif" width="15" height="15"><br>
+            </p>
+          </blockquote>
+        </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <blockquote>
+          <p><strong>2.3.</strong> Последнее что осталось – сохранить (<strong>1</strong>+<strong>3</strong>) полученный «чистенький» <strong>Трек</strong> под  новым именем (<strong>2</strong>):</p>
+        </blockquote>
+        <p>1-9<br>
+          1-10 </p>
+        <p><a href="1-9.jpg" target="_blank"><img src="1-9.jpg" width="742" height="710" border="0"></a> </p>
+        <p><a href="1-10.jpg" target="_blank"><img src="1-10.jpg" width="748" height="610" border="0"></a><br>
+        </p>
+        <blockquote>
+          <p><em>Настоятельно  рекомендую сохранять файл именно  под <strong>новым</strong> именем, а не перезаписывать старый. В этом случае, если вы ошибетесь при вышеописанных  манипуляциях, то всегда можно будет ...начать все сначала. </em><img src="../../smile.gif" width="15" height="15"> </p>
+        </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <p><strong><a name="p3"></a>3. «Фильтрация»  трека.</strong></p>
+          <p>Продолжим  подготовку трека к последующему преобразованию в <strong>Вейпоинт</strong>-ы:</p>
+          <p><strong>Аксиома:</strong> при  преобразовании <strong>Трек</strong>-а в <strong>Вейпоинт</strong>-ы вы всегда получите <strong>ровно</strong> столько <strong>Вейпоит</strong>-ов,  сколько точек содержал <strong>Трек</strong>. </p>
+        <p>Хорошо ли это?</p>
+          <p>Не очень. <strong>Трек</strong>,  записанный в однодневном велопоходе средней протяженности содержит от <strong>600</strong> до  <strong>2000</strong> и более точек.  Для одного <strong>Роут</strong>-а это  явный перебор – даже в современных GPS-ах <strong>Роут</strong> способен включать в себя <strong>50-250</strong> точек в зависимости от модели.  Конечно, можно подготовить и несколько последовательных <strong>Роут</strong>-ов (в некоторых  случаях так и придется делать), но и их количество также ограничено конкретной  моделью GPS, а пользование  несколькими <strong>Роут</strong>-ами на маршруте не столь удобно.<br>
+            <br>
+        Практика  показывает, что даже для самого запутанного однодневного велопохода вполне  достаточно <strong>250</strong> <strong>Вейпоинт</strong>-ов. Б<strong>о</strong>льшее их количество только загромождает  экран GPS-а, не принося  конкретной пользы. </p>
+          <p>Как же <strong>рационально</strong>  уменьшить количество точек в <strong>Трек</strong>-е? Выход есть.</p>
+          <p>В <strong><a href="http://www.oziexplorer.com">OziExplorer</a></strong>-е имеется замечательная функция –  фильтрация трека (<strong>Track Filter Control</strong>). Она по специальному алгоритму и очень неплохо, автоматически «сглаживает  трек», оставляя только самые «ответственные» точки в количестве задаваемом  вами. </p>
+          <p><strong>Рассмотрим  вышесказанное на конкретном примере:</strong></p>
+          <ul type="disc">
+            <li><strong>Что мы имеем:</strong></li>
+          </ul>
+          <p>Трек, «очищенный»  от лишних точек в соответствии с <a href="#p2" target="_self"><strong>п. 2</strong></a>, но содержащий слишком большое количество  точек.</p>
+          <ul type="disc">
+            <li><strong>Подзадача:</strong></li>
+          </ul>
+          <p>Уменьшить  количество точек до выбранного вами значения.</p>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <blockquote>
+            <p><strong>3.1.</strong> <span dir="LTR">Открываете <strong>OziExplorer</strong></span> и загружаете в него «очищенный» файл  трека с харддиска компьютера точно так же как описано в <a href="#p1" target="_self"><strong>п.1</strong></a> этой статьи.</p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <p><strong>3.2.</strong> <span dir="LTR">Нажимаете мышкой на кнопку <strong>Track</strong></span><strong> Control</strong> (<strong>1</strong>) (если она не была нажата) в <strong>OziExplorer</strong>-е, а заодно проверяете чтобы кнопка визуализации  трека (<strong>2</strong>), находящаяся под ней была нажата тоже.</p>
+            <p>При этом на экран  должно вызваться одноименное окошко (<strong>3</strong>). В первой его строчке вы увидите  характеристики вашего трека (<strong>4</strong>). Кликните (<strong>4</strong>) туда, чтобы засветить точки трека  (<strong>5</strong>). <br>
+          Обратите внимание  на количество точек, который он содержит (<strong>6</strong>) а также на точки трека (<strong>5</strong>). Как я  писал, выше, вам явно столько не потребуется.</p>
+            <p>2-0</p>
+            <p><a href="2-0.jpg" target="_blank"><img src="2-0.jpg" width="745" height="978"></a></p>
+          </blockquote>
+          <div> </div>
+          <blockquote>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <p><strong>3.3.</strong> <span dir="LTR">Добираетесь до меню <strong>Track</strong></span><strong> Filter Control</strong> из главного  меню программы, последовательно нажимая кнопки, как показано на рисунке: </p>
+        </blockquote>
+          <ul>2-1
+          </ul>
+          <blockquote>
+            <p><a href="2-1.jpg" target="_blank"><img src="2-1.jpg" width="740" height="724"></a></p>
+          </blockquote>
+          <div> </div>
+          <blockquote>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <p><strong>3.4.</strong> <span dir="LTR">При этом на экране появится одноименное  окошко (<strong>1</strong>):</span></p>
+        </blockquote>
+          <ul>2-2
+          </ul>
+          <blockquote>
+            <p><a href="2-2.jpg"><img src="2-2.jpg" width="736" height="722"></a></p>
+            <p>Обратите внимание  на строчку <strong>Number Points</strong> (<strong>2</strong>). Именно в ней вы можете задать нужное  количество точек нового трека, который будет получен фильтрацией существующего.  Рекомендую записать <strong>МАКСИМАЛЬНОЕ</strong> количество точек, которое может вместить <strong>ОДИН</strong>  <strong>Роут</strong> вашего GPS-а.</p>
+            <p> Вписываем нужное значение (например, для простых моделей GPS-ов   - <strong>50</strong>) и нажимаем на кнопку <strong>Filter</strong> (<strong>3</strong>). </p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+                      
+            <p><strong>3.5.</strong> При этом в окошке  <strong>Track Control</strong> появляется новый, отфильтрованный  трек (<strong>1</strong>), содержащий <strong>50</strong> точек, он также наносится и на карту (<strong>2</strong>) (в данном  случае – красным цветом). Он то вам и нужен.</p>
+            <p>Каждая точка (<strong>3</strong>) вновь созданного трека в будущем станет <strong>Вейпоинт</strong>-ом.  Посмотрите на карту и оцените эти точки – достаточно ли их количество для  будущей навигации, сто<strong>я</strong>т ли они на <strong>всех</strong> «ключевых» изменениях  направлений маршрута, прорисованного в данном случае синим треком? </p>
+            <p>2-3</p>
+            <p><a href="2-3.jpg" target="_blank"><img src="2-3.jpg" width="798" height="974"></a></p>
+          </blockquote>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <blockquote>
+            <p><strong>3.6.</strong> Если да, то на  этом можно и остановиться. Но если точек в отфильтрованном треке, по вашему мнению,  не достаточно - измените их количество, вписав в окошко <strong>Number Points</strong> новое значение, кратное первоначальному. Оно теперь в этом примере  будет равным <strong>100</strong>.  Затем снова нажмите на  кнопку <strong>Filter</strong>. При  этом отфильтрованный трек изменится, теперь он будет содержать <strong>100</strong> точек и при  этом станет более плавно огибать траекторию. Убедитесь в этом сами, сравнив красные  треки этого и предыдущего рисунков:</p>
+            <p>2-4</p>
+            <p><a href="2-4.jpg" target="_blank"><img src="2-4.jpg" width="744" height="998"></a></p>
+            <p>Вот теперь  становится понятным, почему более продвинутые (а, следовательно, более дорогие)  модели GPS включающие в  один <strong>Роут</strong> до <strong>250</strong> точек лучше!</p>
+            <p>Продолжая действовать таким образом, вы подбираете <strong>минимально</strong> необходимое количество точек, которое будет содержать ваш будущий <strong>Роут</strong>, пока не  удовлетворитесь результатом.</p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <p><strong>3.7.</strong> Последнее что  осталось сделать в данном разделе с вновь полученным треком - сохранить его на  диске компьютера. В окошке <strong>Track Conrtrol</strong> (<strong>1</strong>) дважды кликаем на нем (<strong>2</strong>). При этом  открывается дополнительное окошко <strong>Track Properties</strong> (<strong>3</strong>). Нажимаем  в нем на кнопку Save (<strong>4</strong>), во  вновь открывшемся окошке <strong>Save Track to File</strong> (<strong>5</strong>), выбираем нужную папку на диске, задаем  имя файла отфильтрованного трека (<strong>6</strong>) и жмем на кнопку <strong>Save</strong> (<strong>7</strong>).<br>
+              Кстати, в окошке <strong>Track Properties</strong> (<strong>3</strong>) можно задавать цвет ширину и некоторые другие свойства трека. Но в  данном случае, это не существенно, поскольку трек временный и в дальнейшем  после получения из него <strong>Вейпоинт</strong>-ов будет удален.</p>
+            <p>2-5<br>
+            </p>
+            <p><a href="2-5.jpg" target="_blank"><img src="2-5.jpg" width="777" height="960"></a></p>
+        </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">    
+        <span dir="LTR"><strong>4. Преобразование трека в Вейпоинт-ы.</strong></span>
+          <ul type="disc">
+            <li><strong>Что мы имеем:</strong></li>
+          </ul>
+          <p>Трек, «очищенный»  от лишних точек в соответствии с <a href="#p2"><strong>п.2</strong></a>, и отфильтрованный в соответствии с <a href="#p1" target="_self"><strong>п.3</strong></a> до  точек, число которых будет соответствовать количеству полученных в дальнейшем <strong>Вейпоинт</strong>-ов.<br>
+          </p>
+          <ul type="disc">
+            <li><strong>Подзадача:</strong></li>
+          </ul>
+          <p>Получить <strong>Вейпоинт</strong>-ы  для будущего <strong>Роут</strong>-а.</p>
+<hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <p>Функция  преобразования трека в <strong>Вейпоинт</strong>-ы напрямую не была почему-то  предусмотрена разработчиками <strong><a href="http://www.oziexplorer.com">OziExplorer</a></strong>-a, поэтому придется немного поизвращаться.</p>
+          <p>Просто повторите  описанные мною ниже действия и пол<strong>у</strong>чите результат. Если результат не получился,  значит, вы что-то  повторили не правильно. В этом случае сделайте все сначала.</p>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <p><strong>Итак,  приступим:</strong></p>
+          <blockquote>
+            <p><strong>4.1. </strong><span dir="LTR">Открываете программу <strong><a href="http://www.oziexplorer.com" target="_blank">OziExplorer</a></strong></span> загружаете в нее точки с помощью  команды <strong>Load</strong><strong> Points</strong><strong> from</strong><strong> Track</strong><strong> File</strong>:</p>
+            <p>3-0 </p>
+            <p><a href="3-0.gif" target="_blank"><img src="3-0.gif" width="738" height="716"></a></p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <p><span dir="LTR"><strong>4.2.</strong> В качестве <strong>Track</strong></span><strong> File</strong> выбираете файл “<strong>vremenniy</strong>” подготовленный и записанный на харддиск в соответствии с  <a href="#p2" target="_self"><strong>п.2</strong></a> и  <a href="#p3" target="_self"><strong>п.3</strong></a>:</p>
+            <p>3-1</p>
+            <p><a href="3-1.gif" target="_blank"><img src="3-1.gif" width="740" height="710"></a></p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <strong>4.3.</strong> <span dir="LTR">Результат:</span></blockquote>
+          <ul>3-2
+          </ul>
+          <blockquote>
+            <p><a href="3-2.gif" target="_blank"><img src="3-2.gif" width="750" height="715"></a></p>
+            Эти точки не  имеют ничего общего с <strong>Вейпоинт</strong>-ами и нужны вам временно. Поэтому на них  останавливаться не буду - кого интересует, почитайте <a href="http://www.realbiker.ru/OziExplorer/points.shtml" target="_blank"><strong>здесь</strong></a>.
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">  
+          <span dir="LTR"> <strong>4.4.</strong> Конвертировать загруженные точки в <strong>Вейпоинт</strong>-ы, и  заодно записать <strong>Вейпоинт</strong>-ы на харддиск следует при помощи  команды <strong>Save Points to Waypoints File</strong>:</span></blockquote>
+          <ul>3-3
+          </ul>
+          <blockquote>
+            <p><a href="3-3.gif" target="_blank"><img src="3-3.gif" width="741" height="712"></a></p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <strong><a name="p45"></a>4.5.</strong> <span dir="LTR">Остается только задать  имя файла <strong>Вейпоинт</strong>-ов (<strong>1</strong>) и  нажать на <strong>Save</strong></span> (<strong>2</strong>):
+            <p>3-4</p>
+            <p><a href="3-4.gif" target="_blank"><img src="3-4.gif" width="752" height="720"></a></p>
+            <p>Все! <strong>Вейпоит</strong>-ы созданы и записаны в компьютер! </p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            Но работа еще не  закончена.
+            <p><strong>4.6.</strong>   <span dir="LTR"> Командой <strong>Clear All Points from Map</strong> удаляете с экрана, ненужные уже, все точки:</span></p>
+            <p>3-5</p>
+            <p><a href="3-5.gif" target="_blank"><img src="3-5.gif" width="746" height="714"></a></p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <strong>4.7.</strong>   <span dir="LTR"> Подтверждаете удаление:</span>
+            <p>3-6</p>
+            <p><a href="3-6.gif" target="_blank"><img src="3-6.gif" width="743" height="725"></a></p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <strong>4.8.   Результат</strong><span dir="LTR"> – «чистая» карта:</span>
+            <p>3-7</p>
+            <p><a href="3-7.gif" target="_blank"><img src="3-7.gif" width="752" height="700"></a></p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <strong><a name="p49"></a>4.9.</strong> <span dir="LTR">Командой <strong>Load Waypoints from File</strong> загружаете с харддиска созданные <strong>Вейпоинт</strong>-ы:</span>
+            <p>3-8</p>
+            <p><a href="3-8.gif" target="_blank"><img src="3-8.gif" width="741" height="716"></a></p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <strong>4.10.</strong>  <span dir="LTR">Находите в соответствующем директории на харддиске созданный вами в <strong><a href="#p45" target="_self">п.4.5</a></strong> файл <strong>Вейпоинт</strong>-ов (<strong>1</strong>) и подтверждаете его загрузку (<strong>2</strong>):</span>
+            <p>3-9</p>
+            <p><a href="3-9.gif" target="_blank"><img src="3-9.gif" width="752" height="716"></a></p>
+            <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+            <strong>4.11.</strong>   <span dir="LTR">Результат:</span>
+            <p>3-10</p>
+            <p><a href="3-10.gif" target="_blank"><img src="3-10.gif" width="741" height="719"></a></p>
+          </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        Ура! Долгожданные <strong>Вейпоинт</strong>-ы созданы и загружены <strong>удачно</strong>! Их количество в этом  примере равно ровно <strong>100</strong> - именно столько, сколько точек было в файле трека «<strong>vremenniy</strong>».<p>Вот только теперь  можно расслабиться и выпить кофе. <img src="../../smile.gif" width="15" height="15"> Но расслабляться не сильно, поскольку...</p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+
+        <p><strong><a name="p5"></a>5. Задание свойств путевым точкам - Вейпоинт-ам (Waypoints).</strong></p>
+        <p>Вот теперь вы  подобрались к самому главному – тому, ради чего так тяжело трудились в  предыдущих главах. А именно – заданию свойств <strong>Вейпоинт</strong>-ам (<strong>Waypoints</strong>), которые после загрузки GPS дадут максимум информации на  маршруте. </p>
+        <p>В <strong>Свойствах</strong> можно  задать цвет <strong>Вейпоинт</strong>-ов в соответствии с цветом тропинки (швиля) или характера  местности (подъем, спуск, песок, асфальт, камни и т.д.); их можно подписать  (привал, брод, опасность и т.д.), а в описании дать соответствующие указания  или памятку (скажем, «посмотреть направо» «сменить резину») <img src="../../smile.gif" width="15" height="15">; задать высоту  местности; символы точки смогут наглядно показывать, например, место ночлега,  смотровую площадку, привал, заправку, источник воды и т.д. В общем, полет фантазии  может быть безграничным и разовьется у вас по мере приобретения опыта.</p>
+        <p>Подробнее о  свойствах <strong>Вейпоинт</strong>-ов можно почитать в соответствующей главе <a href="http://www.realbiker.ru/OziExplorer/waypoint_properties.shtml" target="_blank"><strong>Руководства</strong></a> по  пользованию программой <a href="http://www.oziexplorer.com/"><strong>OziExplorer</strong></a>, поэтому я здесь на этом подробно останавливаться не буду, а только кратко  опишу те «полезности», которые в <strong><a href="http://www.realbiker.ru/OziExplorer/Contents.shtml">Руководстве</a></strong> не указаны.</p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <blockquote>
+          <p><strong>5.1.</strong> <span dir="LTR">Если вы выходили из программы <strong>OziExplorer</strong></span>, запустите ее и загрузите файл созданных  в предыдущей главе <strong>Вейпоинт</strong>-ов в соответствии с <strong><a href="#p49" target="_self">пп.4-9 – 4-11</a></strong>.</p>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <p><strong>5.2.</strong> Свойства <strong>каждой</strong> конкретной точки создаются при помощи окна <strong>Waypoints</strong><strong> Properties</strong>:</p>
+        
+          <p>4-0</p>
+          <p><a href="4-0.gif" target="_blank"><img src="4-0.gif" width="408" height="372" border="0"></a></p>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <p><strong>5.3.</strong> Окно <strong>Waypoints</strong><strong> Properties</strong> (<strong>1</strong>) вызывается двойным «кликом» на крестике  <strong>(<strong>2</strong>) Вейпоинт</strong>-а :</p>
+        </blockquote>
+        <ol>
+          <p>4-1</p>
+          <p><a href="4-1.gif" target="_blank"><img src="4-1.gif" width="744" height="720" border="0"></a> </p>
+        </ol>
+        <blockquote>
+          <p>Как именно и где меняются свойства <strong>Вейпоинт</strong>-а, включая надписи,  надеюсь понятно из вышеприведенного рисунка и <strong><a href="http://www.realbiker.ru/OziExplorer/waypoint_properties.shtml" target="_blank">Руководства</a></strong>.</p>
+          <p><strong>Предупреждение!</strong> При задании имени (<strong>Name</strong>) <strong>Вейпоинт</strong>-у <strong>обязательно</strong> оставляйте его порядковый номер, а имя добавляйте, например через тире (<strong>3</strong>)!  Номера вам в будущем сильно облегчат задачу при создании  <strong>Роут</strong>-а. <br>
+            <strong>Два тире в одном имени не допускаются, поскольку в дальнейшем это приводит  к потере точкой своих координат.</strong> Не знаю причины этого, видимо глюк программы.</p>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <strong>5.4.</strong> <span dir="LTR">Результат работы над <strong>одной</strong> точкой:</span></blockquote>
+        <ol>
+          <p>4-2</p>
+          <p><a href="4-2.gif" target="_blank"><img src="4-2.gif" width="746" height="716" border="0"></a></p>
+        </ol>
+        <blockquote>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <p><strong>5.5.</strong> <span dir="LTR"><strong>Теперь, внимание</strong>!  Никакого терпения и времени не хватит для  того, чтобы менять одинаковые свойства <strong>каждой</strong> точки индивидуально. Но, слава  богу, этого не потребуется. Выходом из положения служит окно <strong>Waypoint</strong></span><strong> List</strong> (<strong>1</strong>), вызываемое нажатием на  иконку  <strong>Show The Waypoints List</strong> (<strong>2</strong>):</p>
+        </blockquote>
+        <ol>
+          <p>4-3</p>
+          <p><a href="4-3.gif" target="_blank"><img src="4-3.gif" alt="Нажать для увеличения" width="744" height="564" border="0"></a></p>
+        </ol>
+        <blockquote>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        В нем можно  выделить любые <strong>Вейпоинт</strong>-ы в любой последовательности (<strong>1</strong>) с  помощью левой кнопки мышки при удерживаемой клавише клавиатуры <strong>Shift</strong> (для выделения точек расположенных  подряд) или <strong>Ctrl</strong> (для  точек расположенных вразброс).
+          <p>Свойства, в этом  случае, задаются только для выделенных точек с помощью команд (<strong>2</strong>) подменю  вызываемого кнопкой <strong>Change</strong><strong> Properties</strong><strong> </strong>(<strong>3</strong>). По окончании задания свойств группе точек, нажимаете кнопку <strong>Close</strong><strong> </strong>(<strong>4</strong>):</p>
+          <p>4-4</p>
+          <p><a href="4-4.gif" target="_blank"><img src="4-4.gif" alt="Нажать для увеличения" width="744" height="554" border="0"></a></p>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <span dir="LTR"> <strong>5.6.</strong> Результат:</span>
+          <p>4-5</p>
+          <p><a href="4-5.gif" target="_blank"><img src="4-5.gif" alt="Нажать для увеличения" width="731" height="719" border="0"></a></p>
+          <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+          <p><strong>5.7.</strong> <span dir="LTR"> После того как общие свойства точек были  заданы, можно «пройтись» еще разок по «ключевым» точкам по одной и изменить или  дополнить некоторые индивидуальные их параметры - подписать, изменить символ, цвет,  ориентацию и пр. Делается это при помощи окна Свойств <strong>Waypoints</strong></span><strong> Properties</strong>, вызываемого двойным «кликом» на точке как было  описано в <strong>п.5.2</strong> (один из способов).</p>
+          <p>Если вам местоположение какой-либо точки по какой-то причине не нравится, сдвинуть ее на карте можно мышкой при удерживании  левой кнопки c последующим нажатием и удерживанием клавиши <strong>Shift</strong>.</p>
+          <p><strong>5.8.</strong> <span dir="LTR"> Последнее что остается – сохранить  изменения на харддиске вашего компьютера. Быстрее всего это сделать, не через меню, а нажав на  кнопку <strong>Waypoints</strong></span>. Цвет надписи кнопки после «клика» на нее изменится с красного на черный,  подтверждая успешную запись:</p>
+          <p>4-6</p>
+          <p><a href="4-6.gif" target="_blank"><img src="4-6.gif" alt="Нажать для увеличения" width="744" height="608" border="0"></a></p>
+        </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <span dir="LTR"><strong>6. Создание Роут-а.</strong></span>
+        <ul type="disc">
+          <li><strong>Что вы имеете:</strong></li>
+        </ul>
+        <p><strong>Вайпоинт</strong>-ы, пронумерованные в порядке вашего  следования и со свойствами, заданными вами в соответствии с <strong><a href="#p5" target="_self">п.5</a></strong>. </p>
+        <ul type="disc">
+          <li><strong>Подзадача:</strong>          </li>
+        </ul>
+        <blockquote>
+          <p>Создать <strong>Роут</strong> (<strong>Роут</strong>-ы) маршрута и загрузить в GPS.</p>
+        </blockquote>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p>Общие принципы создания <strong>Роут</strong>-а из <strong>Вейпоинт</strong>-ов описан в <a href="http://www.realbiker.ru/OziExplorer/routes.shtml" target="_blank">этом</a>, <a href="http://www.realbiker.ru/OziExplorer/route_editor.shtml" target="_blank">этом</a> и <a href="http://www.realbiker.ru/OziExplorer/route_properties.shtml" target="_blank">этом</a> разделах <strong><a href="http://www.realbiker.ru/OziExplorer/Contents.shtml" target="_blank">Руководства</a></strong>. Те,  из вас  кто впервые создает <strong>Роут</strong>,  почитайте их, чтобы лучше понимать, что к чему. </p>
+        <p>А я лишь приведу  конкретный пример, чтобы довести статью до ее логического завершения.</p>
+        <p><strong>Итак:</strong></p>
+        <blockquote>
+        <p><strong>6.1.</strong> Если вы выходили из программы <strong>OziExplorer</strong>, запустите ее и загрузите <strong>Вейпоинт</strong>-ы как  было описано выше, в п<a href="#p49" target="_self">.<strong>4.9-4.11</strong></a> настоящей статьи.</p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p><strong>6.2.</strong> Нажмите на кнопку меню <strong>Show</strong><strong>/Hide</strong><strong> the</strong><strong> Route</strong><strong> editor</strong> (<strong>1</strong>). При этом всплывет окно <strong>Route</strong><strong> Editor</strong> (<strong>2</strong>). <br>
+          Проверьте, чтобы  кнопка <strong>Show</strong><strong>/Hide</strong><strong> Route</strong><strong> Plot</strong> (<strong>3</strong>), делающая  будущий <strong>Роут</strong> видимым, была нажата. В противном случае, кликните на нее.</p>
+        <p><strong>6.3.</strong> <span dir="LTR">В окне <strong>Route</strong></span><strong> Editor</strong> (<strong>2</strong>) кликните дважды на строчке первого <strong>Роут</strong>-а (<strong>4</strong>). При  этом всплывет окно <strong>Route</strong><strong> Properties</strong> (<strong>5</strong>) первого <strong>Роут</strong>-а, с  которым вам предстоит работать.</p>
+        <p>5-1</p>
+        <p><a href="5-1.gif" target="_blank"><img src="5-1.gif" width="951" height="689"></a></p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p><strong>6.4.</strong> <span dir="LTR">В строчке <strong>Name</strong></span> (<strong>1</strong>) задаете имя <strong>Роут</strong>-а,  под этим именем он в дальнейшем запишется в GPS. В строчке <strong>Description</strong> (<strong>2</strong>) запишите памятку о  маршруте, но это не обязательно.</p>
+        <p><strong>Теперь главное</strong>:</p>
+        <p>          В левой части  окна <strong>Route</strong><strong> Properties</strong> (<strong>3</strong>) находится список <strong>Вейпоинт</strong>-ов <strong>Waypoints</strong> <strong>Available</strong> (<strong>4</strong>), из которого предстоит  сделать <strong>Роут</strong>. <br>
+          Выделяете подряд  нужное количество <strong>Вейпоинт</strong>-ов (<strong>5</strong>), начиная с первой (но не более  чем в состоянии будет вместить в себя один <strong>Роут</strong> вашего GPS-а в зависимости от его модели) нажатием  первой и последней из них левой кнопкой мышки удерживая одновременно клавишу <strong>Shift</strong>, а затем жмете на кнопку <strong>Add</strong><strong>&gt;</strong> (<strong>6</strong>). <br>
+          При этом  выделенные точки добавятся в праве окно <strong>Waypoints</strong><strong> in</strong><strong> Route</strong> (<strong>7</strong>) и послужат  составляющими будущего <strong>Роут</strong>-а.</p>
+        <p>5-2</p>
+        <p><a href="5-2.gif" target="_blank"><img src="5-2.gif" width="947" height="691"></a></p>
+        <p> <strong>6.5.</strong> Жмете <strong>ОК</strong> (<strong>8</strong>)</p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p><strong>6.6.</strong> <span dir="LTR"><strong>Роут</strong></span> создан (<strong>1</strong>)! </p>
+        <p>На карте он, в данном случае красного цвета, но цвет можно выбрать любой из раскрывающегося списка <strong>Color</strong> окна <strong><strong>Route Properties</strong></strong>.</p>
+        <p>Но что делать,  если количество <strong>Вейпоинт</strong>-ов больше чем способен вместить в себя один <strong>Роут</strong> вашего GPS-а? Да, очень  просто – создать следующий <strong>Роут -</strong> <strong>2-й</strong>, <strong>3-й</strong> и т.д.  Максимальное их число  ограничено только моделью конкретного GPS-а. <br>
+          Создать все  последующие <strong>Роут</strong>-ы можно по образу и подобию первого, с той лишь  разницей, что окно <strong>Route</strong><strong> Properties</strong> для каждого <strong>Роут</strong>-а вызывается  двойным кликом на, соответственно, <strong>2-й</strong> <strong>3-й</strong> и т.д. строчке окна <strong>Route</strong><strong> Editor</strong> (<strong>2</strong>), (<strong>3</strong>).</p>
+        <p>5-3</p>
+        <p><a href="5-3.gif" target="_blank"><img src="5-3.gif" width="960" height="722"></a></p>
+        <p><strong>6.7.</strong> Последнее,  что осталось – записать созданный файл <strong>Роут</strong>-а (<strong>Роут</strong>-ов) на  харддиск вашего компьютера. Быстрее всего это сделать, нажав кнопку <strong>Route</strong> (<strong>4</strong>) в верхнем правом углу  программы. Надпись на кнопке <strong>до</strong> записи светится красным цветом, а после  того как файл запишется на диск, изменит свой цвет на черный. </p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <strong>6.8.</strong> При этом откроется окно  записи <strong>Роут</strong>-а, где нужно задать имя файла <strong>Роут</strong>-а и место на  диске, где он будет храниться:
+        <p>5-4</p>
+        <p><a href="5-4.gif" target="_blank"><img src="5-4.gif" width="426" height="271"></a></p>
+        <p>Завершает процесс нажатие кнопки <strong>Save</strong><span dir="RTL"> </span><span dir="RTL"><span dir="RTL"> </span>.</span><span dir="LTR"> </span><span dir="LTR"> </span> <br>
+        </p>
+        </blockquote>
+        <p><strong>Всё!</strong></p>
+        <hr align="JUSTIFY" width="100%" size="1" noshade class="style27">
+        <p><strong>7.</strong> Я не буду  останавливаться на том, как настроить программу и загрузить полученный <strong>Роут</strong> в ваш GPS, полагая, что вы  умеете это делать. <br>
+          В противном  случае прочитайте  разделы «<strong>GPS</strong><strong>-приемники</strong>» и «<strong>Меню</strong>» <strong><a href="http://www.realbiker.ru/OziExplorer/Contents.shtml" target="_blank">Руководства</a></strong>, выбрав там подразделы  соответствующие вашей модели GPS-а.</p>
+        <p><strong>Успехов!</strong><strong><span dir="RTL"> </span></strong></p>
+      </blockquote>
+</body>
+</html>
