@@ -1,0 +1,6292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx
+ xmlns="http://www.topografix.com/GPX/1/1"
+ creator="OziExplorer Version 3956d - http://www.oziexplorer.com"
+ version="1.1"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+ <time>2015-03-04T09:10:34Z</time>
+ <bounds minlat="33.209651" minlon="35.631772" maxlat="33.291513" maxlon="35.763872"/>
+</metadata>
+<wpt lat="33.2207520" lon="35.6320300">
+ <ele>110.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>1-Start</name>
+ <cmt>1</cmt>
+ <desc>1</desc>
+ <sym>Bike Trail</sym>
+</wpt>
+<wpt lat="33.2217030" lon="35.6338540">
+ <ele>116.433601</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>2</name>
+ <cmt>2</cmt>
+ <desc>2</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2236240" lon="35.6317720">
+ <ele>124.053596</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>3</name>
+ <cmt>3</cmt>
+ <desc>3</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2242340" lon="35.6322020">
+ <ele>124.053596</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>4</name>
+ <cmt>4</cmt>
+ <desc>4</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2253290" lon="35.6356560">
+ <ele>126.187202</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>5</name>
+ <cmt>5</cmt>
+ <desc>5</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2274260" lon="35.6398790">
+ <ele>133.197601</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>6</name>
+ <cmt>6</cmt>
+ <desc>6</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2278140" lon="35.6412300">
+ <ele>134.416794</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>7</name>
+ <cmt>7</cmt>
+ <desc>7</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2327800" lon="35.6477150">
+ <ele>151.180801</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>8</name>
+ <cmt>8</cmt>
+ <desc>8</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2381150" lon="35.6554440">
+ <ele>171.297607</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>9</name>
+ <cmt>9</cmt>
+ <desc>9</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2379110" lon="35.6571770">
+ <ele>175.259995</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>10</name>
+ <cmt>10</cmt>
+ <desc>10</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2384950" lon="35.6600280">
+ <ele>179.832001</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>11</name>
+ <cmt>11</cmt>
+ <desc>11</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2472620" lon="35.6679500">
+ <ele>229.514404</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>12</name>
+ <cmt>12</cmt>
+ <desc>12</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2509680" lon="35.6726600">
+ <ele>255.117599</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>13</name>
+ <cmt>13</cmt>
+ <desc>13</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2505250" lon="35.6743420">
+ <ele>261.823212</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>14</name>
+ <cmt>14</cmt>
+ <desc>14</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2513450" lon="35.6780760">
+ <ele>283.768799</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>15</name>
+ <cmt>15</cmt>
+ <desc>15</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2510530" lon="35.6784640">
+ <ele>289.864807</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>16</name>
+ <cmt>16</cmt>
+ <desc>16</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2486680" lon="35.6780670">
+ <ele>295.960785</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>17</name>
+ <cmt>17</cmt>
+ <desc>17</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2483350" lon="35.6784210">
+ <ele>301.752014</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>18</name>
+ <cmt>18</cmt>
+ <desc>18</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2479050" lon="35.6801660">
+ <ele>317.906403</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>19</name>
+ <cmt>19</cmt>
+ <desc>19</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2474370" lon="35.6884150">
+ <ele>347.471985</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>20</name>
+ <cmt>20</cmt>
+ <desc>20</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2475850" lon="35.6901530">
+ <ele>345.947998</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>21</name>
+ <cmt>21</cmt>
+ <desc>21</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2482240" lon="35.6916180">
+ <ele>348.386414</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>22</name>
+ <cmt>22</cmt>
+ <desc>22</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2476140" lon="35.6924010">
+ <ele>350.824799</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>23</name>
+ <cmt>23</cmt>
+ <desc>23</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2482590" lon="35.6928460">
+ <ele>352.653595</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>24</name>
+ <cmt>24</cmt>
+ <desc>24</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2482780" lon="35.6924000">
+ <ele>351.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>25-RekaHermon</name>
+ <cmt>25</cmt>
+ <desc>25</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2483090" lon="35.6929290">
+ <ele>352.653595</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>26</name>
+ <cmt>26</cmt>
+ <desc>26</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2474205" lon="35.6925085">
+ <ele>349.000031</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>27-Voda</name>
+ <cmt>27</cmt>
+ <desc>27</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2434403" lon="35.6899979">
+ <ele>359.968811</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>28</name>
+ <cmt>28</cmt>
+ <desc>28</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2425510" lon="35.6915000">
+ <ele>364.845612</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>29</name>
+ <cmt>29</cmt>
+ <desc>29</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2434690" lon="35.6953460">
+ <ele>376.732788</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>30</name>
+ <cmt>30</cmt>
+ <desc>30</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2433800" lon="35.6965670">
+ <ele>380.390411</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>31</name>
+ <cmt>31</cmt>
+ <desc>31</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2421830" lon="35.6983260">
+ <ele>397.154388</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>32</name>
+ <cmt>32</cmt>
+ <desc>32</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2417660" lon="35.6985950">
+ <ele>401.726410</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>33</name>
+ <cmt>33</cmt>
+ <desc>33</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2412000" lon="35.6982700">
+ <ele>404.164795</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>34</name>
+ <cmt>34</cmt>
+ <desc>34</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2407510" lon="35.6984630">
+ <ele>405.993591</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>35</name>
+ <cmt>35</cmt>
+ <desc>35</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2406560" lon="35.6999010">
+ <ele>414.223206</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>36</name>
+ <cmt>36</cmt>
+ <desc>36</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2399450" lon="35.7019020">
+ <ele>428.548798</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>37</name>
+ <cmt>37</cmt>
+ <desc>37</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2396910" lon="35.7024950">
+ <ele>434.949585</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>38</name>
+ <cmt>38</cmt>
+ <desc>38</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2392740" lon="35.7024330">
+ <ele>432.816010</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>39</name>
+ <cmt>39</cmt>
+ <desc>39</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2399510" lon="35.7030010">
+ <ele>439.521606</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>40</name>
+ <cmt>40</cmt>
+ <desc>40</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2398430" lon="35.7034130">
+ <ele>443.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>41-Kafe</name>
+ <cmt>41</cmt>
+ <desc>41</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2395140" lon="35.7029250">
+ <ele>440.740814</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>42</name>
+ <cmt>42</cmt>
+ <desc>42</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2391500" lon="35.7032070">
+ <ele>440.999969</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>43-Sokr1-St</name>
+ <cmt>43</cmt>
+ <desc>43</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2401160" lon="35.7051170">
+ <ele>454.152008</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>44</name>
+ <cmt>44</cmt>
+ <desc>44</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2402010" lon="35.7063200">
+ <ele>465.429596</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>45</name>
+ <cmt>45</cmt>
+ <desc>45</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2363760" lon="35.7155260">
+ <ele>539.495972</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>46</name>
+ <cmt>46</cmt>
+ <desc>46</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2363550" lon="35.7172100">
+ <ele>553.211975</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>47</name>
+ <cmt>47</cmt>
+ <desc>47</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2367390" lon="35.7176620">
+ <ele>552.602417</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>48</name>
+ <cmt>48</cmt>
+ <desc>48</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2376970" lon="35.7179140">
+ <ele>548.944824</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>49</name>
+ <cmt>49</cmt>
+ <desc>49</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2396150" lon="35.7162240">
+ <ele>556.564819</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>50</name>
+ <cmt>50</cmt>
+ <desc>50</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2420190" lon="35.7159350">
+ <ele>560.831970</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>51</name>
+ <cmt>51</cmt>
+ <desc>51</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2456100" lon="35.7169970">
+ <ele>581.863220</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>52</name>
+ <cmt>52</cmt>
+ <desc>52</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2463980" lon="35.7177340">
+ <ele>599.236816</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>53</name>
+ <cmt>53</cmt>
+ <desc>53</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2468660" lon="35.7193390">
+ <ele>619.963196</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>54</name>
+ <cmt>54</cmt>
+ <desc>54</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2467830" lon="35.7204980">
+ <ele>636.422424</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>55</name>
+ <cmt>55</cmt>
+ <desc>55</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2459120" lon="35.7226040">
+ <ele>652.576782</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>56</name>
+ <cmt>56</cmt>
+ <desc>56</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2465090" lon="35.7234340">
+ <ele>655.015198</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>57</name>
+ <cmt>57</cmt>
+ <desc>57</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2486090" lon="35.7234060">
+ <ele>662.025574</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>58</name>
+ <cmt>58</cmt>
+ <desc>58</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2523837" lon="35.7195559">
+ <ele>663.854370</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>59</name>
+ <cmt>59</cmt>
+ <desc>59</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2512400" lon="35.7127324">
+ <ele>719.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>60-NimrodKrepost</name>
+ <cmt>60</cmt>
+ <desc>60</desc>
+ <sym>Residence</sym>
+</wpt>
+<wpt lat="33.2525632" lon="35.7195720">
+ <ele>729.081604</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>61</name>
+ <cmt>61</cmt>
+ <desc>61</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2529400" lon="35.7201192">
+ <ele>731.215210</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>62</name>
+ <cmt>62</cmt>
+ <desc>62</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2512800" lon="35.7227200">
+ <ele>740.054382</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>63</name>
+ <cmt>63</cmt>
+ <desc>63</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2503110" lon="35.7273880">
+ <ele>776.935181</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>64</name>
+ <cmt>64</cmt>
+ <desc>64</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2498070" lon="35.7283950">
+ <ele>781.507202</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>65</name>
+ <cmt>65</cmt>
+ <desc>65</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2497420" lon="35.7290040">
+ <ele>787.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>66-Serkov</name>
+ <cmt>66</cmt>
+ <desc>66</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2505460" lon="35.7309620">
+ <ele>812.596802</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>67</name>
+ <cmt>67</cmt>
+ <desc>67</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2512510" lon="35.7315060">
+ <ele>804.367188</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>68</name>
+ <cmt>68</cmt>
+ <desc>68</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2567880" lon="35.7305830">
+ <ele>835.456787</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>69</name>
+ <cmt>69</cmt>
+ <desc>69</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2576880" lon="35.7299520">
+ <ele>841.552795</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>70</name>
+ <cmt>70</cmt>
+ <desc>70</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2590460" lon="35.7280260">
+ <ele>847.953613</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>71</name>
+ <cmt>71</cmt>
+ <desc>71</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2599920" lon="35.7276530">
+ <ele>864.717590</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>72</name>
+ <cmt>72</cmt>
+ <desc>72</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2603340" lon="35.7280930">
+ <ele>874.471191</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>73</name>
+ <cmt>73</cmt>
+ <desc>73</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2608380" lon="35.7367760">
+ <ele>937.260010</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>74</name>
+ <cmt>74</cmt>
+ <desc>74</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2617440" lon="35.7380420">
+ <ele>956.999939</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>75-Sokr2-St</name>
+ <cmt>75</cmt>
+ <desc>75</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2621890" lon="35.7381170">
+ <ele>965.301575</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>76</name>
+ <cmt>76</cmt>
+ <desc>76</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2630950" lon="35.7393400">
+ <ele>966.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>77-Jipovka</name>
+ <cmt>77</cmt>
+ <desc>77</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2638100" lon="35.7395870">
+ <ele>959.815186</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>78</name>
+ <cmt>78</cmt>
+ <desc>78</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2648050" lon="35.7405990">
+ <ele>971.397583</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>79</name>
+ <cmt>79</cmt>
+ <desc>79</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2641230" lon="35.7380520">
+ <ele>952.195190</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>80</name>
+ <cmt>80</cmt>
+ <desc>80</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2655380" lon="35.7350910">
+ <ele>982.979980</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>81</name>
+ <cmt>81</cmt>
+ <desc>81</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2654030" lon="35.7342330">
+ <ele>982.370422</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>82</name>
+ <cmt>82</cmt>
+ <desc>82</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2658650" lon="35.7335890">
+ <ele>994.562378</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>83</name>
+ <cmt>83</cmt>
+ <desc>83</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2657840" lon="35.7331820">
+ <ele>989.380798</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>84</name>
+ <cmt>84</cmt>
+ <desc>84</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2675670" lon="35.7308890">
+ <ele>1029.004761</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>85</name>
+ <cmt>85</cmt>
+ <desc>85</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2692080" lon="35.7274360">
+ <ele>1060.703979</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>86</name>
+ <cmt>86</cmt>
+ <desc>86</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2701240" lon="35.7269910">
+ <ele>1074.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>87-Breha</name>
+ <cmt>87</cmt>
+ <desc>87</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2704020" lon="35.7273770">
+ <ele>1074.420044</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>88</name>
+ <cmt>88</cmt>
+ <desc>88</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2719630" lon="35.7277460">
+ <ele>1093.622437</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>89</name>
+ <cmt>89</cmt>
+ <desc>89</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2736550" lon="35.7286400">
+ <ele>1110.081543</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>90</name>
+ <cmt>90</cmt>
+ <desc>90</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2750210" lon="35.7286960">
+ <ele>1127.455200</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>91</name>
+ <cmt>91</cmt>
+ <desc>91</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2780990" lon="35.7333180">
+ <ele>1245.108032</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>92</name>
+ <cmt>92</cmt>
+ <desc>92</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2795500" lon="35.7346410">
+ <ele>1250.899170</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>93</name>
+ <cmt>93</cmt>
+ <desc>93</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2832980" lon="35.7361850">
+ <ele>1304.239258</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>94</name>
+ <cmt>94</cmt>
+ <desc>94</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2873700" lon="35.7369090">
+ <ele>1366.418457</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>95</name>
+ <cmt>95</cmt>
+ <desc>95</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2885140" lon="35.7392430">
+ <ele>1349.654419</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>96</name>
+ <cmt>96</cmt>
+ <desc>96</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2887010" lon="35.7403490">
+ <ele>1356.055176</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>97</name>
+ <cmt>97</cmt>
+ <desc>97</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2885830" lon="35.7461800">
+ <ele>1406.956787</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>98</name>
+ <cmt>98</cmt>
+ <desc>98</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2888330" lon="35.7504870">
+ <ele>1419.148804</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>99</name>
+ <cmt>99</cmt>
+ <desc>99</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2905730" lon="35.7516910">
+ <ele>1416.710449</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>100</name>
+ <cmt>100</cmt>
+ <desc>100</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2909320" lon="35.7533520">
+ <ele>1419.453613</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>101</name>
+ <cmt>101</cmt>
+ <desc>101</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2915130" lon="35.7536740">
+ <ele>1415.491211</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>102</name>
+ <cmt>102</cmt>
+ <desc>102</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2910880" lon="35.7538020">
+ <ele>1418.234375</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>103</name>
+ <cmt>103</cmt>
+ <desc>103</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2910030" lon="35.7561230">
+ <ele>1441.703979</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>104</name>
+ <cmt>104</cmt>
+ <desc>104</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2912740" lon="35.7576220">
+ <ele>1451.152832</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>105</name>
+ <cmt>105</cmt>
+ <desc>105</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2904910" lon="35.7583080">
+ <ele>1471.000122</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>106-Parking</name>
+ <cmt>106</cmt>
+ <desc>106</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2910560" lon="35.7598640">
+ <ele>1465.000122</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>107-Asfalt</name>
+ <cmt>107</cmt>
+ <desc>107</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2913550" lon="35.7600220">
+ <ele>1465.173584</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>108</name>
+ <cmt>108</cmt>
+ <desc>108</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2903770" lon="35.7598750">
+ <ele>1465.478394</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>109</name>
+ <cmt>109</cmt>
+ <desc>109</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2899840" lon="35.7593180">
+ <ele>1471.879150</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>110</name>
+ <cmt>110</cmt>
+ <desc>110</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2898770" lon="35.7587960">
+ <ele>1476.755981</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>111</name>
+ <cmt>111</cmt>
+ <desc>111</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2902850" lon="35.7576430">
+ <ele>1483.766357</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>112</name>
+ <cmt>112</cmt>
+ <desc>112</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2899360" lon="35.7555510">
+ <ele>1483.156860</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>113</name>
+ <cmt>113</cmt>
+ <desc>113</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2895680" lon="35.7543390">
+ <ele>1466.392822</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>114</name>
+ <cmt>114</cmt>
+ <desc>114</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2885190" lon="35.7534480">
+ <ele>1448.409546</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>115</name>
+ <cmt>115</cmt>
+ <desc>115</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2876580" lon="35.7534050">
+ <ele>1446.580811</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>116</name>
+ <cmt>116</cmt>
+ <desc>116</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2865790" lon="35.7540980">
+ <ele>1442.618408</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>117</name>
+ <cmt>117</cmt>
+ <desc>117</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2852400" lon="35.7543570">
+ <ele>1426.768799</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>118</name>
+ <cmt>118</cmt>
+ <desc>118</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2840610" lon="35.7559550">
+ <ele>1400.860840</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>119</name>
+ <cmt>119</cmt>
+ <desc>119</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2850930" lon="35.7613470">
+ <ele>1396.898438</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>120</name>
+ <cmt>120</cmt>
+ <desc>120</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2850410" lon="35.7623210">
+ <ele>1395.374390</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>121</name>
+ <cmt>121</cmt>
+ <desc>121</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2837750" lon="35.7618460">
+ <ele>1386.230347</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>122</name>
+ <cmt>122</cmt>
+ <desc>122</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2797480" lon="35.7591680">
+ <ele>1353.007202</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>123</name>
+ <cmt>123</cmt>
+ <desc>123</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2771580" lon="35.7569880">
+ <ele>1315.821655</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>124</name>
+ <cmt>124</cmt>
+ <desc>124</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2762680" lon="35.7567960">
+ <ele>1302.410400</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>125</name>
+ <cmt>125</cmt>
+ <desc>125</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2747230" lon="35.7570960">
+ <ele>1280.464844</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>126</name>
+ <cmt>126</cmt>
+ <desc>126</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2738080" lon="35.7577930">
+ <ele>1298.752808</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>127</name>
+ <cmt>127</cmt>
+ <desc>127</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2717760" lon="35.7572030">
+ <ele>1277.416748</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>128</name>
+ <cmt>128</cmt>
+ <desc>128</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2708070" lon="35.7565890">
+ <ele>1282.903198</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>129</name>
+ <cmt>129</cmt>
+ <desc>129</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2703250" lon="35.7551040">
+ <ele>1258.214355</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>130</name>
+ <cmt>130</cmt>
+ <desc>130</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2695310" lon="35.7546180">
+ <ele>1239.011963</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>131</name>
+ <cmt>131</cmt>
+ <desc>131</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2689750" lon="35.7547680">
+ <ele>1242.364746</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>132</name>
+ <cmt>132</cmt>
+ <desc>132</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2683380" lon="35.7542310">
+ <ele>1231.391968</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>133</name>
+ <cmt>133</cmt>
+ <desc>133</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2675310" lon="35.7547500">
+ <ele>1234.439941</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>134</name>
+ <cmt>134</cmt>
+ <desc>134</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2653620" lon="35.7552010">
+ <ele>1198.778442</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>135</name>
+ <cmt>135</cmt>
+ <desc>135</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2663520" lon="35.7593560">
+ <ele>1179.880859</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>136</name>
+ <cmt>136</cmt>
+ <desc>136</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2661030" lon="35.7604430">
+ <ele>1158.544800</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>137</name>
+ <cmt>137</cmt>
+ <desc>137</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2669350" lon="35.7629610">
+ <ele>1154.582397</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>138</name>
+ <cmt>138</cmt>
+ <desc>138</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2666310" lon="35.7632320">
+ <ele>1147.267212</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>139</name>
+ <cmt>139</cmt>
+ <desc>139</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2656090" lon="35.7628360">
+ <ele>1136.599243</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>140</name>
+ <cmt>140</cmt>
+ <desc>140</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2650150" lon="35.7620220">
+ <ele>1125.626343</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>141</name>
+ <cmt>141</cmt>
+ <desc>141</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2645760" lon="35.7619870">
+ <ele>1119.835205</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>142</name>
+ <cmt>142</cmt>
+ <desc>142</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2642960" lon="35.7623800">
+ <ele>1111.910400</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>143</name>
+ <cmt>143</cmt>
+ <desc>143</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2649170" lon="35.7638650">
+ <ele>1120.444824</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>144</name>
+ <cmt>144</cmt>
+ <desc>144</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2646350" lon="35.7638720">
+ <ele>1116.177612</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>145</name>
+ <cmt>145</cmt>
+ <desc>145</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2633660" lon="35.7622300">
+ <ele>1092.403198</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>146</name>
+ <cmt>146</cmt>
+ <desc>146</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2623190" lon="35.7600670">
+ <ele>1069.543213</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>147</name>
+ <cmt>147</cmt>
+ <desc>147</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2601630" lon="35.7580850">
+ <ele>1034.796021</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>148</name>
+ <cmt>148</cmt>
+ <desc>148</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2590275" lon="35.7582497">
+ <ele>1035.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>149-Sokr2-Fin</name>
+ <cmt>149</cmt>
+ <desc>149</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2555260" lon="35.7583780">
+ <ele>1050.340820</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>150</name>
+ <cmt>150</cmt>
+ <desc>150</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2547730" lon="35.7576160">
+ <ele>1041.806396</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>151</name>
+ <cmt>151</cmt>
+ <desc>151</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2538490" lon="35.7575550">
+ <ele>1048.511963</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>152</name>
+ <cmt>152</cmt>
+ <desc>152</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2526430" lon="35.7593020">
+ <ele>1061.313599</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>153</name>
+ <cmt>153</cmt>
+ <desc>153</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2503240" lon="35.7581580">
+ <ele>1075.029541</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>154</name>
+ <cmt>154</cmt>
+ <desc>154</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2477200" lon="35.7557880">
+ <ele>1074.724854</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>155</name>
+ <cmt>155</cmt>
+ <desc>155</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2460390" lon="35.7528470">
+ <ele>1103.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>156-Nemrod</name>
+ <cmt>156</cmt>
+ <desc>156</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2448723" lon="35.7520642">
+ <ele>1078.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>157-Jipovka</name>
+ <cmt>157</cmt>
+ <desc>157</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2389440" lon="35.7450210">
+ <ele>1026.871216</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>158</name>
+ <cmt>158</cmt>
+ <desc>158</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2373480" lon="35.7433420">
+ <ele>1003.401611</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>159</name>
+ <cmt>159</cmt>
+ <desc>159</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2363610" lon="35.7438510">
+ <ele>1006.754395</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>160</name>
+ <cmt>160</cmt>
+ <desc>160</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2350950" lon="35.7454120">
+ <ele>997.305603</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>161</name>
+ <cmt>161</cmt>
+ <desc>161</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2345810" lon="35.7475800">
+ <ele>975.969604</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>162</name>
+ <cmt>162</cmt>
+ <desc>162</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2337966" lon="35.7479336">
+ <ele>966.216003</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>163</name>
+ <cmt>163</cmt>
+ <desc>163</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2329610" lon="35.7473600">
+ <ele>940.917603</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>164</name>
+ <cmt>164</cmt>
+ <desc>164</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2327880" lon="35.7477260">
+ <ele>935.431213</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>165</name>
+ <cmt>165</cmt>
+ <desc>165</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2328650" lon="35.7481800">
+ <ele>934.821594</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>166</name>
+ <cmt>166</cmt>
+ <desc>166</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2336950" lon="35.7486420">
+ <ele>948.232788</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>167</name>
+ <cmt>167</cmt>
+ <desc>167</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2337760" lon="35.7503150">
+ <ele>915.924011</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>168</name>
+ <cmt>168</cmt>
+ <desc>168</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2342543" lon="35.7521179">
+ <ele>926.896790</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>169</name>
+ <cmt>169</cmt>
+ <desc>169</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2337610" lon="35.7517320">
+ <ele>929.640015</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>170</name>
+ <cmt>170</cmt>
+ <desc>170</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2333950" lon="35.7524530">
+ <ele>950.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>171-Asfalt</name>
+ <cmt>171</cmt>
+ <desc>171</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2331260" lon="35.7514200">
+ <ele>943.965576</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>172</name>
+ <cmt>172</cmt>
+ <desc>172</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2309320" lon="35.7479330">
+ <ele>918.362427</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>173</name>
+ <cmt>173</cmt>
+ <desc>173</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2290852" lon="35.7456269">
+ <ele>866.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>174-Jipovka</name>
+ <cmt>174</cmt>
+ <desc>174</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2247140" lon="35.7374840">
+ <ele>798.575989</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>175</name>
+ <cmt>175</cmt>
+ <desc>175</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2255350" lon="35.7363890">
+ <ele>768.400818</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>176</name>
+ <cmt>176</cmt>
+ <desc>176</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2253280" lon="35.7353170">
+ <ele>765.047974</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>177</name>
+ <cmt>177</cmt>
+ <desc>177</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2262800" lon="35.7336110">
+ <ele>744.016785</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>178</name>
+ <cmt>178</cmt>
+ <desc>178</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2264420" lon="35.7320580">
+ <ele>730.605591</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>179</name>
+ <cmt>179</cmt>
+ <desc>179</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2249770" lon="35.7306170">
+ <ele>744.931213</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>180</name>
+ <cmt>180</cmt>
+ <desc>180</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2250670" lon="35.7303280">
+ <ele>743.711975</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>181</name>
+ <cmt>181</cmt>
+ <desc>181</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2270060" lon="35.7304350">
+ <ele>697.687195</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>182</name>
+ <cmt>182</cmt>
+ <desc>182</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2267810" lon="35.7295340">
+ <ele>695.858398</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>183</name>
+ <cmt>183</cmt>
+ <desc>183</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2272480" lon="35.7281710">
+ <ele>687.323975</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>184</name>
+ <cmt>184</cmt>
+ <desc>184</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2278940" lon="35.7279890">
+ <ele>671.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>185-Asfalt</name>
+ <cmt>185</cmt>
+ <desc>185</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2277420" lon="35.7269700">
+ <ele>681.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>186-Jipovka</name>
+ <cmt>186</cmt>
+ <desc>186</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2290280" lon="35.7233990">
+ <ele>653.796021</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>187</name>
+ <cmt>187</cmt>
+ <desc>187</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2301420" lon="35.7222700">
+ <ele>640.384827</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>188</name>
+ <cmt>188</cmt>
+ <desc>188</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2314790" lon="35.7220880">
+ <ele>618.744019</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>189</name>
+ <cmt>189</cmt>
+ <desc>189</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2324430" lon="35.7210920">
+ <ele>626.973572</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>190</name>
+ <cmt>190</cmt>
+ <desc>190</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2332510" lon="35.7177430">
+ <ele>620.572815</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>191</name>
+ <cmt>191</cmt>
+ <desc>191</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2343370" lon="35.7164550">
+ <ele>594.359985</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>192</name>
+ <cmt>192</cmt>
+ <desc>192</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2350900" lon="35.7148570">
+ <ele>577.291199</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>193</name>
+ <cmt>193</cmt>
+ <desc>193</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2351480" lon="35.7124320">
+ <ele>552.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>194-Asfalt</name>
+ <cmt>194</cmt>
+ <desc>194</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2341920" lon="35.7112830">
+ <ele>561.441589</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>195</name>
+ <cmt>195</cmt>
+ <desc>195</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2335280" lon="35.7110050">
+ <ele>569.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>196-Jipovka</name>
+ <cmt>196</cmt>
+ <desc>196</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2329120" lon="35.7100070">
+ <ele>567.232788</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>197</name>
+ <cmt>197</cmt>
+ <desc>197</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2313590" lon="35.7091170">
+ <ele>567.537598</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>198</name>
+ <cmt>198</cmt>
+ <desc>198</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2309920" lon="35.7085050">
+ <ele>558.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>199-Sokr1-Fin</name>
+ <cmt>199</cmt>
+ <desc>199</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2273420" lon="35.7062320">
+ <ele>537.667175</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>200</name>
+ <cmt>200</cmt>
+ <desc>200</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2256630" lon="35.7061980">
+ <ele>536.752808</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>201</name>
+ <cmt>201</cmt>
+ <desc>201</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2242570" lon="35.7046000">
+ <ele>538.276794</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>202</name>
+ <cmt>202</cmt>
+ <desc>202</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2232330" lon="35.7041280">
+ <ele>544.677612</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>203</name>
+ <cmt>203</cmt>
+ <desc>203</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2225670" lon="35.7022720">
+ <ele>536.143188</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>204</name>
+ <cmt>204</cmt>
+ <desc>204</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2221290" lon="35.6996210">
+ <ele>512.978394</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>205</name>
+ <cmt>205</cmt>
+ <desc>205</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2212480" lon="35.6982150">
+ <ele>508.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>206-Asfalt</name>
+ <cmt>206</cmt>
+ <desc>206</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2217170" lon="35.6950670">
+ <ele>462.381592</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>207</name>
+ <cmt>207</cmt>
+ <desc>207</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2223220" lon="35.6940860">
+ <ele>446.532013</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>208</name>
+ <cmt>208</cmt>
+ <desc>208</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2252770" lon="35.6929050">
+ <ele>429.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>209-Jipovka</name>
+ <cmt>209</cmt>
+ <desc>209</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2267260" lon="35.6908460">
+ <ele>400.812012</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>210</name>
+ <cmt>210</cmt>
+ <desc>210</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2262140" lon="35.6897620">
+ <ele>391.667999</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>211</name>
+ <cmt>211</cmt>
+ <desc>211</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2242760" lon="35.6881530">
+ <ele>370.332001</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>212</name>
+ <cmt>212</cmt>
+ <desc>212</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2244090" lon="35.6873800">
+ <ele>365.455200</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>213</name>
+ <cmt>213</cmt>
+ <desc>213</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2250840" lon="35.6867390">
+ <ele>355.701599</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>214</name>
+ <cmt>214</cmt>
+ <desc>214</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2247250" lon="35.6860710">
+ <ele>349.300812</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>215</name>
+ <cmt>215</cmt>
+ <desc>215</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2253890" lon="35.6860930">
+ <ele>343.509613</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>216</name>
+ <cmt>216</cmt>
+ <desc>216</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2256400" lon="35.6855780">
+ <ele>334.670410</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>217</name>
+ <cmt>217</cmt>
+ <desc>217</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2241850" lon="35.6850720">
+ <ele>331.317596</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>218</name>
+ <cmt>218</cmt>
+ <desc>218</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2233730" lon="35.6839470">
+ <ele>319.735199</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>219</name>
+ <cmt>219</cmt>
+ <desc>219</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2236870" lon="35.6810500">
+ <ele>309.372009</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>220</name>
+ <cmt>220</cmt>
+ <desc>220</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2242800" lon="35.6795910">
+ <ele>304.495209</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>221</name>
+ <cmt>221</cmt>
+ <desc>221</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2242930" lon="35.6786900">
+ <ele>300.837585</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>222</name>
+ <cmt>222</cmt>
+ <desc>222</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2239510" lon="35.6782930">
+ <ele>298.704010</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>223</name>
+ <cmt>223</cmt>
+ <desc>223</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2245080" lon="35.6763400">
+ <ele>283.768799</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>224</name>
+ <cmt>224</cmt>
+ <desc>224</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2149080" lon="35.6735960">
+ <ele>274.624786</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>225</name>
+ <cmt>225</cmt>
+ <desc>225</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2100360" lon="35.6739980">
+ <ele>303.580811</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>226</name>
+ <cmt>226</cmt>
+ <desc>226</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2096720" lon="35.6736700">
+ <ele>305.409607</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>227</name>
+ <cmt>227</cmt>
+ <desc>227</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2113210" lon="35.6706970">
+ <ele>269.443207</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>228</name>
+ <cmt>228</cmt>
+ <desc>228</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2113740" lon="35.6698600">
+ <ele>255.117599</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>229</name>
+ <cmt>229</cmt>
+ <desc>229</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2108900" lon="35.6692590">
+ <ele>250.545593</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>230</name>
+ <cmt>230</cmt>
+ <desc>230</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2109520" lon="35.6684010">
+ <ele>238.658401</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>231</name>
+ <cmt>231</cmt>
+ <desc>231</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2115000" lon="35.6678000">
+ <ele>225.856796</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>232</name>
+ <cmt>232</cmt>
+ <desc>232</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2112530" lon="35.6673170">
+ <ele>222.808807</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>233</name>
+ <cmt>233</cmt>
+ <desc>233</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2121320" lon="35.6669310">
+ <ele>210.616806</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>234</name>
+ <cmt>234</cmt>
+ <desc>234</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2113440" lon="35.6653970">
+ <ele>206.349594</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>235</name>
+ <cmt>235</cmt>
+ <desc>235</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2155290" lon="35.6616910">
+ <ele>164.896805</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>236</name>
+ <cmt>236</cmt>
+ <desc>236</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2175710" lon="35.6592810">
+ <ele>135.331207</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>237</name>
+ <cmt>237</cmt>
+ <desc>237</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2187650" lon="35.6592600">
+ <ele>134.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>238-Asfalt</name>
+ <cmt>238</cmt>
+ <desc>238</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2189270" lon="35.6598430">
+ <ele>139.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>239-Serkov</name>
+ <cmt>239</cmt>
+ <desc>239</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2187490" lon="35.6588010">
+ <ele>130.454407</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>240</name>
+ <cmt>240</cmt>
+ <desc>240</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2174090" lon="35.6572330">
+ <ele>126.187202</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>241</name>
+ <cmt>241</cmt>
+ <desc>241</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2175010" lon="35.6553970">
+ <ele>120.091202</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>242</name>
+ <cmt>242</cmt>
+ <desc>242</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2182470" lon="35.6535200">
+ <ele>117.957603</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>243</name>
+ <cmt>243</cmt>
+ <desc>243</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2185300" lon="35.6513780">
+ <ele>112.166397</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>244</name>
+ <cmt>244</cmt>
+ <desc>244</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2170170" lon="35.6485890">
+ <ele>105.460800</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>245</name>
+ <cmt>245</cmt>
+ <desc>245</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2163700" lon="35.6425590">
+ <ele>97.840797</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>246</name>
+ <cmt>246</cmt>
+ <desc>246</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2187760" lon="35.6391647">
+ <ele>103.327202</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>247</name>
+ <cmt>247</cmt>
+ <desc>247</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2194060" lon="35.6377380">
+ <ele>103.022400</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>248</name>
+ <cmt>248</cmt>
+ <desc>248</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2216320" lon="35.6339180">
+ <ele>115.823997</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>249</name>
+ <cmt>249</cmt>
+ <desc>249</desc>
+ <sym>Navaid, Red</sym>
+</wpt>
+<wpt lat="33.2206620" lon="35.6320730">
+ <ele>109.000000</ele>
+ <time>1992-01-02T00:00:00.000Z</time>
+ <name>250-Finish</name>
+ <cmt>250</cmt>
+ <desc>250</desc>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2390602" lon="35.7030284">
+ <time>2015-03-04T08:58:54.107Z</time>
+ <name>251-Sokr1-St</name>
+ <sym>Bike Trail</sym>
+</wpt>
+<wpt lat="33.2386743" lon="35.7033073">
+ <time>2015-03-04T08:58:55.308Z</time>
+ <name>252</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2391678" lon="35.7043266">
+ <time>2015-03-04T08:58:56.599Z</time>
+ <name>253</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2384320" lon="35.7044661">
+ <time>2015-03-04T08:58:57.483Z</time>
+ <name>254</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2376603" lon="35.7054960">
+ <time>2015-03-04T08:58:58.337Z</time>
+ <name>255</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2384320" lon="35.7067513">
+ <time>2015-03-04T08:58:59.268Z</time>
+ <name>256</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2383782" lon="35.7082963">
+ <time>2015-03-04T08:59:00.407Z</time>
+ <name>257</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2372316" lon="35.7091760">
+ <time>2015-03-04T08:59:07.667Z</time>
+ <name>258</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2365496" lon="35.7106566">
+ <time>2015-03-04T08:59:08.807Z</time>
+ <name>259</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2363163" lon="35.7118797">
+ <time>2015-03-04T08:59:10.007Z</time>
+ <name>260</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2350151" lon="35.7111823">
+ <time>2015-03-04T08:59:12.363Z</time>
+ <name>261</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2346635" lon="35.7099378">
+ <time>2015-03-04T08:59:17.343Z</time>
+ <name>262</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2344033" lon="35.7096803">
+ <time>2015-03-04T08:59:18.122Z</time>
+ <name>263</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2339905" lon="35.7089185">
+ <time>2015-03-04T08:59:19.007Z</time>
+ <name>264</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2325995" lon="35.7086718">
+ <time>2015-03-04T08:59:20.432Z</time>
+ <name>265</name>
+ <sym>Navaid, Blue</sym>
+</wpt>
+<wpt lat="33.2310470" lon="35.7086718">
+ <time>2015-03-04T08:59:22.501Z</time>
+ <name>266Sokr1-Fin</name>
+ <sym>Flag, Red</sym>
+</wpt>
+<wpt lat="33.2618593" lon="35.7383477">
+ <time>2015-03-04T09:01:25.454Z</time>
+ <name>267-Sokr2-St</name>
+ <sym>Bike Trail</sym>
+</wpt>
+<wpt lat="33.2624783" lon="35.7396781">
+ <time>2015-03-04T09:01:27.193Z</time>
+ <name>268</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2634292" lon="35.7414269">
+ <time>2015-03-04T09:01:28.363Z</time>
+ <name>269</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2633844" lon="35.7419633">
+ <time>2015-03-04T09:01:29.203Z</time>
+ <name>270</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2628730" lon="35.7429611">
+ <time>2015-03-04T09:01:31.588Z</time>
+ <name>271</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2621284" lon="35.7440984">
+ <time>2015-03-04T09:01:32.594Z</time>
+ <name>272</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2616925" lon="35.7446026">
+ <time>2015-03-04T09:01:36.103Z</time>
+ <name>273</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2613785" lon="35.7445490">
+ <time>2015-03-04T09:01:36.928Z</time>
+ <name>274</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2599700" lon="35.7439696">
+ <time>2015-03-04T09:01:38.293Z</time>
+ <name>275</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2589024" lon="35.7438945">
+ <time>2015-03-04T09:01:39.598Z</time>
+ <name>276</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2576913" lon="35.7445275">
+ <time>2015-03-04T09:01:41.278Z</time>
+ <name>277</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2571889" lon="35.7462120">
+ <time>2015-03-04T09:01:42.208Z</time>
+ <name>278</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2570991" lon="35.7473599">
+ <time>2015-03-04T09:01:43.048Z</time>
+ <name>279</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2579551" lon="35.7491624">
+ <time>2015-03-04T09:01:45.837Z</time>
+ <name>280</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2589151" lon="35.7510829">
+ <time>2015-03-04T09:01:47.967Z</time>
+ <name>281</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2587895" lon="35.7523918">
+ <time>2015-03-04T09:01:49.468Z</time>
+ <name>282</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2598840" lon="35.7537543">
+ <time>2015-03-04T09:01:51.013Z</time>
+ <name>283</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2603415" lon="35.7544946">
+ <time>2015-03-04T09:01:52.543Z</time>
+ <name>284</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2607991" lon="35.7552886">
+ <time>2015-03-04T09:01:53.548Z</time>
+ <name>285</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2602877" lon="35.7556212">
+ <time>2015-03-04T09:01:55.093Z</time>
+ <name>286</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2596850" lon="35.7571017">
+ <time>2015-03-04T09:01:59.188Z</time>
+ <name>287</name>
+ <sym>Navaid, Green</sym>
+</wpt>
+<wpt lat="33.2590212" lon="35.7581317">
+ <time>2015-03-04T09:02:01.783Z</time>
+ <name>288-Sokr2-Fin</name>
+ <sym>Flag, Red</sym>
+</wpt>
+<rte>
+ <name>D2_HERMON1-OSN</name>
+ <number>0</number>
+ <rtept lat="33.2207520" lon="35.6320300">
+  <name>1-Start</name>
+  <sym>Bike Trail</sym>
+ </rtept>
+ <rtept lat="33.2217030" lon="35.6338540">
+  <name>2</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2236240" lon="35.6317720">
+  <name>3</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2242340" lon="35.6322020">
+  <name>4</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2253290" lon="35.6356560">
+  <name>5</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2274260" lon="35.6398790">
+  <name>6</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2278140" lon="35.6412300">
+  <name>7</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2327800" lon="35.6477150">
+  <name>8</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2381150" lon="35.6554440">
+  <name>9</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2379110" lon="35.6571770">
+  <name>10</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2384950" lon="35.6600280">
+  <name>11</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2472620" lon="35.6679500">
+  <name>12</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2509680" lon="35.6726600">
+  <name>13</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2505250" lon="35.6743420">
+  <name>14</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2513450" lon="35.6780760">
+  <name>15</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2510530" lon="35.6784640">
+  <name>16</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2486680" lon="35.6780670">
+  <name>17</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2483350" lon="35.6784210">
+  <name>18</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2479050" lon="35.6801660">
+  <name>19</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2474370" lon="35.6884150">
+  <name>20</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2475850" lon="35.6901530">
+  <name>21</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2482240" lon="35.6916180">
+  <name>22</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2476140" lon="35.6924010">
+  <name>23</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2482590" lon="35.6928460">
+  <name>24</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2482780" lon="35.6924000">
+  <name>25-RekaHermon</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2483090" lon="35.6929290">
+  <name>26</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2474205" lon="35.6925085">
+  <name>27-Voda</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2434403" lon="35.6899979">
+  <name>28</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2425510" lon="35.6915000">
+  <name>29</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2434690" lon="35.6953460">
+  <name>30</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2433800" lon="35.6965670">
+  <name>31</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2421830" lon="35.6983260">
+  <name>32</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2417660" lon="35.6985950">
+  <name>33</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2412000" lon="35.6982700">
+  <name>34</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2407510" lon="35.6984630">
+  <name>35</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2406560" lon="35.6999010">
+  <name>36</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2399450" lon="35.7019020">
+  <name>37</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2396910" lon="35.7024950">
+  <name>38</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2392740" lon="35.7024330">
+  <name>39</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2399510" lon="35.7030010">
+  <name>40</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2398430" lon="35.7034130">
+  <name>41-Kafe</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2395140" lon="35.7029250">
+  <name>42</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2391500" lon="35.7032070">
+  <name>43-Sokr1-St</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2401160" lon="35.7051170">
+  <name>44</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2402010" lon="35.7063200">
+  <name>45</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2363760" lon="35.7155260">
+  <name>46</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2363550" lon="35.7172100">
+  <name>47</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2367390" lon="35.7176620">
+  <name>48</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2376970" lon="35.7179140">
+  <name>49</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2396150" lon="35.7162240">
+  <name>50</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2420190" lon="35.7159350">
+  <name>51</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2456100" lon="35.7169970">
+  <name>52</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2463980" lon="35.7177340">
+  <name>53</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2468660" lon="35.7193390">
+  <name>54</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2467830" lon="35.7204980">
+  <name>55</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2459120" lon="35.7226040">
+  <name>56</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2465090" lon="35.7234340">
+  <name>57</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2486090" lon="35.7234060">
+  <name>58</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2523837" lon="35.7195559">
+  <name>59</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2512400" lon="35.7127324">
+  <name>60-NimrodKrepost</name>
+  <sym>Residence</sym>
+ </rtept>
+ <rtept lat="33.2525632" lon="35.7195720">
+  <name>61</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2529400" lon="35.7201192">
+  <name>62</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2512800" lon="35.7227200">
+  <name>63</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2503110" lon="35.7273880">
+  <name>64</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2498070" lon="35.7283950">
+  <name>65</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2497420" lon="35.7290040">
+  <name>66-Serkov</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2505460" lon="35.7309620">
+  <name>67</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2512510" lon="35.7315060">
+  <name>68</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2567880" lon="35.7305830">
+  <name>69</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2576880" lon="35.7299520">
+  <name>70</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2590460" lon="35.7280260">
+  <name>71</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2599920" lon="35.7276530">
+  <name>72</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2603340" lon="35.7280930">
+  <name>73</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2608380" lon="35.7367760">
+  <name>74</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2617440" lon="35.7380420">
+  <name>75-Sokr2-St</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2621890" lon="35.7381170">
+  <name>76</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2630950" lon="35.7393400">
+  <name>77-Jipovka</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2638100" lon="35.7395870">
+  <name>78</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2648050" lon="35.7405990">
+  <name>79</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2641230" lon="35.7380520">
+  <name>80</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2655380" lon="35.7350910">
+  <name>81</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2654030" lon="35.7342330">
+  <name>82</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2658650" lon="35.7335890">
+  <name>83</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2657840" lon="35.7331820">
+  <name>84</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2675670" lon="35.7308890">
+  <name>85</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2692080" lon="35.7274360">
+  <name>86</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2701240" lon="35.7269910">
+  <name>87-Breha</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2704020" lon="35.7273770">
+  <name>88</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2719630" lon="35.7277460">
+  <name>89</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2736550" lon="35.7286400">
+  <name>90</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2750210" lon="35.7286960">
+  <name>91</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2780990" lon="35.7333180">
+  <name>92</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2795500" lon="35.7346410">
+  <name>93</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2832980" lon="35.7361850">
+  <name>94</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2873700" lon="35.7369090">
+  <name>95</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2885140" lon="35.7392430">
+  <name>96</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2887010" lon="35.7403490">
+  <name>97</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2885830" lon="35.7461800">
+  <name>98</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2888330" lon="35.7504870">
+  <name>99</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2905730" lon="35.7516910">
+  <name>100</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2909320" lon="35.7533520">
+  <name>101</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2915130" lon="35.7536740">
+  <name>102</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2910880" lon="35.7538020">
+  <name>103</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2910030" lon="35.7561230">
+  <name>104</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2912740" lon="35.7576220">
+  <name>105</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2904910" lon="35.7583080">
+  <name>106-Parking</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2910560" lon="35.7598640">
+  <name>107-Asfalt</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2913550" lon="35.7600220">
+  <name>108</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2903770" lon="35.7598750">
+  <name>109</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2899840" lon="35.7593180">
+  <name>110</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2898770" lon="35.7587960">
+  <name>111</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2902850" lon="35.7576430">
+  <name>112</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2899360" lon="35.7555510">
+  <name>113</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2895680" lon="35.7543390">
+  <name>114</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2885190" lon="35.7534480">
+  <name>115</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2876580" lon="35.7534050">
+  <name>116</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2865790" lon="35.7540980">
+  <name>117</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2852400" lon="35.7543570">
+  <name>118</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2840610" lon="35.7559550">
+  <name>119</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2850930" lon="35.7613470">
+  <name>120</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2850410" lon="35.7623210">
+  <name>121</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2837750" lon="35.7618460">
+  <name>122</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2797480" lon="35.7591680">
+  <name>123</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2771580" lon="35.7569880">
+  <name>124</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2762680" lon="35.7567960">
+  <name>125</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2747230" lon="35.7570960">
+  <name>126</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2738080" lon="35.7577930">
+  <name>127</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2717760" lon="35.7572030">
+  <name>128</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2708070" lon="35.7565890">
+  <name>129</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2703250" lon="35.7551040">
+  <name>130</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2695310" lon="35.7546180">
+  <name>131</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2689750" lon="35.7547680">
+  <name>132</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2683380" lon="35.7542310">
+  <name>133</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2675310" lon="35.7547500">
+  <name>134</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2653620" lon="35.7552010">
+  <name>135</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2663520" lon="35.7593560">
+  <name>136</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2661030" lon="35.7604430">
+  <name>137</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2669350" lon="35.7629610">
+  <name>138</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2666310" lon="35.7632320">
+  <name>139</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2656090" lon="35.7628360">
+  <name>140</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2650150" lon="35.7620220">
+  <name>141</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2645760" lon="35.7619870">
+  <name>142</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2642960" lon="35.7623800">
+  <name>143</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2649170" lon="35.7638650">
+  <name>144</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2646350" lon="35.7638720">
+  <name>145</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2633660" lon="35.7622300">
+  <name>146</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2623190" lon="35.7600670">
+  <name>147</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2601630" lon="35.7580850">
+  <name>148</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2590275" lon="35.7582497">
+  <name>149-Sokr2-Fin</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2555260" lon="35.7583780">
+  <name>150</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2547730" lon="35.7576160">
+  <name>151</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2538490" lon="35.7575550">
+  <name>152</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2526430" lon="35.7593020">
+  <name>153</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2503240" lon="35.7581580">
+  <name>154</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2477200" lon="35.7557880">
+  <name>155</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2460390" lon="35.7528470">
+  <name>156-Nemrod</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2448723" lon="35.7520642">
+  <name>157-Jipovka</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2389440" lon="35.7450210">
+  <name>158</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2373480" lon="35.7433420">
+  <name>159</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2363610" lon="35.7438510">
+  <name>160</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2350950" lon="35.7454120">
+  <name>161</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2345810" lon="35.7475800">
+  <name>162</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2337966" lon="35.7479336">
+  <name>163</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2329610" lon="35.7473600">
+  <name>164</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2327880" lon="35.7477260">
+  <name>165</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2328650" lon="35.7481800">
+  <name>166</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2336950" lon="35.7486420">
+  <name>167</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2337760" lon="35.7503150">
+  <name>168</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2342543" lon="35.7521179">
+  <name>169</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2337610" lon="35.7517320">
+  <name>170</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2333950" lon="35.7524530">
+  <name>171-Asfalt</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2331260" lon="35.7514200">
+  <name>172</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2309320" lon="35.7479330">
+  <name>173</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2290852" lon="35.7456269">
+  <name>174-Jipovka</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2247140" lon="35.7374840">
+  <name>175</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2255350" lon="35.7363890">
+  <name>176</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2253280" lon="35.7353170">
+  <name>177</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2262800" lon="35.7336110">
+  <name>178</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2264420" lon="35.7320580">
+  <name>179</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2249770" lon="35.7306170">
+  <name>180</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2250670" lon="35.7303280">
+  <name>181</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2270060" lon="35.7304350">
+  <name>182</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2267810" lon="35.7295340">
+  <name>183</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2272480" lon="35.7281710">
+  <name>184</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2278940" lon="35.7279890">
+  <name>185-Asfalt</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2277420" lon="35.7269700">
+  <name>186-Jipovka</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2290280" lon="35.7233990">
+  <name>187</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2301420" lon="35.7222700">
+  <name>188</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2314790" lon="35.7220880">
+  <name>189</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2324430" lon="35.7210920">
+  <name>190</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2332510" lon="35.7177430">
+  <name>191</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2343370" lon="35.7164550">
+  <name>192</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2350900" lon="35.7148570">
+  <name>193</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2351480" lon="35.7124320">
+  <name>194-Asfalt</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2341920" lon="35.7112830">
+  <name>195</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2335280" lon="35.7110050">
+  <name>196-Jipovka</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2329120" lon="35.7100070">
+  <name>197</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2313590" lon="35.7091170">
+  <name>198</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2309920" lon="35.7085050">
+  <name>199-Sokr1-Fin</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2273420" lon="35.7062320">
+  <name>200</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2256630" lon="35.7061980">
+  <name>201</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2242570" lon="35.7046000">
+  <name>202</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2232330" lon="35.7041280">
+  <name>203</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2225670" lon="35.7022720">
+  <name>204</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2221290" lon="35.6996210">
+  <name>205</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2212480" lon="35.6982150">
+  <name>206-Asfalt</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2217170" lon="35.6950670">
+  <name>207</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2223220" lon="35.6940860">
+  <name>208</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2252770" lon="35.6929050">
+  <name>209-Jipovka</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+ <rtept lat="33.2267260" lon="35.6908460">
+  <name>210</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2262140" lon="35.6897620">
+  <name>211</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2242760" lon="35.6881530">
+  <name>212</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2244090" lon="35.6873800">
+  <name>213</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2250840" lon="35.6867390">
+  <name>214</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2247250" lon="35.6860710">
+  <name>215</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2253890" lon="35.6860930">
+  <name>216</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2256400" lon="35.6855780">
+  <name>217</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2241850" lon="35.6850720">
+  <name>218</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2233730" lon="35.6839470">
+  <name>219</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2236870" lon="35.6810500">
+  <name>220</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2242800" lon="35.6795910">
+  <name>221</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2242930" lon="35.6786900">
+  <name>222</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2239510" lon="35.6782930">
+  <name>223</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2245080" lon="35.6763400">
+  <name>224</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2149080" lon="35.6735960">
+  <name>225</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2100360" lon="35.6739980">
+  <name>226</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2096720" lon="35.6736700">
+  <name>227</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2113210" lon="35.6706970">
+  <name>228</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2113740" lon="35.6698600">
+  <name>229</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2108900" lon="35.6692590">
+  <name>230</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2109520" lon="35.6684010">
+  <name>231</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2115000" lon="35.6678000">
+  <name>232</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2112530" lon="35.6673170">
+  <name>233</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2121320" lon="35.6669310">
+  <name>234</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2113440" lon="35.6653970">
+  <name>235</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2155290" lon="35.6616910">
+  <name>236</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2175710" lon="35.6592810">
+  <name>237</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2187650" lon="35.6592600">
+  <name>238-Asfalt</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2189270" lon="35.6598430">
+  <name>239-Serkov</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2187490" lon="35.6588010">
+  <name>240</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2174090" lon="35.6572330">
+  <name>241</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2175010" lon="35.6553970">
+  <name>242</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2182470" lon="35.6535200">
+  <name>243</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2185300" lon="35.6513780">
+  <name>244</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2170170" lon="35.6485890">
+  <name>245</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2163700" lon="35.6425590">
+  <name>246</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2187760" lon="35.6391647">
+  <name>247</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2194060" lon="35.6377380">
+  <name>248</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2216320" lon="35.6339180">
+  <name>249</name>
+  <sym>Navaid, Red</sym>
+ </rtept>
+ <rtept lat="33.2206620" lon="35.6320730">
+  <name>250-Finish</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+</rte>
+<rte>
+ <name>D2_SOKR1</name>
+ <number>1</number>
+ <rtept lat="33.2390602" lon="35.7030284">
+  <name>251-Sokr1-St</name>
+  <sym>Bike Trail</sym>
+ </rtept>
+ <rtept lat="33.2386743" lon="35.7033073">
+  <name>252</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2391678" lon="35.7043266">
+  <name>253</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2384320" lon="35.7044661">
+  <name>254</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2376603" lon="35.7054960">
+  <name>255</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2384320" lon="35.7067513">
+  <name>256</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2383782" lon="35.7082963">
+  <name>257</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2372316" lon="35.7091760">
+  <name>258</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2365496" lon="35.7106566">
+  <name>259</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2363163" lon="35.7118797">
+  <name>260</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2350151" lon="35.7111823">
+  <name>261</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2346635" lon="35.7099378">
+  <name>262</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2344033" lon="35.7096803">
+  <name>263</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2339905" lon="35.7089185">
+  <name>264</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2325995" lon="35.7086718">
+  <name>265</name>
+  <sym>Navaid, Blue</sym>
+ </rtept>
+ <rtept lat="33.2310470" lon="35.7086718">
+  <name>266Sokr1-Fin</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+</rte>
+<rte>
+ <name>D2-SOKR2</name>
+ <number>2</number>
+ <rtept lat="33.2618593" lon="35.7383477">
+  <name>267-Sokr2-St</name>
+  <sym>Bike Trail</sym>
+ </rtept>
+ <rtept lat="33.2624783" lon="35.7396781">
+  <name>268</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2634292" lon="35.7414269">
+  <name>269</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2633844" lon="35.7419633">
+  <name>270</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2628730" lon="35.7429611">
+  <name>271</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2621284" lon="35.7440984">
+  <name>272</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2616925" lon="35.7446026">
+  <name>273</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2613785" lon="35.7445490">
+  <name>274</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2599700" lon="35.7439696">
+  <name>275</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2589024" lon="35.7438945">
+  <name>276</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2576913" lon="35.7445275">
+  <name>277</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2571889" lon="35.7462120">
+  <name>278</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2570991" lon="35.7473599">
+  <name>279</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2579551" lon="35.7491624">
+  <name>280</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2589151" lon="35.7510829">
+  <name>281</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2587895" lon="35.7523918">
+  <name>282</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2598840" lon="35.7537543">
+  <name>283</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2603415" lon="35.7544946">
+  <name>284</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2607991" lon="35.7552886">
+  <name>285</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2602877" lon="35.7556212">
+  <name>286</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2596850" lon="35.7571017">
+  <name>287</name>
+  <sym>Navaid, Green</sym>
+ </rtept>
+ <rtept lat="33.2590212" lon="35.7581317">
+  <name>288-Sokr2-Fin</name>
+  <sym>Flag, Red</sym>
+ </rtept>
+</rte>
+<trk>
+ <name>D2_hermon1</name>
+ <desc>D2_hermon1</desc>
+<trkseg>
+<trkpt lat="33.2207520" lon="35.6320300">
+<ele>110.000000</ele>
+<time>2011-05-06T15:46:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2217030" lon="35.6338540">
+<ele>116.400002</ele>
+<time>2011-05-06T15:46:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2236240" lon="35.6317720">
+<ele>124.099998</ele>
+<time>2011-05-06T15:46:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2242340" lon="35.6322020">
+<ele>124.000000</ele>
+<time>2011-05-06T15:45:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2253290" lon="35.6356560">
+<ele>126.199997</ele>
+<time>2011-05-06T15:45:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2268010" lon="35.6389860">
+<ele>131.699997</ele>
+<time>2011-05-06T15:45:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2274260" lon="35.6398790">
+<ele>133.199997</ele>
+<time>2011-05-06T15:45:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2275040" lon="35.6403350">
+<ele>133.500000</ele>
+<time>2011-05-06T15:44:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2275480" lon="35.6407660">
+<ele>133.300003</ele>
+<time>2011-05-06T15:44:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2278140" lon="35.6412300">
+<ele>134.399994</ele>
+<time>2011-05-06T15:43:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2281090" lon="35.6417150">
+<ele>135.699997</ele>
+<time>2011-05-06T15:43:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2297740" lon="35.6438800">
+<ele>141.000000</ele>
+<time>2011-05-06T15:43:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2300910" lon="35.6442990">
+<ele>142.199997</ele>
+<time>2011-05-06T15:43:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2311230" lon="35.6456190">
+<ele>146.100006</ele>
+<time>2011-05-06T15:42:54.000Z</time>
+</trkpt>
+<trkpt lat="33.2314720" lon="35.6460300">
+<ele>147.099991</ele>
+<time>2011-05-06T15:42:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2317990" lon="35.6464340">
+<ele>149.300003</ele>
+<time>2011-05-06T15:42:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2327800" lon="35.6477150">
+<ele>151.300003</ele>
+<time>2011-05-06T15:42:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2331030" lon="35.6481920">
+<ele>151.399994</ele>
+<time>2011-05-06T15:42:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2334010" lon="35.6486200">
+<ele>151.500000</ele>
+<time>2011-05-06T15:42:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2337330" lon="35.6490960">
+<ele>151.600006</ele>
+<time>2011-05-06T15:41:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2352900" lon="35.6513970">
+<ele>158.899994</ele>
+<time>2011-05-06T15:41:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2355960" lon="35.6518550">
+<ele>160.000000</ele>
+<time>2011-05-06T15:41:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2368180" lon="35.6536710">
+<ele>165.500000</ele>
+<time>2011-05-06T15:41:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2374760" lon="35.6545430">
+<ele>168.800003</ele>
+<time>2011-05-06T15:40:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2377870" lon="35.6549570">
+<ele>170.100006</ele>
+<time>2011-05-06T15:40:54.000Z</time>
+</trkpt>
+<trkpt lat="33.2381150" lon="35.6554440">
+<ele>171.300003</ele>
+<time>2011-05-06T15:40:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2381230" lon="35.6560310">
+<ele>171.600006</ele>
+<time>2011-05-06T15:40:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2379910" lon="35.6566230">
+<ele>173.100006</ele>
+<time>2011-05-06T15:40:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2379110" lon="35.6571770">
+<ele>175.199997</ele>
+<time>2011-05-06T15:40:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2380070" lon="35.6577660">
+<ele>177.000000</ele>
+<time>2011-05-06T15:40:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2381420" lon="35.6583160">
+<ele>177.500000</ele>
+<time>2011-05-06T15:40:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2381820" lon="35.6589210">
+<ele>177.600006</ele>
+<time>2011-05-06T15:40:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2382220" lon="35.6594860">
+<ele>178.899994</ele>
+<time>2011-05-06T15:40:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2384950" lon="35.6600280">
+<ele>179.899994</ele>
+<time>2011-05-06T15:40:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2392940" lon="35.6607900">
+<ele>185.000000</ele>
+<time>2011-05-06T15:39:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2401580" lon="35.6615680">
+<ele>190.000000</ele>
+<time>2011-05-06T15:39:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2406000" lon="35.6619710">
+<ele>192.099991</ele>
+<time>2011-05-06T15:39:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2438330" lon="35.6648790">
+<ele>209.199997</ele>
+<time>2011-05-06T15:38:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2450000" lon="35.6659320">
+<ele>214.899994</ele>
+<time>2011-05-06T15:38:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2461440" lon="35.6669180">
+<ele>220.000000</ele>
+<time>2011-05-06T15:38:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2472620" lon="35.6679500">
+<ele>229.500000</ele>
+<time>2011-05-06T15:38:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2489100" lon="35.6700540">
+<ele>240.199997</ele>
+<time>2011-05-06T15:38:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2492390" lon="35.6704890">
+<ele>242.500000</ele>
+<time>2011-05-06T15:37:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2495660" lon="35.6709270">
+<ele>245.099991</ele>
+<time>2011-05-06T15:37:54.000Z</time>
+</trkpt>
+<trkpt lat="33.2502770" lon="35.6718650">
+<ele>249.800003</ele>
+<time>2011-05-06T15:37:44.000Z</time>
+</trkpt>
+<trkpt lat="33.2506560" lon="35.6722550">
+<ele>252.300003</ele>
+<time>2011-05-06T15:37:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2509680" lon="35.6726600">
+<ele>255.000000</ele>
+<time>2011-05-06T15:37:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2509590" lon="35.6732540">
+<ele>257.299988</ele>
+<time>2011-05-06T15:37:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2506590" lon="35.6737200">
+<ele>258.700012</ele>
+<time>2011-05-06T15:37:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2505250" lon="35.6743420">
+<ele>261.799988</ele>
+<time>2011-05-06T15:37:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2509400" lon="35.6762640">
+<ele>272.000000</ele>
+<time>2011-05-06T15:37:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2510670" lon="35.6767950">
+<ele>275.000000</ele>
+<time>2011-05-06T15:36:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2512240" lon="35.6774510">
+<ele>279.100006</ele>
+<time>2011-05-06T15:36:54.000Z</time>
+</trkpt>
+<trkpt lat="33.2513450" lon="35.6780760">
+<ele>283.899994</ele>
+<time>2011-05-06T15:36:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2510530" lon="35.6784640">
+<ele>289.699982</ele>
+<time>2011-05-06T15:36:44.000Z</time>
+</trkpt>
+<trkpt lat="33.2501180" lon="35.6784030">
+<ele>295.500000</ele>
+<time>2011-05-06T15:36:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2496860" lon="35.6782240">
+<ele>295.200012</ele>
+<time>2011-05-06T15:36:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2491670" lon="35.6780790">
+<ele>294.000000</ele>
+<time>2011-05-06T15:36:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2486680" lon="35.6780670">
+<ele>295.899994</ele>
+<time>2011-05-06T15:36:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2483350" lon="35.6784210">
+<ele>301.700012</ele>
+<time>2015-03-04T07:52:42.000Z</time>
+</trkpt>
+<trkpt lat="33.2481750" lon="35.6790000">
+<ele>309.199982</ele>
+<time>2011-05-06T15:36:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2480090" lon="35.6795680">
+<ele>313.899994</ele>
+<time>2011-05-06T15:36:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2479050" lon="35.6801660">
+<ele>317.899994</ele>
+<time>2011-05-06T15:36:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2477550" lon="35.6826710">
+<ele>333.600006</ele>
+<time>2011-05-06T15:35:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2475390" lon="35.6855780">
+<ele>343.799988</ele>
+<time>2011-05-06T15:34:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2475080" lon="35.6861820">
+<ele>346.200012</ele>
+<time>2011-05-06T15:34:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2474930" lon="35.6867280">
+<ele>348.199982</ele>
+<time>2011-05-06T15:34:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2474370" lon="35.6884150">
+<ele>347.600006</ele>
+<time>2011-05-06T15:34:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2475260" lon="35.6895770">
+<ele>345.400024</ele>
+<time>2011-05-06T15:33:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2475850" lon="35.6901530">
+<ele>345.899994</ele>
+<time>2011-05-06T15:33:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2478410" lon="35.6906320">
+<ele>347.800018</ele>
+<time>2011-05-06T15:33:31.000Z</time>
+</trkpt>
+<trkpt lat="33.2481860" lon="35.6910770">
+<ele>348.400024</ele>
+<time>2011-05-06T15:33:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2482240" lon="35.6916180">
+<ele>348.400024</ele>
+<time>2011-05-06T15:33:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2480630" lon="35.6919400">
+<ele>349.299988</ele>
+<time>2011-05-06T15:33:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2476140" lon="35.6924010">
+<ele>350.799988</ele>
+<time>2011-05-06T15:32:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2482590" lon="35.6928460">
+<ele>352.500000</ele>
+<time>2011-05-06T15:32:27.000Z</time>
+</trkpt>
+<trkpt lat="33.2482780" lon="35.6924000">
+<ele>350.499969</ele>
+<time>2011-05-06T15:30:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2483090" lon="35.6929290">
+<ele>352.700012</ele>
+<time>2011-05-06T14:24:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2473640" lon="35.6924980">
+<ele>350.700012</ele>
+<time>2011-05-06T14:23:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2466420" lon="35.6920370">
+<ele>347.200012</ele>
+<time>2011-05-06T14:23:43.000Z</time>
+</trkpt>
+<trkpt lat="33.2462390" lon="35.6917680">
+<ele>345.100006</ele>
+<time>2011-05-06T14:23:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2458140" lon="35.6915340">
+<ele>345.299988</ele>
+<time>2011-05-06T14:23:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2443880" lon="35.6907360">
+<ele>353.299988</ele>
+<time>2011-05-06T14:23:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2439540" lon="35.6904430">
+<ele>354.399994</ele>
+<time>2011-05-06T14:23:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2434570" lon="35.6899760">
+<ele>349.000031</ele>
+<time>2011-05-06T14:23:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2430170" lon="35.6904270">
+<ele>354.399994</ele>
+<time>2011-05-06T14:22:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2427210" lon="35.6909960">
+<ele>359.899994</ele>
+<time>2011-05-06T14:22:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2425510" lon="35.6915000">
+<ele>364.799988</ele>
+<time>2011-05-06T14:22:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2427440" lon="35.6920970">
+<ele>373.000000</ele>
+<time>2011-05-06T14:22:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2430090" lon="35.6931350">
+<ele>374.699982</ele>
+<time>2011-05-06T14:22:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2431660" lon="35.6936590">
+<ele>374.399994</ele>
+<time>2011-05-06T14:22:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2433020" lon="35.6941810">
+<ele>375.299988</ele>
+<time>2011-05-06T14:22:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2434690" lon="35.6953460">
+<ele>376.699982</ele>
+<time>2011-05-06T14:21:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2434570" lon="35.6959870">
+<ele>377.599976</ele>
+<time>2011-05-06T14:21:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2433800" lon="35.6965670">
+<ele>380.399994</ele>
+<time>2011-05-06T14:21:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2431560" lon="35.6971300">
+<ele>385.900024</ele>
+<time>2011-05-06T14:21:38.000Z</time>
+</trkpt>
+<trkpt lat="33.2425260" lon="35.6979620">
+<ele>394.200012</ele>
+<time>2011-05-06T14:21:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2421830" lon="35.6983260">
+<ele>397.200012</ele>
+<time>2011-05-06T14:21:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2417660" lon="35.6985950">
+<ele>401.699982</ele>
+<time>2011-05-06T14:21:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2412000" lon="35.6982700">
+<ele>404.200012</ele>
+<time>2011-05-06T14:21:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2409330" lon="35.6983020">
+<ele>404.699982</ele>
+<time>2015-03-04T07:52:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2407510" lon="35.6984630">
+<ele>405.899994</ele>
+<time>2011-05-06T14:21:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2407240" lon="35.6990960">
+<ele>409.600006</ele>
+<time>2011-05-06T14:21:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2406560" lon="35.6999010">
+<ele>414.299988</ele>
+<time>2015-03-04T07:35:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2399450" lon="35.7019020">
+<ele>428.600006</ele>
+<time>2011-05-06T14:20:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2396910" lon="35.7024950">
+<ele>434.899994</ele>
+<time>2011-05-06T14:20:24.000Z</time>
+</trkpt>
+<trkpt lat="33.2392740" lon="35.7024330">
+<ele>432.900024</ele>
+<time>2011-05-06T14:18:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2399510" lon="35.7030010">
+<ele>439.600006</ele>
+<time>2011-05-06T14:18:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2398430" lon="35.7034130">
+<ele>442.799988</ele>
+<time>2011-05-06T14:07:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2397800" lon="35.7032370">
+<ele>442.299988</ele>
+<time>2011-05-06T14:06:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2395140" lon="35.7029250">
+<ele>440.600006</ele>
+<time>2011-05-06T14:02:42.000Z</time>
+</trkpt>
+<trkpt lat="33.2391500" lon="35.7032070">
+<ele>440.999969</ele>
+<time>2011-05-06T14:02:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2393160" lon="35.7037070">
+<ele>447.299988</ele>
+<time>2011-05-06T14:02:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2395810" lon="35.7041480">
+<ele>452.299988</ele>
+<time>2011-05-06T14:02:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2398640" lon="35.7045720">
+<ele>452.500000</ele>
+<time>2011-05-06T14:02:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2401160" lon="35.7051170">
+<ele>454.000000</ele>
+<time>2011-05-06T14:02:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2402240" lon="35.7056610">
+<ele>458.299988</ele>
+<time>2011-05-06T14:02:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2402010" lon="35.7063200">
+<ele>465.399994</ele>
+<time>2011-05-06T14:02:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2400580" lon="35.7068280">
+<ele>470.600006</ele>
+<time>2011-05-06T14:01:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2398620" lon="35.7073110">
+<ele>475.399994</ele>
+<time>2011-05-06T14:01:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2396200" lon="35.7078910">
+<ele>480.599976</ele>
+<time>2011-05-06T14:01:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2383800" lon="35.7107820">
+<ele>499.200012</ele>
+<time>2011-05-06T14:01:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2377370" lon="35.7122840">
+<ele>510.300018</ele>
+<time>2011-05-06T14:01:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2375220" lon="35.7127920">
+<ele>514.599976</ele>
+<time>2011-05-06T14:01:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2371080" lon="35.7137920">
+<ele>522.599976</ele>
+<time>2011-05-06T14:00:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2368520" lon="35.7143860">
+<ele>533.000000</ele>
+<time>2011-05-06T14:00:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2366070" lon="35.7149670">
+<ele>538.200012</ele>
+<time>2011-05-06T14:00:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2363760" lon="35.7155260">
+<ele>539.400024</ele>
+<time>2011-05-06T14:00:43.000Z</time>
+</trkpt>
+<trkpt lat="33.2361900" lon="35.7160770">
+<ele>542.299988</ele>
+<time>2011-05-06T14:00:38.000Z</time>
+</trkpt>
+<trkpt lat="33.2361780" lon="35.7166590">
+<ele>547.899963</ele>
+<time>2011-05-06T14:00:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2363550" lon="35.7172100">
+<ele>553.100037</ele>
+<time>2011-05-06T14:00:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2367390" lon="35.7176620">
+<ele>552.700012</ele>
+<time>2011-05-06T14:00:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2371830" lon="35.7178880">
+<ele>550.500000</ele>
+<time>2011-05-06T14:00:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2376970" lon="35.7179140">
+<ele>548.799988</ele>
+<time>2011-05-06T14:00:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2381760" lon="35.7177020">
+<ele>549.299988</ele>
+<time>2011-05-06T14:00:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2388540" lon="35.7168670">
+<ele>547.400024</ele>
+<time>2011-05-06T14:00:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2391970" lon="35.7164870">
+<ele>551.000000</ele>
+<time>2011-05-06T13:59:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2396150" lon="35.7162240">
+<ele>556.400024</ele>
+<time>2011-05-06T13:59:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2409880" lon="35.7160240">
+<ele>563.799988</ele>
+<time>2011-05-06T13:59:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2414800" lon="35.7159760">
+<ele>561.000000</ele>
+<time>2011-05-06T13:59:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2420190" lon="35.7159350">
+<ele>560.900024</ele>
+<time>2011-05-06T13:59:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2429730" lon="35.7161340">
+<ele>566.400024</ele>
+<time>2011-05-06T13:59:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2445650" lon="35.7166460">
+<ele>573.100037</ele>
+<time>2011-05-06T13:59:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2451020" lon="35.7168150">
+<ele>577.000000</ele>
+<time>2011-05-06T13:59:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2456100" lon="35.7169970">
+<ele>582.000000</ele>
+<time>2011-05-06T13:58:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2460680" lon="35.7172850">
+<ele>590.600037</ele>
+<time>2011-05-06T13:58:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2463980" lon="35.7177340">
+<ele>599.299988</ele>
+<time>2011-05-06T13:58:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2466120" lon="35.7182490">
+<ele>605.099976</ele>
+<time>2011-05-06T13:58:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2467730" lon="35.7187790">
+<ele>611.400024</ele>
+<time>2011-05-06T13:58:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2468660" lon="35.7193390">
+<ele>620.100037</ele>
+<time>2011-05-06T13:58:37.000Z</time>
+</trkpt>
+<trkpt lat="33.2468530" lon="35.7199230">
+<ele>628.700012</ele>
+<time>2011-05-06T13:58:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2467830" lon="35.7204980">
+<ele>636.299988</ele>
+<time>2011-05-06T13:58:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2466100" lon="35.7210440">
+<ele>643.200012</ele>
+<time>2011-05-06T13:58:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2462890" lon="35.7215230">
+<ele>649.000000</ele>
+<time>2011-05-06T13:58:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2459770" lon="35.7220150">
+<ele>650.599976</ele>
+<time>2011-05-06T13:58:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2459120" lon="35.7226040">
+<ele>652.700012</ele>
+<time>2011-05-06T13:58:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2461090" lon="35.7231180">
+<ele>653.999939</ele>
+<time>2011-05-06T13:58:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2465090" lon="35.7234340">
+<ele>655.000000</ele>
+<time>2011-05-06T13:58:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2470280" lon="35.7234940">
+<ele>651.400024</ele>
+<time>2011-05-06T13:58:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2475610" lon="35.7234690">
+<ele>655.000000</ele>
+<time>2011-05-06T13:57:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2480760" lon="35.7234430">
+<ele>658.899963</ele>
+<time>2011-05-06T13:57:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2486090" lon="35.7234060">
+<ele>661.899963</ele>
+<time>2011-05-06T13:57:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2493250" lon="35.7224290">
+<ele>655.100037</ele>
+<time>2011-05-06T13:57:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2496000" lon="35.7218070">
+<ele>653.900024</ele>
+<time>2011-05-06T13:57:37.000Z</time>
+</trkpt>
+<trkpt lat="33.2498620" lon="35.7212230">
+<ele>659.900024</ele>
+<time>2011-05-06T13:57:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2501300" lon="35.7207060">
+<ele>663.900024</ele>
+<time>2011-05-06T13:57:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2510790" lon="35.7201640">
+<ele>691.200012</ele>
+<time>2011-05-06T13:57:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2515480" lon="35.7199200">
+<ele>698.900024</ele>
+<time>2011-05-06T13:57:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2523882" lon="35.7195506">
+<ele>706.500000</ele>
+<time>2011-05-06T13:57:12.000Z</time>
+</trkpt>
+<trkpt lat="33.2512400" lon="35.7127217">
+<ele>718.600037</ele>
+<time>2011-05-06T13:57:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2525623" lon="35.7195667">
+<ele>729.099976</ele>
+<time>2011-05-06T13:57:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2529400" lon="35.7201246">
+<ele>731.300049</ele>
+<time>2011-05-06T13:56:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2525710" lon="35.7208560">
+<ele>731.599976</ele>
+<time>2011-05-06T13:56:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2521240" lon="35.7212230">
+<ele>732.000000</ele>
+<time>2011-05-06T13:56:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2515360" lon="35.7222040">
+<ele>735.200012</ele>
+<time>2011-05-06T13:56:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2512800" lon="35.7227200">
+<ele>739.899963</ele>
+<time>2011-05-06T13:56:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2510900" lon="35.7232580">
+<ele>744.099976</ele>
+<time>2011-05-06T13:56:31.000Z</time>
+</trkpt>
+<trkpt lat="33.2508400" lon="35.7243340">
+<ele>753.700012</ele>
+<time>2011-05-06T13:56:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2505390" lon="35.7262250">
+<ele>769.799988</ele>
+<time>2011-05-06T13:56:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2504270" lon="35.7268630">
+<ele>773.099976</ele>
+<time>2011-05-06T13:56:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2503110" lon="35.7273880">
+<ele>777.000000</ele>
+<time>2011-05-06T13:55:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2500840" lon="35.7278630">
+<ele>779.299988</ele>
+<time>2011-05-06T13:55:55.000Z</time>
+</trkpt>
+<trkpt lat="33.2498070" lon="35.7283950">
+<ele>781.500000</ele>
+<time>2011-05-06T13:55:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2497420" lon="35.7290040">
+<ele>786.600037</ele>
+<time>2011-05-06T13:55:44.000Z</time>
+</trkpt>
+<trkpt lat="33.2503350" lon="35.7304830">
+<ele>810.400024</ele>
+<time>2011-05-06T13:55:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2505460" lon="35.7309620">
+<ele>812.700012</ele>
+<time>2011-05-06T13:55:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2508220" lon="35.7313410">
+<ele>810.200012</ele>
+<time>2011-05-06T13:54:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2512510" lon="35.7315060">
+<ele>804.299988</ele>
+<time>2011-05-06T13:54:55.000Z</time>
+</trkpt>
+<trkpt lat="33.2517790" lon="35.7313800">
+<ele>803.399963</ele>
+<time>2011-05-06T13:54:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2523010" lon="35.7311470">
+<ele>803.900024</ele>
+<time>2011-05-06T13:54:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2533230" lon="35.7309470">
+<ele>810.799988</ele>
+<time>2011-05-06T13:54:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2538470" lon="35.7309450">
+<ele>815.000000</ele>
+<time>2011-05-06T13:54:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2543340" lon="35.7309520">
+<ele>820.299988</ele>
+<time>2011-05-06T13:54:31.000Z</time>
+</trkpt>
+<trkpt lat="33.2553040" lon="35.7309140">
+<ele>830.000000</ele>
+<time>2011-05-06T13:54:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2558110" lon="35.7308630">
+<ele>832.400024</ele>
+<time>2011-05-06T13:54:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2563010" lon="35.7307330">
+<ele>832.799988</ele>
+<time>2011-05-06T13:54:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2567880" lon="35.7305830">
+<ele>835.500061</ele>
+<time>2011-05-06T13:54:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2572750" lon="35.7303930">
+<ele>839.600037</ele>
+<time>2011-05-06T13:54:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2576880" lon="35.7299520">
+<ele>841.499939</ele>
+<time>2015-03-04T08:12:24.000Z</time>
+</trkpt>
+<trkpt lat="33.2580210" lon="35.7294980">
+<ele>842.600037</ele>
+<time>2011-05-06T13:53:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2583650" lon="35.7289870">
+<ele>839.799988</ele>
+<time>2011-05-06T13:53:55.000Z</time>
+</trkpt>
+<trkpt lat="33.2587070" lon="35.7284830">
+<ele>844.499939</ele>
+<time>2011-05-06T13:53:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2590460" lon="35.7280260">
+<ele>847.799988</ele>
+<time>2011-05-06T13:53:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2594980" lon="35.7276350">
+<ele>856.500000</ele>
+<time>2011-05-06T13:53:42.000Z</time>
+</trkpt>
+<trkpt lat="33.2599920" lon="35.7276530">
+<ele>864.600037</ele>
+<time>2011-05-06T13:53:37.000Z</time>
+</trkpt>
+<trkpt lat="33.2603340" lon="35.7280930">
+<ele>874.600037</ele>
+<time>2011-05-06T13:53:32.000Z</time>
+</trkpt>
+<trkpt lat="33.2603600" lon="35.7286970">
+<ele>880.799988</ele>
+<time>2011-05-06T13:53:27.000Z</time>
+</trkpt>
+<trkpt lat="33.2602310" lon="35.7292420">
+<ele>885.099976</ele>
+<time>2011-05-06T13:53:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2603270" lon="35.7309990">
+<ele>896.500000</ele>
+<time>2011-05-06T13:53:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2604810" lon="35.7327460">
+<ele>905.799988</ele>
+<time>2011-05-06T13:52:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2605310" lon="35.7333060">
+<ele>909.300049</ele>
+<time>2011-05-06T13:52:55.000Z</time>
+</trkpt>
+<trkpt lat="33.2605840" lon="35.7338730">
+<ele>913.599976</ele>
+<time>2011-05-06T13:52:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2606380" lon="35.7344560">
+<ele>919.599976</ele>
+<time>2011-05-06T13:52:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2606840" lon="35.7357120">
+<ele>926.500000</ele>
+<time>2011-05-06T13:52:37.000Z</time>
+</trkpt>
+<trkpt lat="33.2606980" lon="35.7363190">
+<ele>930.500000</ele>
+<time>2011-05-06T13:52:31.000Z</time>
+</trkpt>
+<trkpt lat="33.2608380" lon="35.7367760">
+<ele>937.200012</ele>
+<time>2015-03-04T08:12:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2611510" lon="35.7373290">
+<ele>946.399963</ele>
+<time>2011-05-06T13:52:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2614570" lon="35.7377420">
+<ele>951.500000</ele>
+<time>2011-05-06T13:52:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2617440" lon="35.7380420">
+<ele>956.999939</ele>
+<time>2011-05-06T13:51:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2621890" lon="35.7381170">
+<ele>965.399963</ele>
+<time>2011-05-06T13:49:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2630950" lon="35.7393400">
+<ele>965.800049</ele>
+<time>2011-05-06T13:49:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2633700" lon="35.7393610">
+<ele>961.799988</ele>
+<time>2015-03-04T07:36:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2638100" lon="35.7395870">
+<ele>959.900024</ele>
+<time>2015-03-04T07:36:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2642600" lon="35.7401870">
+<ele>966.599976</ele>
+<time>2015-03-04T07:53:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2644660" lon="35.7403910">
+<ele>965.800049</ele>
+<time>2011-05-06T13:46:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2648050" lon="35.7405990">
+<ele>971.399963</ele>
+<time>2011-05-06T13:45:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2646790" lon="35.7401310">
+<ele>964.400024</ele>
+<time>2011-05-06T13:45:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2645980" lon="35.7395720">
+<ele>957.799988</ele>
+<time>2011-05-06T13:45:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2644330" lon="35.7390600">
+<ele>959.399963</ele>
+<time>2011-05-06T13:44:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2641230" lon="35.7380520">
+<ele>952.299988</ele>
+<time>2011-05-06T13:44:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2646610" lon="35.7370220">
+<ele>947.500000</ele>
+<time>2011-05-06T13:44:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2655380" lon="35.7350910">
+<ele>982.900024</ele>
+<time>2011-05-06T13:43:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2656090" lon="35.7347370">
+<ele>989.700012</ele>
+<time>2015-03-04T07:53:27.000Z</time>
+</trkpt>
+<trkpt lat="33.2654810" lon="35.7345200">
+<ele>986.199951</ele>
+<time>2011-05-06T13:43:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2654030" lon="35.7342330">
+<ele>982.400024</ele>
+<time>2015-03-04T07:53:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2655420" lon="35.7340290">
+<ele>986.700012</ele>
+<time>2011-05-06T13:43:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2658650" lon="35.7335890">
+<ele>994.499939</ele>
+<time>2011-05-06T13:43:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2657840" lon="35.7331820">
+<ele>989.500000</ele>
+<time>2011-05-06T13:43:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2664170" lon="35.7326770">
+<ele>1006.999939</ele>
+<time>2015-03-04T07:53:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2666930" lon="35.7322380">
+<ele>1011.799988</ele>
+<time>2011-05-06T13:42:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2669520" lon="35.7317510">
+<ele>1016.599976</ele>
+<time>2011-05-06T13:42:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2672240" lon="35.7313000">
+<ele>1021.200012</ele>
+<time>2011-05-06T13:42:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2675670" lon="35.7308890">
+<ele>1028.900024</ele>
+<time>2011-05-06T13:42:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2680380" lon="35.7298900">
+<ele>1033.900024</ele>
+<time>2011-05-06T13:41:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2681800" lon="35.7295010">
+<ele>1035.300049</ele>
+<time>2015-03-04T08:11:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2683210" lon="35.7293820">
+<ele>1038.099976</ele>
+<time>2011-05-06T13:41:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2688470" lon="35.7284630">
+<ele>1048.900024</ele>
+<time>2011-05-06T13:41:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2689790" lon="35.7278770">
+<ele>1052.299927</ele>
+<time>2011-05-06T13:40:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2692080" lon="35.7274360">
+<ele>1060.599976</ele>
+<time>2011-05-06T13:40:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2696360" lon="35.7272690">
+<ele>1070.000000</ele>
+<time>2011-05-06T13:37:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2699090" lon="35.7273230">
+<ele>1071.400024</ele>
+<time>2015-03-04T07:53:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2701240" lon="35.7269910">
+<ele>1074.299927</ele>
+<time>2011-05-06T13:37:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2704020" lon="35.7273770">
+<ele>1074.500000</ele>
+<time>2015-03-04T07:53:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2708600" lon="35.7274630">
+<ele>1080.400024</ele>
+<time>2015-03-04T07:53:44.000Z</time>
+</trkpt>
+<trkpt lat="33.2709670" lon="35.7275780">
+<ele>1081.699951</ele>
+<time>2011-05-06T13:36:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2714620" lon="35.7276280">
+<ele>1087.800049</ele>
+<time>2011-05-06T13:36:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2719630" lon="35.7277460">
+<ele>1093.599976</ele>
+<time>2011-05-06T13:36:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2727470" lon="35.7281050">
+<ele>1100.599976</ele>
+<time>2011-05-06T13:26:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2732210" lon="35.7283770">
+<ele>1104.900024</ele>
+<time>2011-05-06T13:26:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2736550" lon="35.7286400">
+<ele>1110.099976</ele>
+<time>2011-05-06T13:26:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2741140" lon="35.7286060">
+<ele>1115.500000</ele>
+<time>2011-05-06T13:26:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2745770" lon="35.7285070">
+<ele>1120.699951</ele>
+<time>2011-05-06T13:26:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2750210" lon="35.7286960">
+<ele>1127.400024</ele>
+<time>2011-05-06T13:25:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2756610" lon="35.7293620">
+<ele>1146.900024</ele>
+<time>2011-05-06T13:24:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2758200" lon="35.7297160">
+<ele>1156.699951</ele>
+<time>2015-03-04T08:11:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2761740" lon="35.7301610">
+<ele>1170.500000</ele>
+<time>2011-05-06T13:24:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2764070" lon="35.7305550">
+<ele>1182.900024</ele>
+<time>2011-05-06T13:23:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2776360" lon="35.7322720">
+<ele>1224.099976</ele>
+<time>2011-05-06T13:22:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2778700" lon="35.7328060">
+<ele>1233.599976</ele>
+<time>2011-05-06T13:22:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2780990" lon="35.7333180">
+<ele>1245.000000</ele>
+<time>2011-05-06T13:22:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2795500" lon="35.7346410">
+<ele>1251.000000</ele>
+<time>2011-05-06T13:21:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2800920" lon="35.7349090">
+<ele>1260.800049</ele>
+<time>2011-05-06T13:21:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2805500" lon="35.7351230">
+<ele>1265.199951</ele>
+<time>2011-05-06T13:21:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2809530" lon="35.7351770">
+<ele>1274.099976</ele>
+<time>2011-05-06T13:21:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2815040" lon="35.7354020">
+<ele>1279.900024</ele>
+<time>2011-05-06T13:20:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2818450" lon="35.7354880">
+<ele>1286.200073</ele>
+<time>2011-05-06T13:20:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2822750" lon="35.7356380">
+<ele>1292.499878</ele>
+<time>2011-05-06T13:20:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2832980" lon="35.7361850">
+<ele>1304.300049</ele>
+<time>2015-03-04T07:54:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2840230" lon="35.7363620">
+<ele>1325.199951</ele>
+<time>2011-05-06T13:19:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2859550" lon="35.7367460">
+<ele>1366.299927</ele>
+<time>2011-05-06T13:19:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2864370" lon="35.7367970">
+<ele>1370.900024</ele>
+<time>2011-05-06T13:19:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2869560" lon="35.7366630">
+<ele>1375.199951</ele>
+<time>2011-05-06T13:17:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2873700" lon="35.7369090">
+<ele>1366.299927</ele>
+<time>2011-05-06T13:17:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2876960" lon="35.7373010">
+<ele>1362.099976</ele>
+<time>2011-05-06T13:16:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2877480" lon="35.7378620">
+<ele>1366.500000</ele>
+<time>2011-05-06T13:15:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2879580" lon="35.7383840">
+<ele>1369.700073</ele>
+<time>2011-05-06T13:15:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2882560" lon="35.7387990">
+<ele>1358.599976</ele>
+<time>2011-05-06T13:13:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2885140" lon="35.7392430">
+<ele>1349.699951</ele>
+<time>2011-05-06T13:13:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2886240" lon="35.7397710">
+<ele>1351.599976</ele>
+<time>2011-05-06T13:13:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2887010" lon="35.7403490">
+<ele>1356.000000</ele>
+<time>2011-05-06T13:13:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2887450" lon="35.7409660">
+<ele>1362.899902</ele>
+<time>2011-05-06T13:13:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2887160" lon="35.7415750">
+<ele>1371.599976</ele>
+<time>2011-05-06T13:12:54.000Z</time>
+</trkpt>
+<trkpt lat="33.2886460" lon="35.7421530">
+<ele>1380.000000</ele>
+<time>2011-05-06T13:12:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2885720" lon="35.7427150">
+<ele>1383.800049</ele>
+<time>2011-05-06T13:12:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2885970" lon="35.7432640">
+<ele>1383.700073</ele>
+<time>2011-05-06T13:12:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2886300" lon="35.7438350">
+<ele>1385.000000</ele>
+<time>2011-05-06T13:12:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2886610" lon="35.7443830">
+<ele>1386.300049</ele>
+<time>2011-05-06T13:12:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2886210" lon="35.7450100">
+<ele>1395.199951</ele>
+<time>2011-05-06T13:12:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2886480" lon="35.7455730">
+<ele>1399.300049</ele>
+<time>2011-05-06T13:12:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2885830" lon="35.7461800">
+<ele>1406.799927</ele>
+<time>2011-05-06T13:11:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2887570" lon="35.7467080">
+<ele>1403.599976</ele>
+<time>2011-05-06T13:11:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2887850" lon="35.7472750">
+<ele>1411.099976</ele>
+<time>2011-05-06T13:11:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2887020" lon="35.7478650">
+<ele>1419.600098</ele>
+<time>2011-05-06T13:11:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2887200" lon="35.7484280">
+<ele>1425.000000</ele>
+<time>2011-05-06T13:11:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2887840" lon="35.7489600">
+<ele>1426.300049</ele>
+<time>2011-05-06T13:11:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2888180" lon="35.7495220">
+<ele>1425.300049</ele>
+<time>2011-05-06T13:10:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2887880" lon="35.7501020">
+<ele>1421.800049</ele>
+<time>2011-05-06T13:10:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2888330" lon="35.7504870">
+<ele>1419.000000</ele>
+<time>2011-05-06T13:10:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2894070" lon="35.7510020">
+<ele>1412.799927</ele>
+<time>2011-05-06T13:10:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2901780" lon="35.7514310">
+<ele>1414.000000</ele>
+<time>2011-05-06T13:09:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2905730" lon="35.7516910">
+<ele>1416.599976</ele>
+<time>2011-05-06T13:09:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2909320" lon="35.7533520">
+<ele>1419.500000</ele>
+<time>2011-05-06T13:08:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2915130" lon="35.7536740">
+<ele>1415.400024</ele>
+<time>2015-03-04T08:13:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2910880" lon="35.7538020">
+<ele>1418.099976</ele>
+<time>2015-03-04T07:54:32.000Z</time>
+</trkpt>
+<trkpt lat="33.2911680" lon="35.7546710">
+<ele>1425.300049</ele>
+<time>2011-05-06T13:07:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2911130" lon="35.7551170">
+<ele>1428.699951</ele>
+<time>2011-05-06T13:06:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2910030" lon="35.7561230">
+<ele>1441.699951</ele>
+<time>2011-05-06T13:05:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2912100" lon="35.7566050">
+<ele>1439.400024</ele>
+<time>2011-05-06T13:05:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2912560" lon="35.7571460">
+<ele>1444.800049</ele>
+<time>2011-05-06T13:04:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2912740" lon="35.7576220">
+<ele>1451.199951</ele>
+<time>2011-05-06T13:02:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2910840" lon="35.7580400">
+<ele>1459.500000</ele>
+<time>2011-05-06T13:02:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2905810" lon="35.7580790">
+<ele>1472.299927</ele>
+<time>2011-05-06T13:01:42.000Z</time>
+</trkpt>
+<trkpt lat="33.2904910" lon="35.7583080">
+<ele>1471.299927</ele>
+<time>2015-03-04T07:54:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2905890" lon="35.7587700">
+<ele>1463.899902</ele>
+<time>2011-05-06T13:00:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2908130" lon="35.7593060">
+<ele>1462.799927</ele>
+<time>2011-05-06T13:00:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2910560" lon="35.7598640">
+<ele>1464.500000</ele>
+<time>2011-05-06T13:00:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2913550" lon="35.7600220">
+<ele>1465.299927</ele>
+<time>2011-05-06T12:59:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2903770" lon="35.7598750">
+<ele>1465.599976</ele>
+<time>2015-03-04T07:39:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2899840" lon="35.7593180">
+<ele>1472.000000</ele>
+<time>2011-05-06T11:22:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2898770" lon="35.7587960">
+<ele>1476.800049</ele>
+<time>2011-05-06T11:22:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2900090" lon="35.7582400">
+<ele>1485.000000</ele>
+<time>2011-05-06T11:22:12.000Z</time>
+</trkpt>
+<trkpt lat="33.2902850" lon="35.7576430">
+<ele>1483.700073</ele>
+<time>2015-03-04T07:40:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2899360" lon="35.7555510">
+<ele>1483.099976</ele>
+<time>2015-03-04T07:40:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2895680" lon="35.7543390">
+<ele>1466.299927</ele>
+<time>2015-03-04T07:40:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2891460" lon="35.7538350">
+<ele>1454.500000</ele>
+<time>2015-03-04T07:40:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2885190" lon="35.7534480">
+<ele>1448.499878</ele>
+<time>2015-03-04T07:40:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2876580" lon="35.7534050">
+<ele>1446.699951</ele>
+<time>2015-03-04T07:40:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2871630" lon="35.7536360">
+<ele>1446.400024</ele>
+<time>2011-05-06T11:18:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2867970" lon="35.7539230">
+<ele>1444.300049</ele>
+<time>2011-05-06T11:17:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2865790" lon="35.7540980">
+<ele>1442.599976</ele>
+<time>2011-05-06T11:16:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2852400" lon="35.7543570">
+<ele>1426.900024</ele>
+<time>2011-05-06T11:15:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2842500" lon="35.7554920">
+<ele>1403.800049</ele>
+<time>2011-05-06T11:14:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2840610" lon="35.7559550">
+<ele>1400.899902</ele>
+<time>2011-05-06T11:14:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2841680" lon="35.7564880">
+<ele>1406.099976</ele>
+<time>2011-05-06T11:13:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2842840" lon="35.7570160">
+<ele>1408.199951</ele>
+<time>2011-05-06T11:13:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2843940" lon="35.7575550">
+<ele>1406.899902</ele>
+<time>2011-05-06T11:13:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2844630" lon="35.7580940">
+<ele>1403.900024</ele>
+<time>2011-05-06T11:13:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2845770" lon="35.7586520">
+<ele>1402.700073</ele>
+<time>2011-05-06T11:12:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2848040" lon="35.7606800">
+<ele>1396.000122</ele>
+<time>2015-03-04T08:11:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2850930" lon="35.7613470">
+<ele>1396.800049</ele>
+<time>2011-05-06T11:11:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2850920" lon="35.7619150">
+<ele>1393.000000</ele>
+<time>2011-05-06T11:10:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2850410" lon="35.7623210">
+<ele>1395.400024</ele>
+<time>2015-03-04T07:40:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2845570" lon="35.7622030">
+<ele>1388.400024</ele>
+<time>2015-03-04T07:40:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2837750" lon="35.7618460">
+<ele>1386.300049</ele>
+<time>2011-05-06T11:09:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2829900" lon="35.7612440">
+<ele>1375.500000</ele>
+<time>2011-05-06T11:08:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2825820" lon="35.7609570">
+<ele>1374.200073</ele>
+<time>2011-05-06T11:08:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2821750" lon="35.7606770">
+<ele>1366.299927</ele>
+<time>2011-05-06T11:08:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2817800" lon="35.7604110">
+<ele>1363.700073</ele>
+<time>2011-05-06T11:08:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2813870" lon="35.7601340">
+<ele>1364.599976</ele>
+<time>2011-05-06T11:07:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2810070" lon="35.7598500">
+<ele>1358.599976</ele>
+<time>2011-05-06T11:07:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2801920" lon="35.7593360">
+<ele>1350.899902</ele>
+<time>2011-05-06T11:06:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2797480" lon="35.7591680">
+<ele>1353.100098</ele>
+<time>2011-05-06T11:06:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2793750" lon="35.7589020">
+<ele>1353.100098</ele>
+<time>2011-05-06T11:05:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2783080" lon="35.7578550">
+<ele>1335.900024</ele>
+<time>2011-05-06T11:04:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2775590" lon="35.7572360">
+<ele>1320.800049</ele>
+<time>2011-05-06T11:04:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2771580" lon="35.7569880">
+<ele>1315.900024</ele>
+<time>2011-05-06T11:03:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2767320" lon="35.7568180">
+<ele>1306.600098</ele>
+<time>2011-05-06T11:03:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2762680" lon="35.7567960">
+<ele>1302.299927</ele>
+<time>2011-05-06T11:03:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2753710" lon="35.7570220">
+<ele>1291.500000</ele>
+<time>2011-05-06T11:02:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2747230" lon="35.7570960">
+<ele>1280.500122</ele>
+<time>2015-03-04T07:40:38.000Z</time>
+</trkpt>
+<trkpt lat="33.2742480" lon="35.7575680">
+<ele>1292.699951</ele>
+<time>2015-03-04T07:40:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2738080" lon="35.7577930">
+<ele>1298.699951</ele>
+<time>2015-03-04T07:40:37.000Z</time>
+</trkpt>
+<trkpt lat="33.2733310" lon="35.7574980">
+<ele>1287.400024</ele>
+<time>2011-05-06T11:00:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2729560" lon="35.7573210">
+<ele>1280.000000</ele>
+<time>2015-03-04T07:40:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2724380" lon="35.7573020">
+<ele>1278.000000</ele>
+<time>2011-05-06T10:59:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2720120" lon="35.7572370">
+<ele>1275.600098</ele>
+<time>2011-05-06T10:59:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2717760" lon="35.7572030">
+<ele>1277.299927</ele>
+<time>2015-03-04T07:41:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2715650" lon="35.7571320">
+<ele>1277.900024</ele>
+<time>2011-05-06T10:58:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2708070" lon="35.7565890">
+<ele>1282.800049</ele>
+<time>2011-05-06T10:57:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2706970" lon="35.7560650">
+<ele>1278.299927</ele>
+<time>2011-05-06T10:57:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2706080" lon="35.7555190">
+<ele>1267.300049</ele>
+<time>2015-03-04T07:41:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2703250" lon="35.7551040">
+<ele>1258.099976</ele>
+<time>2011-05-06T10:56:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2699590" lon="35.7548320">
+<ele>1247.900024</ele>
+<time>2011-05-06T10:56:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2695310" lon="35.7546180">
+<ele>1239.000000</ele>
+<time>2011-05-06T10:55:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2689750" lon="35.7547680">
+<ele>1242.299927</ele>
+<time>2015-03-04T07:40:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2687120" lon="35.7545170">
+<ele>1236.000000</ele>
+<time>2011-05-06T10:54:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2683380" lon="35.7542310">
+<ele>1231.400024</ele>
+<time>2015-03-04T07:40:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2679560" lon="35.7545260">
+<ele>1237.599976</ele>
+<time>2011-05-06T10:53:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2675310" lon="35.7547500">
+<ele>1234.300049</ele>
+<time>2011-05-06T10:53:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2666430" lon="35.7550180">
+<ele>1224.200073</ele>
+<time>2011-05-06T10:52:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2661780" lon="35.7550010">
+<ele>1218.200073</ele>
+<time>2011-05-06T10:52:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2657080" lon="35.7549810">
+<ele>1206.599976</ele>
+<time>2011-05-06T10:51:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2653620" lon="35.7552010">
+<ele>1198.699951</ele>
+<time>2011-05-06T10:51:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2654840" lon="35.7557310">
+<ele>1199.800049</ele>
+<time>2011-05-06T10:51:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2655820" lon="35.7562500">
+<ele>1198.199951</ele>
+<time>2011-05-06T10:50:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2655780" lon="35.7567880">
+<ele>1192.700073</ele>
+<time>2011-05-06T10:50:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2657830" lon="35.7572650">
+<ele>1193.099976</ele>
+<time>2011-05-06T10:49:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2659480" lon="35.7577760">
+<ele>1189.599976</ele>
+<time>2011-05-06T10:49:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2660890" lon="35.7583000">
+<ele>1186.099976</ele>
+<time>2011-05-06T10:48:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2662620" lon="35.7588110">
+<ele>1184.500000</ele>
+<time>2011-05-06T10:48:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2663520" lon="35.7593560">
+<ele>1179.799927</ele>
+<time>2011-05-06T10:48:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2663270" lon="35.7597030">
+<ele>1174.700073</ele>
+<time>2015-03-04T07:41:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2661030" lon="35.7604430">
+<ele>1158.500000</ele>
+<time>2015-03-04T07:41:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2665480" lon="35.7614080">
+<ele>1162.599976</ele>
+<time>2011-05-06T10:46:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2665990" lon="35.7619570">
+<ele>1155.900024</ele>
+<time>2011-05-06T10:46:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2666890" lon="35.7624910">
+<ele>1153.099976</ele>
+<time>2011-05-06T10:45:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2669350" lon="35.7629610">
+<ele>1154.599976</ele>
+<time>2011-05-06T10:45:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2666310" lon="35.7632320">
+<ele>1147.199951</ele>
+<time>2011-05-06T10:44:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2664840" lon="35.7631890">
+<ele>1144.400024</ele>
+<time>2011-05-06T10:42:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2660480" lon="35.7630080">
+<ele>1138.800049</ele>
+<time>2011-05-06T10:42:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2656090" lon="35.7628360">
+<ele>1136.599976</ele>
+<time>2011-05-06T10:41:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2652700" lon="35.7624950">
+<ele>1131.000000</ele>
+<time>2011-05-06T10:41:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2650150" lon="35.7620220">
+<ele>1125.699951</ele>
+<time>2011-05-06T10:41:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2645760" lon="35.7619870">
+<ele>1119.699951</ele>
+<time>2011-05-06T10:40:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2642960" lon="35.7623800">
+<ele>1111.900024</ele>
+<time>2011-05-06T10:40:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2644950" lon="35.7628680">
+<ele>1116.900024</ele>
+<time>2011-05-06T10:40:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2649170" lon="35.7638650">
+<ele>1120.400024</ele>
+<time>2011-05-06T10:39:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2646350" lon="35.7638720">
+<ele>1116.099976</ele>
+<time>2011-05-06T10:38:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2643410" lon="35.7634400">
+<ele>1113.000000</ele>
+<time>2011-05-06T10:38:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2636610" lon="35.7626670">
+<ele>1097.699951</ele>
+<time>2011-05-06T10:37:38.000Z</time>
+</trkpt>
+<trkpt lat="33.2633660" lon="35.7622300">
+<ele>1092.299927</ele>
+<time>2011-05-06T10:37:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2631340" lon="35.7617750">
+<ele>1086.099976</ele>
+<time>2011-05-06T10:36:31.000Z</time>
+</trkpt>
+<trkpt lat="33.2628820" lon="35.7613210">
+<ele>1078.000000</ele>
+<time>2011-05-06T10:35:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2626570" lon="35.7609240">
+<ele>1077.299927</ele>
+<time>2011-05-06T10:35:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2626820" lon="35.7609940">
+<ele>1077.599976</ele>
+<time>2011-05-06T10:34:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2625550" lon="35.7605270">
+<ele>1074.700073</ele>
+<time>2011-05-06T10:34:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2623190" lon="35.7600670">
+<ele>1069.599976</ele>
+<time>2011-05-06T10:33:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2619900" lon="35.7596990">
+<ele>1065.599976</ele>
+<time>2011-05-06T10:33:32.000Z</time>
+</trkpt>
+<trkpt lat="33.2616610" lon="35.7592980">
+<ele>1062.200073</ele>
+<time>2011-05-06T10:33:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2609060" lon="35.7586880">
+<ele>1053.000000</ele>
+<time>2011-05-06T10:32:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2605580" lon="35.7583390">
+<ele>1044.599976</ele>
+<time>2011-05-06T10:31:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2601630" lon="35.7580850">
+<ele>1034.699951</ele>
+<time>2011-05-06T10:31:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2597170" lon="35.7580660">
+<ele>1030.000000</ele>
+<time>2011-05-06T10:31:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2593150" lon="35.7582000">
+<ele>1029.000000</ele>
+<time>2011-05-06T10:30:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2588340" lon="35.7582740">
+<ele>1026.500000</ele>
+<time>2011-05-06T10:30:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2583620" lon="35.7584010">
+<ele>1027.400024</ele>
+<time>2011-05-06T10:30:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2579310" lon="35.7586230">
+<ele>1030.599976</ele>
+<time>2011-05-06T10:30:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2574770" lon="35.7587410">
+<ele>1035.400024</ele>
+<time>2011-05-06T10:30:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2569990" lon="35.7586360">
+<ele>1035.900024</ele>
+<time>2011-05-06T10:30:31.000Z</time>
+</trkpt>
+<trkpt lat="33.2565450" lon="35.7585520">
+<ele>1037.500000</ele>
+<time>2011-05-06T10:30:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2560280" lon="35.7585110">
+<ele>1043.599976</ele>
+<time>2011-05-06T10:30:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2555260" lon="35.7583780">
+<ele>1050.199951</ele>
+<time>2011-05-06T10:30:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2547730" lon="35.7576160">
+<ele>1041.800049</ele>
+<time>2011-05-06T10:30:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2543310" lon="35.7575290">
+<ele>1045.400024</ele>
+<time>2011-05-06T10:29:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2538490" lon="35.7575550">
+<ele>1048.500000</ele>
+<time>2011-05-06T10:29:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2531420" lon="35.7582850">
+<ele>1051.799927</ele>
+<time>2011-05-06T10:29:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2528960" lon="35.7587930">
+<ele>1055.500000</ele>
+<time>2011-05-06T10:29:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2526430" lon="35.7593020">
+<ele>1061.400024</ele>
+<time>2011-05-06T10:29:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2517260" lon="35.7590340">
+<ele>1066.400024</ele>
+<time>2011-05-06T10:28:55.000Z</time>
+</trkpt>
+<trkpt lat="33.2512360" lon="35.7587980">
+<ele>1071.000000</ele>
+<time>2011-05-06T10:28:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2507720" lon="35.7583080">
+<ele>1069.199951</ele>
+<time>2011-05-06T10:28:44.000Z</time>
+</trkpt>
+<trkpt lat="33.2503240" lon="35.7581580">
+<ele>1075.000000</ele>
+<time>2011-05-06T10:28:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2495940" lon="35.7575950">
+<ele>1079.800049</ele>
+<time>2011-05-06T10:28:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2491970" lon="35.7573090">
+<ele>1078.099976</ele>
+<time>2011-05-06T10:28:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2484760" lon="35.7565240">
+<ele>1074.500000</ele>
+<time>2011-05-06T10:27:42.000Z</time>
+</trkpt>
+<trkpt lat="33.2480950" lon="35.7562140">
+<ele>1074.400024</ele>
+<time>2011-05-06T10:27:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2477200" lon="35.7557880">
+<ele>1074.800049</ele>
+<time>2011-05-06T10:27:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2474460" lon="35.7552790">
+<ele>1078.099976</ele>
+<time>2011-05-06T10:27:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2471430" lon="35.7546880">
+<ele>1087.599976</ele>
+<time>2011-05-06T10:27:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2468430" lon="35.7540820">
+<ele>1094.099976</ele>
+<time>2011-05-06T10:27:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2465890" lon="35.7535760">
+<ele>1096.900024</ele>
+<time>2011-05-06T10:27:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2460390" lon="35.7528470">
+<ele>1102.800049</ele>
+<time>2015-03-04T07:43:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2451490" lon="35.7523330">
+<ele>1094.699951</ele>
+<time>2011-05-06T10:25:27.000Z</time>
+</trkpt>
+<trkpt lat="33.2447910" lon="35.7520390">
+<ele>1089.900024</ele>
+<time>2011-05-06T10:24:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2443970" lon="35.7518050">
+<ele>1083.400024</ele>
+<time>2011-05-06T10:24:12.000Z</time>
+</trkpt>
+<trkpt lat="33.2435180" lon="35.7510450">
+<ele>1074.000000</ele>
+<time>2015-03-04T07:44:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2430060" lon="35.7509270">
+<ele>1075.000000</ele>
+<time>2015-03-04T07:44:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2426360" lon="35.7505310">
+<ele>1078.400024</ele>
+<time>2011-05-06T09:54:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2423440" lon="35.7501520">
+<ele>1079.400024</ele>
+<time>2011-05-06T09:54:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2417270" lon="35.7493650">
+<ele>1078.699951</ele>
+<time>2011-05-06T09:53:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2410940" lon="35.7485390">
+<ele>1070.699951</ele>
+<time>2011-05-06T09:52:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2405400" lon="35.7476860">
+<ele>1065.099976</ele>
+<time>2011-05-06T09:51:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2403320" lon="35.7471960">
+<ele>1061.700073</ele>
+<time>2011-05-06T09:51:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2400950" lon="35.7467300">
+<ele>1057.099976</ele>
+<time>2011-05-06T09:50:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2389440" lon="35.7450210">
+<ele>1026.900024</ele>
+<time>2011-05-06T09:48:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2383320" lon="35.7442120">
+<ele>1011.700012</ele>
+<time>2011-05-06T09:47:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2381020" lon="35.7440930">
+<ele>1011.100037</ele>
+<time>2011-05-06T09:46:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2378330" lon="35.7439100">
+<ele>1009.900024</ele>
+<time>2011-05-06T09:45:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2377430" lon="35.7435880">
+<ele>1005.000000</ele>
+<time>2015-03-04T07:44:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2373480" lon="35.7433420">
+<ele>1003.300049</ele>
+<time>2015-03-04T07:44:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2371470" lon="35.7433500">
+<ele>1004.699951</ele>
+<time>2011-05-06T09:40:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2367370" lon="35.7435400">
+<ele>1006.599976</ele>
+<time>2011-05-06T09:40:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2363610" lon="35.7438510">
+<ele>1006.700012</ele>
+<time>2011-05-06T09:40:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2350950" lon="35.7454120">
+<ele>997.200012</ele>
+<time>2011-05-06T09:38:24.000Z</time>
+</trkpt>
+<trkpt lat="33.2348780" lon="35.7458770">
+<ele>992.000000</ele>
+<time>2011-05-06T09:37:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2347420" lon="35.7463940">
+<ele>986.700012</ele>
+<time>2011-05-06T09:37:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2345810" lon="35.7475800">
+<ele>976.000061</ele>
+<time>2011-05-06T09:36:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2337876" lon="35.7478800">
+<ele>966.200012</ele>
+<time>2011-05-06T09:35:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2334017" lon="35.7475152">
+<ele>952.399963</ele>
+<time>2011-05-06T09:34:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2329610" lon="35.7473600">
+<ele>940.899963</ele>
+<time>2011-05-06T09:34:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2327880" lon="35.7477260">
+<ele>935.400024</ele>
+<time>2011-05-06T09:34:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2327760" lon="35.7478630">
+<ele>935.099976</ele>
+<time>2011-05-06T09:33:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2328650" lon="35.7481800">
+<ele>934.700012</ele>
+<time>2011-05-06T09:33:24.000Z</time>
+</trkpt>
+<trkpt lat="33.2330490" lon="35.7483160">
+<ele>937.500000</ele>
+<time>2011-05-06T09:32:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2336950" lon="35.7486420">
+<ele>948.299988</ele>
+<time>2011-05-06T09:30:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2338560" lon="35.7494570">
+<ele>930.000000</ele>
+<time>2011-05-06T09:29:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2337760" lon="35.7503150">
+<ele>915.800049</ele>
+<time>2011-05-06T09:29:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2342543" lon="35.7521071">
+<ele>927.000000</ele>
+<time>2011-05-06T09:23:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2339590" lon="35.7518180">
+<ele>929.699951</ele>
+<time>2011-05-06T09:21:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2337610" lon="35.7517320">
+<ele>929.500000</ele>
+<time>2015-03-04T07:45:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2336140" lon="35.7520070">
+<ele>938.500061</ele>
+<time>2011-05-06T09:20:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2333950" lon="35.7524530">
+<ele>950.099976</ele>
+<time>2011-05-06T09:17:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2332850" lon="35.7519310">
+<ele>948.400024</ele>
+<time>2011-05-06T09:17:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2331260" lon="35.7514200">
+<ele>944.000000</ele>
+<time>2011-05-06T09:16:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2323560" lon="35.7501770">
+<ele>930.000000</ele>
+<time>2011-05-06T09:14:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2318050" lon="35.7492880">
+<ele>925.200012</ele>
+<time>2011-05-06T09:13:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2315140" lon="35.7488340">
+<ele>925.599976</ele>
+<time>2011-05-06T09:13:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2312280" lon="35.7483830">
+<ele>921.700012</ele>
+<time>2011-05-06T09:13:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2309320" lon="35.7479330">
+<ele>918.399963</ele>
+<time>2011-05-06T09:12:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2299970" lon="35.7466540">
+<ele>900.400024</ele>
+<time>2011-05-06T09:11:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2280080" lon="35.7443290">
+<ele>865.899963</ele>
+<time>2011-05-06T09:08:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2270880" lon="35.7425260">
+<ele>853.300049</ele>
+<time>2011-05-06T09:04:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2266660" lon="35.7416040">
+<ele>841.400024</ele>
+<time>2011-05-06T09:03:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2260730" lon="35.7404450">
+<ele>827.799988</ele>
+<time>2011-05-06T09:02:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2252570" lon="35.7387710">
+<ele>810.599976</ele>
+<time>2011-05-06T09:01:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2247140" lon="35.7374840">
+<ele>798.500000</ele>
+<time>2011-05-06T09:00:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2250320" lon="35.7368470">
+<ele>783.199951</ele>
+<time>2011-05-06T08:58:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2255350" lon="35.7363890">
+<ele>768.299988</ele>
+<time>2015-03-04T07:46:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2253280" lon="35.7353170">
+<ele>765.100037</ele>
+<time>2015-03-04T07:46:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2256230" lon="35.7345540">
+<ele>753.399963</ele>
+<time>2011-05-06T08:47:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2262800" lon="35.7336110">
+<ele>744.000000</ele>
+<time>2015-03-04T07:46:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2262890" lon="35.7330740">
+<ele>740.700012</ele>
+<time>2015-03-04T07:46:12.000Z</time>
+</trkpt>
+<trkpt lat="33.2264420" lon="35.7320580">
+<ele>730.600037</ele>
+<time>2011-05-06T08:45:37.000Z</time>
+</trkpt>
+<trkpt lat="33.2249770" lon="35.7306170">
+<ele>744.900024</ele>
+<time>2011-05-06T08:43:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2250670" lon="35.7303280">
+<ele>743.800049</ele>
+<time>2015-03-04T07:46:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2257670" lon="35.7303600">
+<ele>723.099976</ele>
+<time>2011-05-06T08:42:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2263760" lon="35.7306100">
+<ele>711.600037</ele>
+<time>2011-05-06T08:42:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2268300" lon="35.7305810">
+<ele>703.300049</ele>
+<time>2011-05-06T08:41:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2270060" lon="35.7304350">
+<ele>697.799988</ele>
+<time>2015-03-04T07:46:55.000Z</time>
+</trkpt>
+<trkpt lat="33.2269210" lon="35.7301900">
+<ele>697.500000</ele>
+<time>2011-05-06T08:41:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2267810" lon="35.7295340">
+<ele>695.799988</ele>
+<time>2015-03-04T07:46:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2270240" lon="35.7289330">
+<ele>689.199951</ele>
+<time>2015-03-04T07:46:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2272480" lon="35.7281710">
+<ele>687.200012</ele>
+<time>2015-03-04T07:46:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2278940" lon="35.7279890">
+<ele>670.900024</ele>
+<time>2011-05-06T08:38:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2277420" lon="35.7269700">
+<ele>681.100037</ele>
+<time>2015-03-04T07:47:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2281720" lon="35.7255320">
+<ele>672.599976</ele>
+<time>2015-03-04T07:47:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2283520" lon="35.7251670">
+<ele>665.399963</ele>
+<time>2015-03-04T07:47:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2285900" lon="35.7249610">
+<ele>654.700012</ele>
+<time>2011-05-06T08:35:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2289170" lon="35.7241690">
+<ele>648.900024</ele>
+<time>2015-03-04T07:47:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2290280" lon="35.7233990">
+<ele>653.700012</ele>
+<time>2011-05-06T08:34:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2294110" lon="35.7229030">
+<ele>645.699951</ele>
+<time>2015-03-04T07:47:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2301420" lon="35.7222700">
+<ele>640.500000</ele>
+<time>2015-03-04T07:47:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2304740" lon="35.7220560">
+<ele>637.000000</ele>
+<time>2015-03-04T07:47:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2314790" lon="35.7220880">
+<ele>618.700012</ele>
+<time>2015-03-04T07:47:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2317760" lon="35.7218790">
+<ele>622.700012</ele>
+<time>2011-05-06T08:28:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2324430" lon="35.7210920">
+<ele>627.000000</ele>
+<time>2011-05-06T08:27:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2326860" lon="35.7203600">
+<ele>624.700012</ele>
+<time>2015-03-04T07:47:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2327280" lon="35.7194760">
+<ele>628.599976</ele>
+<time>2011-05-06T08:26:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2330980" lon="35.7187940">
+<ele>619.700012</ele>
+<time>2015-03-04T07:47:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2332510" lon="35.7182900">
+<ele>616.200012</ele>
+<time>2015-03-04T07:47:24.000Z</time>
+</trkpt>
+<trkpt lat="33.2332400" lon="35.7179980">
+<ele>620.000000</ele>
+<time>2011-05-06T08:25:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2332510" lon="35.7177430">
+<ele>620.700012</ele>
+<time>2015-03-04T07:47:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2336460" lon="35.7170130">
+<ele>607.500000</ele>
+<time>2011-05-06T08:24:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2338880" lon="35.7167450">
+<ele>604.200012</ele>
+<time>2015-03-04T07:47:31.000Z</time>
+</trkpt>
+<trkpt lat="33.2343370" lon="35.7164550">
+<ele>594.200012</ele>
+<time>2015-03-04T07:47:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2347940" lon="35.7154040">
+<ele>590.100037</ele>
+<time>2015-03-04T07:47:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2350900" lon="35.7148570">
+<ele>577.299988</ele>
+<time>2015-03-04T07:47:32.000Z</time>
+</trkpt>
+<trkpt lat="33.2352110" lon="35.7132150">
+<ele>560.600037</ele>
+<time>2011-05-06T08:20:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2352200" lon="35.7128070">
+<ele>555.500000</ele>
+<time>2015-03-04T07:47:43.000Z</time>
+</trkpt>
+<trkpt lat="33.2351480" lon="35.7124320">
+<ele>551.799988</ele>
+<time>2011-05-06T08:20:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2349360" lon="35.7122300">
+<ele>554.700012</ele>
+<time>2011-05-06T08:20:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2345950" lon="35.7117590">
+<ele>559.299988</ele>
+<time>2011-05-06T08:20:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2341920" lon="35.7112830">
+<ele>561.400024</ele>
+<time>2011-05-06T08:19:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2335280" lon="35.7110050">
+<ele>568.600037</ele>
+<time>2015-03-04T07:47:46.000Z</time>
+</trkpt>
+<trkpt lat="33.2333940" lon="35.7105940">
+<ele>567.500000</ele>
+<time>2011-05-06T08:19:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2329120" lon="35.7100070">
+<ele>567.100037</ele>
+<time>2015-03-04T07:47:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2323420" lon="35.7095270">
+<ele>566.899963</ele>
+<time>2011-05-06T08:18:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2313590" lon="35.7091170">
+<ele>567.500000</ele>
+<time>2015-03-04T07:47:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2309920" lon="35.7087630">
+<ele>561.899963</ele>
+<time>2015-03-04T07:47:52.000Z</time>
+</trkpt>
+<trkpt lat="33.2309920" lon="35.7085050">
+<ele>558.099976</ele>
+<time>2015-03-04T07:47:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2306140" lon="35.7082400">
+<ele>552.099976</ele>
+<time>2011-05-06T08:13:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2290240" lon="35.7072010">
+<ele>542.299988</ele>
+<time>2011-05-06T08:12:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2273420" lon="35.7062320">
+<ele>537.700012</ele>
+<time>2011-05-06T08:11:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2268030" lon="35.7061560">
+<ele>534.599976</ele>
+<time>2011-05-06T08:11:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2259410" lon="35.7062630">
+<ele>535.399963</ele>
+<time>2015-03-04T07:48:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2256630" lon="35.7061980">
+<ele>536.700012</ele>
+<time>2015-03-04T07:48:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2255140" lon="35.7060270">
+<ele>536.000000</ele>
+<time>2011-05-06T08:10:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2244520" lon="35.7050400">
+<ele>537.700012</ele>
+<time>2015-03-04T07:48:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2242570" lon="35.7046000">
+<ele>538.200012</ele>
+<time>2011-05-06T07:48:43.000Z</time>
+</trkpt>
+<trkpt lat="33.2237070" lon="35.7043850">
+<ele>540.600037</ele>
+<time>2011-05-06T07:48:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2232330" lon="35.7041280">
+<ele>544.599976</ele>
+<time>2011-05-06T07:44:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2228640" lon="35.7033980">
+<ele>540.000000</ele>
+<time>2015-03-04T07:48:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2225670" lon="35.7022720">
+<ele>536.099976</ele>
+<time>2015-03-04T07:48:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2226210" lon="35.7016710">
+<ele>529.799988</ele>
+<time>2015-03-04T07:48:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2225760" lon="35.7011880">
+<ele>526.299988</ele>
+<time>2015-03-04T07:48:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2222680" lon="35.7001630">
+<ele>519.000000</ele>
+<time>2011-05-06T07:39:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2221290" lon="35.6996210">
+<ele>512.900024</ele>
+<time>2011-05-06T07:39:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2218360" lon="35.6991680">
+<ele>510.799988</ele>
+<time>2011-05-06T07:39:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2215140" lon="35.6988280">
+<ele>512.000000</ele>
+<time>2015-03-04T07:48:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2212480" lon="35.6982150">
+<ele>508.299988</ele>
+<time>2011-05-06T07:36:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2213310" lon="35.6966110">
+<ele>488.800018</ele>
+<time>2011-05-06T07:34:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2215980" lon="35.6955900">
+<ele>470.100006</ele>
+<time>2011-05-06T07:32:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2217170" lon="35.6950670">
+<ele>462.400024</ele>
+<time>2011-05-06T07:32:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2223220" lon="35.6940860">
+<ele>446.500000</ele>
+<time>2015-03-04T07:48:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2229580" lon="35.6937530">
+<ele>436.100006</ele>
+<time>2015-03-04T07:48:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2239260" lon="35.6934340">
+<ele>435.200012</ele>
+<time>2011-05-06T07:29:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2243750" lon="35.6932830">
+<ele>433.200012</ele>
+<time>2011-05-06T07:28:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2248110" lon="35.6931860">
+<ele>431.600006</ele>
+<time>2011-05-06T07:28:26.000Z</time>
+</trkpt>
+<trkpt lat="33.2252770" lon="35.6929050">
+<ele>428.600006</ele>
+<time>2015-03-04T07:48:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2253370" lon="35.6926320">
+<ele>427.399994</ele>
+<time>2011-05-06T07:24:42.000Z</time>
+</trkpt>
+<trkpt lat="33.2256190" lon="35.6922050">
+<ele>423.500000</ele>
+<time>2011-05-06T07:24:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2259710" lon="35.6918720">
+<ele>418.399994</ele>
+<time>2011-05-06T07:23:39.000Z</time>
+</trkpt>
+<trkpt lat="33.2263600" lon="35.6915910">
+<ele>412.100006</ele>
+<time>2011-05-06T07:23:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2265620" lon="35.6911150">
+<ele>405.700012</ele>
+<time>2011-05-06T07:22:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2267260" lon="35.6908460">
+<ele>400.799988</ele>
+<time>2015-03-04T07:48:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2267060" lon="35.6906610">
+<ele>398.899994</ele>
+<time>2011-05-06T07:22:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2264570" lon="35.6902020">
+<ele>395.600006</ele>
+<time>2011-05-06T07:21:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2262140" lon="35.6897620">
+<ele>391.599976</ele>
+<time>2015-03-04T07:48:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2258310" lon="35.6894480">
+<ele>388.899994</ele>
+<time>2011-05-06T07:21:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2252990" lon="35.6889360">
+<ele>381.199982</ele>
+<time>2015-03-04T07:48:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2246670" lon="35.6887230">
+<ele>376.899994</ele>
+<time>2011-05-06T07:19:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2242760" lon="35.6881530">
+<ele>370.199982</ele>
+<time>2015-03-04T07:49:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2244090" lon="35.6873800">
+<ele>365.500000</ele>
+<time>2011-05-06T07:18:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2246260" lon="35.6870150">
+<ele>363.800018</ele>
+<time>2015-03-04T07:49:12.000Z</time>
+</trkpt>
+<trkpt lat="33.2249400" lon="35.6869720">
+<ele>360.200012</ele>
+<time>2015-03-04T07:49:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2250840" lon="35.6867390">
+<ele>355.800018</ele>
+<time>2011-05-06T07:17:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2249310" lon="35.6864250">
+<ele>353.400024</ele>
+<time>2015-03-04T07:50:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2247250" lon="35.6860710">
+<ele>349.399994</ele>
+<time>2015-03-04T07:50:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2249130" lon="35.6859530">
+<ele>345.000000</ele>
+<time>2015-03-04T07:50:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2252540" lon="35.6861460">
+<ele>345.799988</ele>
+<time>2015-03-04T07:49:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2253890" lon="35.6860930">
+<ele>343.399994</ele>
+<time>2015-03-04T07:50:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2255590" lon="35.6859750">
+<ele>341.200012</ele>
+<time>2015-03-04T07:50:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2256400" lon="35.6855780">
+<ele>334.700012</ele>
+<time>2015-03-04T07:49:19.000Z</time>
+</trkpt>
+<trkpt lat="33.2254510" lon="35.6853840">
+<ele>330.700012</ele>
+<time>2015-03-04T07:49:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2252090" lon="35.6853090">
+<ele>330.500000</ele>
+<time>2015-03-04T07:49:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2250650" lon="35.6852020">
+<ele>329.699982</ele>
+<time>2011-05-06T07:15:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2249670" lon="35.6851270">
+<ele>329.200012</ele>
+<time>2015-03-04T07:49:32.000Z</time>
+</trkpt>
+<trkpt lat="33.2246590" lon="35.6851270">
+<ele>330.800018</ele>
+<time>2011-05-06T07:14:57.000Z</time>
+</trkpt>
+<trkpt lat="33.2241850" lon="35.6850720">
+<ele>331.400024</ele>
+<time>2011-05-06T07:14:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2238720" lon="35.6846750">
+<ele>326.900024</ele>
+<time>2011-05-06T07:14:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2233730" lon="35.6839470">
+<ele>319.800018</ele>
+<time>2015-03-04T07:50:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2233100" lon="35.6833570">
+<ele>315.000000</ele>
+<time>2015-03-04T07:50:23.000Z</time>
+</trkpt>
+<trkpt lat="33.2234540" lon="35.6827130">
+<ele>311.899994</ele>
+<time>2011-05-06T07:12:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2235630" lon="35.6821850">
+<ele>310.399994</ele>
+<time>2011-05-06T07:12:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2236870" lon="35.6810500">
+<ele>309.399994</ele>
+<time>2015-03-04T07:50:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2239560" lon="35.6803100">
+<ele>307.500000</ele>
+<time>2015-03-04T07:50:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2241990" lon="35.6800310">
+<ele>306.299988</ele>
+<time>2011-05-06T07:10:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2242800" lon="35.6795910">
+<ele>304.500000</ele>
+<time>2011-05-06T07:10:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2243110" lon="35.6791300">
+<ele>302.700012</ele>
+<time>2011-05-06T07:09:51.000Z</time>
+</trkpt>
+<trkpt lat="33.2242930" lon="35.6786900">
+<ele>300.899994</ele>
+<time>2015-03-04T07:50:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2241960" lon="35.6786210">
+<ele>300.700012</ele>
+<time>2011-05-06T07:09:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2239510" lon="35.6782930">
+<ele>298.799988</ele>
+<time>2015-03-04T07:50:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2240860" lon="35.6775420">
+<ele>292.100006</ele>
+<time>2015-03-04T07:50:42.000Z</time>
+</trkpt>
+<trkpt lat="33.2245080" lon="35.6763400">
+<ele>283.899994</ele>
+<time>2011-05-06T07:07:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2242330" lon="35.6762450">
+<ele>285.100006</ele>
+<time>2011-05-06T07:05:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2237830" lon="35.6761380">
+<ele>287.100006</ele>
+<time>2011-05-06T07:04:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2233190" lon="35.6759800">
+<ele>284.000000</ele>
+<time>2011-05-06T07:03:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2228590" lon="35.6757930">
+<ele>279.399994</ele>
+<time>2011-05-06T07:03:31.000Z</time>
+</trkpt>
+<trkpt lat="33.2216030" lon="35.6754420">
+<ele>264.899994</ele>
+<time>2011-05-06T07:02:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2211500" lon="35.6753350">
+<ele>263.600006</ele>
+<time>2011-05-06T07:01:45.000Z</time>
+</trkpt>
+<trkpt lat="33.2206910" lon="35.6752570">
+<ele>262.799988</ele>
+<time>2011-05-06T07:01:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2198030" lon="35.6749820">
+<ele>260.299988</ele>
+<time>2011-05-06T07:01:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2193450" lon="35.6748690">
+<ele>259.700012</ele>
+<time>2011-05-06T07:00:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2189060" lon="35.6747380">
+<ele>259.399994</ele>
+<time>2011-05-06T07:00:32.000Z</time>
+</trkpt>
+<trkpt lat="33.2179280" lon="35.6744540">
+<ele>264.299988</ele>
+<time>2011-05-06T07:00:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2169280" lon="35.6741600">
+<ele>269.500000</ele>
+<time>2011-05-06T07:00:05.000Z</time>
+</trkpt>
+<trkpt lat="33.2164190" lon="35.6740140">
+<ele>273.799988</ele>
+<time>2011-05-06T06:59:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2159060" lon="35.6738480">
+<ele>275.799988</ele>
+<time>2011-05-06T06:59:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2154180" lon="35.6737200">
+<ele>276.799988</ele>
+<time>2011-05-06T06:59:42.000Z</time>
+</trkpt>
+<trkpt lat="33.2149080" lon="35.6735960">
+<ele>274.699982</ele>
+<time>2011-05-06T06:59:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2144400" lon="35.6735130">
+<ele>272.899994</ele>
+<time>2011-05-06T06:59:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2135450" lon="35.6735670">
+<ele>272.299988</ele>
+<time>2011-05-06T06:58:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2126410" lon="35.6735930">
+<ele>278.600006</ele>
+<time>2011-05-06T06:58:37.000Z</time>
+</trkpt>
+<trkpt lat="33.2122040" lon="35.6737060">
+<ele>285.200012</ele>
+<time>2011-05-06T06:58:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2117250" lon="35.6736930">
+<ele>289.399994</ele>
+<time>2011-05-06T06:58:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2107470" lon="35.6738740">
+<ele>297.899994</ele>
+<time>2011-05-06T06:58:03.000Z</time>
+</trkpt>
+<trkpt lat="33.2100360" lon="35.6739980">
+<ele>303.699982</ele>
+<time>2011-05-06T06:55:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2096720" lon="35.6736700">
+<ele>305.500000</ele>
+<time>2011-05-06T06:55:43.000Z</time>
+</trkpt>
+<trkpt lat="33.2096510" lon="35.6734110">
+<ele>305.600006</ele>
+<time>2015-03-04T07:51:11.000Z</time>
+</trkpt>
+<trkpt lat="33.2100840" lon="35.6728040">
+<ele>302.199982</ele>
+<time>2011-05-06T06:54:50.000Z</time>
+</trkpt>
+<trkpt lat="33.2103740" lon="35.6723690">
+<ele>297.899994</ele>
+<time>2011-05-06T06:54:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2105000" lon="35.6718620">
+<ele>292.200012</ele>
+<time>2011-05-06T06:53:40.000Z</time>
+</trkpt>
+<trkpt lat="33.2107550" lon="35.6714480">
+<ele>285.100006</ele>
+<time>2015-03-04T07:51:13.000Z</time>
+</trkpt>
+<trkpt lat="33.2111610" lon="35.6711680">
+<ele>279.100006</ele>
+<time>2011-05-06T06:52:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2113210" lon="35.6706970">
+<ele>269.399994</ele>
+<time>2015-03-04T07:51:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2113740" lon="35.6698600">
+<ele>255.199997</ele>
+<time>2015-03-04T07:51:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2113120" lon="35.6696670">
+<ele>252.300003</ele>
+<time>2015-03-04T07:51:16.000Z</time>
+</trkpt>
+<trkpt lat="33.2108900" lon="35.6692590">
+<ele>250.599991</ele>
+<time>2015-03-04T07:51:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2109520" lon="35.6684010">
+<ele>238.499985</ele>
+<time>2015-03-04T07:51:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2114190" lon="35.6679610">
+<ele>227.799988</ele>
+<time>2011-05-06T06:48:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2115000" lon="35.6678000">
+<ele>225.699997</ele>
+<time>2015-03-04T07:51:25.000Z</time>
+</trkpt>
+<trkpt lat="33.2113110" lon="35.6676330">
+<ele>225.199997</ele>
+<time>2011-05-06T06:48:33.000Z</time>
+</trkpt>
+<trkpt lat="33.2112530" lon="35.6673170">
+<ele>222.899994</ele>
+<time>2015-03-04T07:51:27.000Z</time>
+</trkpt>
+<trkpt lat="33.2116470" lon="35.6670700">
+<ele>217.000000</ele>
+<time>2015-03-04T07:51:29.000Z</time>
+</trkpt>
+<trkpt lat="33.2121320" lon="35.6669310">
+<ele>210.500000</ele>
+<time>2015-03-04T07:51:49.000Z</time>
+</trkpt>
+<trkpt lat="33.2121410" lon="35.6667270">
+<ele>207.500000</ele>
+<time>2011-05-06T06:47:21.000Z</time>
+</trkpt>
+<trkpt lat="33.2116650" lon="35.6663730">
+<ele>207.599991</ele>
+<time>2011-05-06T06:46:59.000Z</time>
+</trkpt>
+<trkpt lat="33.2114590" lon="35.6660190">
+<ele>207.699997</ele>
+<time>2015-03-04T07:52:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2113420" lon="35.6656000">
+<ele>207.099991</ele>
+<time>2015-03-04T07:51:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2113440" lon="35.6653970">
+<ele>206.200012</ele>
+<time>2015-03-04T07:52:00.000Z</time>
+</trkpt>
+<trkpt lat="33.2118990" lon="35.6646560">
+<ele>198.500000</ele>
+<time>2015-03-04T07:52:01.000Z</time>
+</trkpt>
+<trkpt lat="33.2122580" lon="35.6644630">
+<ele>194.500000</ele>
+<time>2015-03-04T07:52:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2125340" lon="35.6642210">
+<ele>190.800003</ele>
+<time>2011-05-06T06:44:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2140520" lon="35.6629990">
+<ele>179.500000</ele>
+<time>2011-05-06T06:43:02.000Z</time>
+</trkpt>
+<trkpt lat="33.2144180" lon="35.6626670">
+<ele>177.000000</ele>
+<time>2011-05-06T06:42:35.000Z</time>
+</trkpt>
+<trkpt lat="33.2147780" lon="35.6623270">
+<ele>173.300003</ele>
+<time>2011-05-06T06:42:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2155290" lon="35.6616910">
+<ele>164.800003</ele>
+<time>2011-05-06T06:41:17.000Z</time>
+</trkpt>
+<trkpt lat="33.2158830" lon="35.6613410">
+<ele>159.799988</ele>
+<time>2011-05-06T06:40:47.000Z</time>
+</trkpt>
+<trkpt lat="33.2168810" lon="35.6598390">
+<ele>140.900009</ele>
+<time>2015-03-04T07:52:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2175710" lon="35.6592810">
+<ele>135.300003</ele>
+<time>2015-03-04T07:52:09.000Z</time>
+</trkpt>
+<trkpt lat="33.2178940" lon="35.6591850">
+<ele>134.599991</ele>
+<time>2015-03-04T07:52:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2184690" lon="35.6593350">
+<ele>134.599991</ele>
+<time>2011-05-06T06:38:18.000Z</time>
+</trkpt>
+<trkpt lat="33.2187650" lon="35.6592600">
+<ele>133.699997</ele>
+<time>2011-05-06T06:38:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2189270" lon="35.6598430">
+<ele>138.800003</ele>
+<time>2011-05-06T06:37:58.000Z</time>
+</trkpt>
+<trkpt lat="33.2188860" lon="35.6598070">
+<ele>138.500000</ele>
+<time>2011-05-06T06:37:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2187490" lon="35.6588010">
+<ele>130.400009</ele>
+<time>2011-05-06T06:35:36.000Z</time>
+</trkpt>
+<trkpt lat="33.2184530" lon="35.6583760">
+<ele>128.900009</ele>
+<time>2011-05-06T06:35:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2174090" lon="35.6572330">
+<ele>126.300003</ele>
+<time>2011-05-06T06:34:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2173550" lon="35.6567150">
+<ele>123.900002</ele>
+<time>2011-05-06T06:34:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2175010" lon="35.6553970">
+<ele>120.000000</ele>
+<time>2015-03-04T07:52:20.000Z</time>
+</trkpt>
+<trkpt lat="33.2182470" lon="35.6535200">
+<ele>117.900002</ele>
+<time>2011-05-06T06:33:10.000Z</time>
+</trkpt>
+<trkpt lat="33.2184300" lon="35.6524520">
+<ele>115.099998</ele>
+<time>2011-05-06T06:32:41.000Z</time>
+</trkpt>
+<trkpt lat="33.2185300" lon="35.6513780">
+<ele>112.300003</ele>
+<time>2011-05-06T06:32:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2172760" lon="35.6490380">
+<ele>106.599998</ele>
+<time>2011-05-06T06:31:08.000Z</time>
+</trkpt>
+<trkpt lat="33.2170170" lon="35.6485890">
+<ele>105.500000</ele>
+<time>2011-05-06T06:30:56.000Z</time>
+</trkpt>
+<trkpt lat="33.2168890" lon="35.6474880">
+<ele>102.900002</ele>
+<time>2011-05-06T06:30:34.000Z</time>
+</trkpt>
+<trkpt lat="33.2167750" lon="35.6464000">
+<ele>100.299995</ele>
+<time>2011-05-06T06:30:14.000Z</time>
+</trkpt>
+<trkpt lat="33.2167160" lon="35.6458670">
+<ele>100.099998</ele>
+<time>2011-05-06T06:30:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2166600" lon="35.6452980">
+<ele>100.400002</ele>
+<time>2011-05-06T06:29:53.000Z</time>
+</trkpt>
+<trkpt lat="33.2164570" lon="35.6430760">
+<ele>98.100006</ele>
+<time>2011-05-06T06:29:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2163700" lon="35.6425590">
+<ele>97.899994</ele>
+<time>2011-05-06T06:29:06.000Z</time>
+</trkpt>
+<trkpt lat="33.2177010" lon="35.6410380">
+<ele>98.599998</ele>
+<time>2011-05-06T06:28:28.000Z</time>
+</trkpt>
+<trkpt lat="33.2185696" lon="35.6395724">
+<ele>102.099998</ele>
+<time>2011-05-06T06:28:04.000Z</time>
+</trkpt>
+<trkpt lat="33.2187760" lon="35.6391754">
+<ele>103.199997</ele>
+<time>2011-05-06T06:27:48.000Z</time>
+</trkpt>
+<trkpt lat="33.2194060" lon="35.6377380">
+<ele>103.100006</ele>
+<time>2011-05-06T06:27:38.000Z</time>
+</trkpt>
+<trkpt lat="33.2198900" lon="35.6369870">
+<ele>105.799995</ele>
+<time>2011-05-06T06:27:30.000Z</time>
+</trkpt>
+<trkpt lat="33.2205190" lon="35.6359350">
+<ele>110.500000</ele>
+<time>2011-05-06T06:27:22.000Z</time>
+</trkpt>
+<trkpt lat="33.2211650" lon="35.6347770">
+<ele>112.400002</ele>
+<time>2011-05-06T06:27:15.000Z</time>
+</trkpt>
+<trkpt lat="33.2216320" lon="35.6339180">
+<ele>115.800003</ele>
+<time>2011-05-06T06:27:07.000Z</time>
+</trkpt>
+<trkpt lat="33.2206620" lon="35.6320730">
+<ele>109.500008</ele>
+<time>2011-05-06T06:26:58.000Z</time>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>
