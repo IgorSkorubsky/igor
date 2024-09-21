@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Folder>
+    <name>Germany</name>
+    <Placemark>
+      <name>Терминал 2 Мюнхена</name>
+      <description><![CDATA[]]></description>
+      <Point>
+        <coordinates>11.7902660000,48.3556730000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1590</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Наш гастхауз в Вальгау</name>
+      <description><![CDATA[Dorfplatz 4 82499 Wallgau Tel. 08825/1009]]></description>
+      <Point>
+        <coordinates>11.2811860000,47.5214620000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>30</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Наш Гастхауз в Шварцвальде</name>
+      <description><![CDATA[Alpersbach 7 79856 Hinterzarten. Tel.: +49(0)7652 6133]]></description>
+      <Point>
+        <coordinates>8.0546350000,47.9095010000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №1. Германия. </name>
+      <description><![CDATA[Деревня Абвинкль (Abwinkl), стоянка Р]]></description>
+      <Point>
+        <coordinates>11.7219830000,47.7023540000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №2 Германия.</name>
+      <description><![CDATA[Начало из Wallgau]]></description>
+      <Point>
+        <coordinates>11.2974100000,47.5688070000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>30</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №3. Германия. </name>
+      <description><![CDATA[Начало из Wallgau]]></description>
+      <Point>
+        <coordinates>11.2852300000,47.5041600000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>30</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №4. Германия - Австрия.</name>
+      <description><![CDATA[Недалеко от Швангау на городской стоянке.]]></description>
+      <Point>
+        <coordinates>10.7405090000,47.5580810000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №5. Австрия.</name>
+      <description><![CDATA[В деревеньке Ам Планзее (Am Plansee) на автостоянке возле дороги ]]></description>
+      <Point>
+        <coordinates>10.8374980000,47.4861650000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №6. Германия.</name>
+      <description><![CDATA[Из Walgau на автостоянке возле дороги рядом с заправкой ]]></description>
+      <Point>
+        <coordinates>11.2792680000,47.5096640000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>30</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №7. Австрия (на перегон).</name>
+      <description><![CDATA[Австрия. Стоянка в городке Кеннельбах (Kennelbach)]]></description>
+      <Point>
+        <coordinates>9.7657080000,47.4764190000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №8. Шварцвальд.</name>
+      <description><![CDATA[В деревеньке Брюнлисбах (Brunlisbach) на автостоянке возле дороги]]></description>
+      <Point>
+        <coordinates>8.2431840000,47.7922320000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1500</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут №9</name>
+      <description><![CDATA[Недалеко от озера Титизее на стоянке рядом с дорогой №500]]></description>
+      <Point>
+        <coordinates>8.1596450000,47.8976430000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут А</name>
+      <description><![CDATA[Разарв Альпы ]]></description>
+      <Point>
+        <coordinates>10.6833240000,47.6024740000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Маршрут В</name>
+      <description><![CDATA[Резерв Шварцвальд]]></description>
+      <Point>
+        <coordinates>8.0958080000,47.8694380000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Информация Трибергера</name>
+      <description><![CDATA[Пеший в районе водопадов Трибергера (Triberger)]]></description>
+      <Point>
+        <coordinates>8.2298420000,48.1290740000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>1740</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Водопады Трибергера</name>
+      <Point>
+        <coordinates>8.2318110000,48.1275590000,0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <h>30</h>
+            <w>30</w>
+            <y>930</y>
+            <href>http://my.pdamill.com/~fable/igopoi.bmp</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+  </Folder>
+</kml>
